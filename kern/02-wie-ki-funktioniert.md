@@ -52,7 +52,7 @@ Diese drei Punkte sind das Minimum:
 
 KI prüft keine Fakten. Wer Informationen braucht, auf die es ankommt, muss sie selbst verifizieren – unabhängig davon, wie überzeugend der Text klingt.
 
-KI kennt kein situationsspezifisches Wissen, das man nicht mitgibt. Das Modell hat umfangreiches Trainingswissen – aber es weiß nichts über das konkrete Projekt, die eigene Absicht oder den Empfänger. Was das Modell über die eigene Situation nicht wissen kann, muss man in der Eingabe klarmachen.
+KI kennt Deine Situation nicht. Was das Modell über das konkrete Projekt, die Absicht oder den Empfänger wissen soll, muss in der Eingabe stehen – es erschließt sich nichts von selbst.
 
 KI ist keine Suchmaschine. Man fragt nicht, um Fakten abzurufen. Man gibt eine Aufgabe – und bekommt eine sprachlich verarbeitete Ausgabe, die man einordnen und prüfen muss.
 
