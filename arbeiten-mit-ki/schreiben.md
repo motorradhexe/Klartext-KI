@@ -15,7 +15,7 @@ KI ist beim Schreiben das nützlichste Werkzeug – und gleichzeitig das, bei de
 
 KI schreibt schnell. Entwürfe, Umformulierungen, Zusammenfassungen, Anpassungen von Ton und Format – das funktioniert gut. Auch das Überwinden des Leerblatt-Problems: Wenn man nicht weiß, wie man anfangen soll, kann KI eine erste Struktur liefern, die man dann überarbeitet.
 
-Was KI nicht kann: den eigenen Standpunkt entwickeln. KI weiß nicht, was man wirklich sagen will. Sie weiß nicht, was der Empfänger braucht oder wie die Beziehung zu ihm ist. Sie kennt den [Kontext](/glossar#kontext) des Unternehmens, der Situation, des Projekts nicht – es sei denn, man gibt ihn mit.
+Was KI nicht kann: den eigenen Standpunkt entwickeln. KI weiß nicht, was man wirklich sagen will. Sie weiß nicht, was der Empfänger braucht oder wie die Beziehung zu ihm ist. Sie kennt den [Kontext](../glossar#kontext) des Unternehmens, der Situation, des Projekts nicht – es sei denn, man gibt ihn mit.
 
 Texte, die KI vollständig ohne inhaltliche Vorgaben schreibt, klingen oft nach niemandem. Sprachlich korrekt, inhaltlich neutral bis leer. Das ist kein Fehler des Modells. Es ist das erwartbare Ergebnis, wenn man eine Schreibaufgabe ohne Substanz übergibt.
 
@@ -27,7 +27,7 @@ KI schreibt gut, wenn man ihr Material gibt. Sie ersetzt nicht das Denken, sonde
 
 Der häufigste Fehler ist, direkt nach dem fertigen Text zu fragen. Besser: erst das Material zusammenstellen, dann formulieren.
 
-Die folgenden Angaben verbessern fast jeden Schreib-[Prompt](/glossar#prompt):
+Die folgenden Angaben verbessern fast jeden Schreib-[Prompt](../glossar#prompt):
 
 **Wer liest den Text?** Die Zielgruppe bestimmt Sprache, Detailtiefe und Ton. „Mein Chef" ist eine andere Grundlage als „ein Kunde, der noch keine Erfahrung mit unserem Produkt hat".
 
@@ -45,9 +45,9 @@ Man muss nicht auf alles eine Antwort haben. Aber die bewusste Entscheidung, wel
 
 **Zu wenig Kontext gegeben.** „Schreib eine Entschuldigungsmail" sagt nichts darüber aus, wofür man sich entschuldigt, bei wem, in welchem Ton. Das Modell schreibt etwas Allgemeines – und das ist genau das, was man bekommt.
 
-**Den ersten Entwurf unverändert übernommen.** KI-Texte klingen oft nach KI. Gleichmäßige Satzlängen, ausgewogene Formulierungen, keine eigene Handschrift. Wer den Text ohne Bearbeitung übernimmt, unterschreibt etwas, das nicht nach ihm klingt. [Iteration](/glossar#iteration) – gezielte Nachbesserung durch Folgeprompts – ist kein Extraaufwand, sondern der eigentliche Arbeitsprozess.
+**Den ersten Entwurf unverändert übernommen.** KI-Texte klingen oft nach KI. Gleichmäßige Satzlängen, ausgewogene Formulierungen, keine eigene Handschrift. Wer den Text ohne Bearbeitung übernimmt, unterschreibt etwas, das nicht nach ihm klingt. [Iteration](../glossar#iteration) – gezielte Nachbesserung durch Folgeprompts – ist kein Extraaufwand, sondern der eigentliche Arbeitsprozess.
 
-**Fakten nicht geprüft.** KI kann [halluzinieren](/glossar#halluzination). Zahlen, Namen, Daten, Gesetzesangaben: immer selbst prüfen, bevor man sie in einem Text verwendet.
+**Fakten nicht geprüft.** KI kann [halluzinieren](../glossar#halluzination). Zahlen, Namen, Daten, Gesetzesangaben: immer selbst prüfen, bevor man sie in einem Text verwendet.
 
 **Das Modell für den eigenen Standpunkt eingesetzt.** „Was soll ich in dieser Situation antworten?" ist eine andere Frage als „Ich habe mich entschieden, X zu antworten – formuliere das klar und knapp." Ersteres delegiert die inhaltliche Entscheidung. Letzteres nutzt KI für das, was sie gut kann: formulieren.
 

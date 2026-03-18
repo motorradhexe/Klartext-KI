@@ -7,7 +7,7 @@ nav_order: 30
 
 # KI-Agents
 
-Ein einzelner [Prompt](/glossar#prompt) – Frage stellen, Antwort lesen, fertig. So sieht die Grundnutzung von KI aus. Agents gehen einen Schritt weiter: Sie führen Aufgaben eigenständig aus, treffen Zwischenentscheidungen und nutzen Werkzeuge – ohne dass ein Mensch jeden Schritt manuell auslöst.
+Ein einzelner [Prompt](../glossar#prompt) – Frage stellen, Antwort lesen, fertig. So sieht die Grundnutzung von KI aus. Agents gehen einen Schritt weiter: Sie führen Aufgaben eigenständig aus, treffen Zwischenentscheidungen und nutzen Werkzeuge – ohne dass ein Mensch jeden Schritt manuell auslöst.
 
 Das klingt nach Science-Fiction. Es ist es nicht mehr. Aber es ist auch noch kein zuverlässig funktionierendes Werkzeug für alle Aufgaben.
 
@@ -15,7 +15,7 @@ Das klingt nach Science-Fiction. Es ist es nicht mehr. Aber es ist auch noch kei
 
 ## Was ein Agent ist
 
-Ein [Agent](/glossar#agent) ist ein KI-System, das nicht nur antwortet, sondern handelt. Es bekommt ein Ziel – und arbeitet dann selbstständig daran, dieses Ziel zu erreichen. Dabei kann es:
+Ein [Agent](../glossar#agent) ist ein KI-System, das nicht nur antwortet, sondern handelt. Es bekommt ein Ziel – und arbeitet dann selbstständig daran, dieses Ziel zu erreichen. Dabei kann es:
 
 - Werkzeuge nutzen (eine Websuche starten, eine Datei lesen, eine E-Mail schicken)
 - Zwischenergebnisse bewerten und den nächsten Schritt planen
@@ -30,11 +30,11 @@ Der Unterschied zur normalen KI-Nutzung: Man gibt nicht jede Zwischenfrage ein. 
 
 ## Wie Agents funktionieren
 
-Ein Agent ist im Kern ein [Modell](/glossar#modell), das in einer Schleife arbeitet. Der Ablauf sieht vereinfacht so aus:
+Ein Agent ist im Kern ein [Modell](../glossar#modell), das in einer Schleife arbeitet. Der Ablauf sieht vereinfacht so aus:
 
 1. Das Modell bekommt ein Ziel und eine Beschreibung verfügbarer Werkzeuge.
 2. Es entscheidet, welchen nächsten Schritt es unternimmt – und ob es ein Werkzeug braucht.
-3. Das Werkzeug wird ausgeführt, das Ergebnis kommt zurück in den [Kontext](/glossar#kontext) des Modells.
+3. Das Werkzeug wird ausgeführt, das Ergebnis kommt zurück in den [Kontext](../glossar#kontext) des Modells.
 4. Das Modell bewertet das Ergebnis und entscheidet, ob das Ziel erreicht ist oder weitere Schritte folgen.
 
 Diese Schleife läuft so lange, bis das Modell entscheidet, dass die Aufgabe erledigt ist – oder bis ein vordefiniertes Limit erreicht wird.
@@ -67,4 +67,4 @@ Wer heute mit Agents arbeiten will, braucht dafür Programmierkenntnisse oder sp
 
 Agents werden relevanter, je mehr KI in Arbeitsprozesse eingebettet wird. Das Verständnis, wie sie funktionieren und wo sie scheitern, ist schon jetzt nützlich.
 
-Wie KI mit externen Werkzeugen verbunden wird, erklärt [MCP](/vertiefung/mcp). Wie KI auf eigene Wissensdatenbanken zugreift, erklärt [RAG](/vertiefung/rag).
+Wie KI mit externen Werkzeugen verbunden wird, erklärt [MCP](mcp). Wie KI auf eigene Wissensdatenbanken zugreift, erklärt [RAG](rag).

@@ -15,7 +15,7 @@ Komplizierte Texte, unbekannte Fachgebiete, dichte Dokumentationen – KI kann b
 
 KI ist gut darin, Dinge zu erklären. Sie kann Texte zusammenfassen, Fachbegriffe in Alltagssprache übersetzen, Zusammenhänge darstellen und ein Thema aus verschiedenen Perspektiven beleuchten. Sie passt das Niveau an – wenn man es sagt.
 
-Was KI nicht kann: garantieren, dass die Erklärung stimmt. Gerade bei spezifischen Fachgebieten, aktuellen Entwicklungen oder Detailfragen neigen Modelle zu [Halluzinationen](/glossar#halluzination). Die Erklärung klingt überzeugend, ist gut strukturiert – und enthält trotzdem einen Fehler. Wer KI zum Verstehen nutzt, muss das im Hinterkopf behalten und kritische Aussagen gegenchecken.
+Was KI nicht kann: garantieren, dass die Erklärung stimmt. Gerade bei spezifischen Fachgebieten, aktuellen Entwicklungen oder Detailfragen neigen Modelle zu [Halluzinationen](../glossar#halluzination). Die Erklärung klingt überzeugend, ist gut strukturiert – und enthält trotzdem einen Fehler. Wer KI zum Verstehen nutzt, muss das im Hinterkopf behalten und kritische Aussagen gegenchecken.
 
 KI ersetzt keine Fachliteratur und keinen Experten. Sie ist ein guter erster Schritt, um sich in ein Thema einzufinden – aber kein letztes Wort.
 
@@ -31,7 +31,7 @@ KI zum Verstehen funktioniert am besten als Dialog, nicht als einmalige Anfrage.
 
 **Das Verständnis aktiv testen.** Man kann das Modell bitten, das eigene Verständnis zu prüfen: „Ich glaube, ich habe es so verstanden: [eigene Zusammenfassung]. Stimmt das?" Das Modell antwortet dann mit Korrekturen oder Ergänzungen – und man merkt schnell, was man noch nicht wirklich verstanden hat.
 
-**Erklärungen in den eigenen [Kontext](/glossar#kontext) übersetzen lassen.** „Erkläre mir das so, als würde es auf eine Arztpraxis mit fünf Mitarbeitenden zutreffen" ist besser als eine abstrakte Erklärung, die man dann selbst übertragen muss.
+**Erklärungen in den eigenen [Kontext](../glossar#kontext) übersetzen lassen.** „Erkläre mir das so, als würde es auf eine Arztpraxis mit fünf Mitarbeitenden zutreffen" ist besser als eine abstrakte Erklärung, die man dann selbst übertragen muss.
 
 ---
 

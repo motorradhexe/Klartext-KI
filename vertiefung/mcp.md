@@ -7,7 +7,7 @@ nav_order: 31
 
 # MCP – Model Context Protocol
 
-KI-Modelle sind gut darin, Text zu verarbeiten und zu erzeugen. Aber sie kennen nur das, was in ihrem [Kontext](/glossar#kontext) steht. Sie können keine Datei auf dem eigenen Computer öffnen, keine Datenbank abfragen, keinen Kalender lesen. Außer, man gibt ihnen die Möglichkeit dazu.
+KI-Modelle sind gut darin, Text zu verarbeiten und zu erzeugen. Aber sie kennen nur das, was in ihrem [Kontext](../glossar#kontext) steht. Sie können keine Datei auf dem eigenen Computer öffnen, keine Datenbank abfragen, keinen Kalender lesen. Außer, man gibt ihnen die Möglichkeit dazu.
 
 MCP ist ein Protokoll – also eine technische Vereinbarung –, das beschreibt, wie KI-Modelle mit externen Werkzeugen und Datenquellen sprechen können. Es wurde von Anthropic entwickelt und ist inzwischen offen: andere Hersteller und Entwickler können es verwenden.
 
@@ -15,7 +15,7 @@ MCP ist ein Protokoll – also eine technische Vereinbarung –, das beschreibt,
 
 ## Was MCP ist
 
-[MCP](/glossar#mcp) steht für Model Context Protocol. Es ist kein KI-Modell, keine Anwendung und kein Dienst. Es ist ein Standard – vergleichbar mit dem Standard, der festlegt, wie Browser und Webserver miteinander kommunizieren.
+[MCP](../glossar#mcp) steht für Model Context Protocol. Es ist kein KI-Modell, keine Anwendung und kein Dienst. Es ist ein Standard – vergleichbar mit dem Standard, der festlegt, wie Browser und Webserver miteinander kommunizieren.
 
 Der Standard beschreibt:
 - Wie ein KI-Modell ein Werkzeug aufrufen kann (eine Datei lesen, eine Suche starten, eine Datenbank abfragen)
@@ -64,4 +64,4 @@ MCP ist in seiner aktuellen Form vor allem für Entwicklerinnen und Entwickler i
 
 Das Grundprinzip – KI braucht Zugang zu relevanten Daten, um nützlich zu sein – gilt unabhängig von MCP. Die Frage, welche Daten man einem KI-System zugänglich macht und welche nicht, ist keine technische, sondern eine inhaltliche Entscheidung.
 
-Mehr dazu, wie Agents diese Werkzeuge eigenständig einsetzen: [KI-Agents](/vertiefung/agents). Wie KI auf große eigene Wissensbestände zugreift, ohne alles in den Kontext laden zu müssen: [RAG](/vertiefung/rag).
+Mehr dazu, wie Agents diese Werkzeuge eigenständig einsetzen: [KI-Agents](agents). Wie KI auf große eigene Wissensbestände zugreift, ohne alles in den Kontext laden zu müssen: [RAG](rag).

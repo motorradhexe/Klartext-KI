@@ -141,7 +141,7 @@ Ein Agent ist ein KI-System, das nicht nur antwortet, sondern selbstständig han
 
 Der Unterschied zur normalen KI-Nutzung: Man gibt nicht jede Zwischenfrage ein. Der Agent entscheidet selbst, welche Schritte nötig sind – und kann dabei auch Fehler machen, die sich unbemerkt durch weitere Schritte fortsetzen.
 
-→ Ausführliche Erklärung: [KI-Agents](/vertiefung/agents)
+→ Ausführliche Erklärung: [KI-Agents](vertiefung/agents)
 
 </div>
 
@@ -153,9 +153,9 @@ RAG steht für Retrieval-Augmented Generation (auf Deutsch: abrufverstärkte Gen
 
 **Beispiel:** Statt alle Unternehmenshandbücher in den Kontext zu laden, sucht das System bei jeder Anfrage nur nach den Abschnitten, die zur Frage passen – und gibt diese an das Modell weiter. Das Modell antwortet dann auf Basis dieser Abschnitte.
 
-RAG ermöglicht es, KI auf spezifische, aktuelle oder interne Wissensbestände anzuwenden, ohne das Modell neu zu trainieren. Es reduziert [Halluzinationen](/glossar#halluzination), schließt sie aber nicht aus.
+RAG ermöglicht es, KI auf spezifische, aktuelle oder interne Wissensbestände anzuwenden, ohne das Modell neu zu trainieren. Es reduziert [Halluzinationen](#halluzination), schließt sie aber nicht aus.
 
-→ Ausführliche Erklärung: [RAG](/vertiefung/rag)
+→ Ausführliche Erklärung: [RAG](vertiefung/rag)
 
 </div>
 
@@ -169,7 +169,7 @@ MCP steht für Model Context Protocol. Es ist ein offener Standard, der beschrei
 
 MCP wurde von Anthropic entwickelt und ist offen: andere Hersteller und Entwickler können den Standard verwenden. Es ist kein Modell und keine Anwendung, sondern eine Vereinbarung darüber, wie Systeme miteinander sprechen.
 
-→ Ausführliche Erklärung: [MCP](/vertiefung/mcp)
+→ Ausführliche Erklärung: [MCP](vertiefung/mcp)
 
 </div>
 
