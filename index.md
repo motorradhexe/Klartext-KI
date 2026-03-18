@@ -31,4 +31,16 @@ Diese Lernpfade sind unabhängig voneinander. Fang mit dem an, das für dich ger
   <a href="/arbeiten-mit-ki/erklaeren" class="pfad-link">Erklären</a>
 </div>
 
+## Weiterführende Themen
+
+Wer die Grundlagen kennt und verstehen will, wie KI-Systeme komplexer werden, findet hier Einstiege in drei Themen, die gerade zunehmend relevant sind.
+
+- [Agents](/vertiefung/agents) – KI, die selbstständig Aufgaben ausführt
+- [MCP](/vertiefung/mcp) – Wie KI mit externen Werkzeugen verbunden wird
+- [RAG](/vertiefung/rag) – Wie KI auf eigene Wissensdatenbanken zugreift
+
+## Ressourcen
+
+Offizielle, kostenfreie Kurse von Anthropic, Google, Microsoft und OpenAI: [Kostenfreie Kurse](/ressourcen)
+
 Unbekannte Begriffe? Das [Glossar](/glossar) erklärt alle Fachbegriffe, die im Projekt vorkommen.
