@@ -65,4 +65,4 @@ MCP ist in seiner aktuellen Form vor allem für Entwicklerinnen und Entwickler i
 
 Das Grundprinzip – KI braucht Zugang zu relevanten Daten, um nützlich zu sein – gilt unabhängig von MCP. Die Frage, welche Daten man einem KI-System zugänglich macht und welche nicht, ist keine technische, sondern eine inhaltliche Entscheidung.
 
-Mehr dazu, wie Agents diese Werkzeuge eigenständig einsetzen: [KI-Agents](agents). Wie KI auf große eigene Wissensbestände zugreift, ohne alles in den Kontext laden zu müssen: [RAG](rag).
+Mehr dazu, wie Agents diese Werkzeuge eigenständig einsetzen: [KI-Agents](agents). Wie KI auf große eigene Wissensbestände zugreift, ohne alles in den Kontext laden zu müssen: [RAG](rag). Welche Berechtigungen und Datenschutzfragen dabei relevant werden: [Risiken beim Einsatz von KI](risiken).

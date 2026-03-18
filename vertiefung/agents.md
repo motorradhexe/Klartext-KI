@@ -68,4 +68,4 @@ Wer heute mit Agents arbeiten will, braucht dafür Programmierkenntnisse oder sp
 
 Agents werden relevanter, je mehr KI in Arbeitsprozesse eingebettet wird. Das Verständnis, wie sie funktionieren und wo sie scheitern, ist schon jetzt nützlich.
 
-Wie KI mit externen Werkzeugen verbunden wird, erklärt [MCP](mcp). Wie KI auf eigene Wissensdatenbanken zugreift, erklärt [RAG](rag).
+Wie KI mit externen Werkzeugen verbunden wird, erklärt [MCP](mcp). Wie KI auf eigene Wissensdatenbanken zugreift, erklärt [RAG](rag). Welche Risiken beim Einsatz von KI-Diensten generell entstehen – auch bei Agents –, erklärt [Risiken beim Einsatz von KI](risiken).

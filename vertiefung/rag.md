@@ -70,4 +70,4 @@ Die Umsetzung erfordert technischen Aufwand: Dokumente müssen vorbereitet, indi
 
 Das Grundprinzip zu verstehen ist trotzdem nützlich – besonders um einschätzen zu können, was ein RAG-System leisten kann und was nicht. Ein System, das „auf Basis Ihrer Dokumente antwortet", ist nicht unfehlbar. Es ist eine Suchmaschine mit angeschlossenem Sprachmodell.
 
-Wie KI selbstständig mit solchen Systemen arbeitet: [KI-Agents](agents). Wie die Verbindung zu externen Werkzeugen technisch funktioniert: [MCP](mcp).
+Wie KI selbstständig mit solchen Systemen arbeitet: [KI-Agents](agents). Wie die Verbindung zu externen Werkzeugen technisch funktioniert: [MCP](mcp). Was man beachten sollte, bevor man interne Dokumente an einen KI-Dienst schickt: [Risiken beim Einsatz von KI](risiken).
