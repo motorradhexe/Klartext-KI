@@ -17,7 +17,7 @@ RAG löst dieses Problem: Anstatt alle Dokumente zu laden, sucht das System gezi
 
 ## Was RAG ist
 
-RAG steht für Retrieval-Augmented Generation. Auf Deutsch: abrufverstärkte Generierung. Der Begriff beschreibt ein Verfahren, bei dem ein KI-System vor dem Generieren einer Antwort zunächst in einer Wissensdatenbank sucht und die gefundenen Inhalte in den Kontext einbindet.
+[RAG](/glossar#rag) steht für Retrieval-Augmented Generation. Auf Deutsch: abrufverstärkte Generierung. Der Begriff beschreibt ein Verfahren, bei dem ein KI-System vor dem Generieren einer Antwort zunächst in einer Wissensdatenbank sucht und die gefundenen Inhalte in den Kontext einbindet.
 
 Der Ablauf in drei Schritten:
 

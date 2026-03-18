@@ -15,7 +15,7 @@ Das klingt nach Science-Fiction. Es ist es nicht mehr. Aber es ist auch noch kei
 
 ## Was ein Agent ist
 
-Ein Agent ist ein KI-System, das nicht nur antwortet, sondern handelt. Es bekommt ein Ziel – und arbeitet dann selbstständig daran, dieses Ziel zu erreichen. Dabei kann es:
+Ein [Agent](/glossar#agent) ist ein KI-System, das nicht nur antwortet, sondern handelt. Es bekommt ein Ziel – und arbeitet dann selbstständig daran, dieses Ziel zu erreichen. Dabei kann es:
 
 - Werkzeuge nutzen (eine Websuche starten, eine Datei lesen, eine E-Mail schicken)
 - Zwischenergebnisse bewerten und den nächsten Schritt planen

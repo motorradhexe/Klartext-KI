@@ -94,3 +94,45 @@ Die Ausgabe ist das, was das KI-Modell als Antwort auf einen Prompt produziert. 
 Die Ausgabe hängt vollständig vom Prompt und vom Kontext ab. Keine Ausgabe ist „die richtige" – es gibt immer viele mögliche Antworten auf einen Prompt. Wenn eine Ausgabe nicht passt, liegt das fast immer daran, dass der Prompt zu vage oder zu wenig kontextuell war.
 
 </div>
+
+<div class="glossar-eintrag" id="agent">
+
+## Agent
+
+Ein Agent ist ein KI-System, das nicht nur antwortet, sondern selbstständig handelt. Es bekommt ein Ziel und arbeitet dann eigenständig daran – indem es Werkzeuge nutzt, Zwischenergebnisse bewertet und weitere Schritte plant, ohne dass ein Mensch jeden Schritt manuell auslöst.
+
+**Beispiel:** Ein Agent bekommt den Auftrag, die drei günstigsten Hosting-Anbieter in Deutschland zu recherchieren und eine Vergleichstabelle zu erstellen. Er sucht selbstständig im Web, liest Seiten, extrahiert Preise und liefert das Ergebnis.
+
+Der Unterschied zur normalen KI-Nutzung: Man gibt nicht jede Zwischenfrage ein. Der Agent entscheidet selbst, welche Schritte nötig sind – und kann dabei auch Fehler machen, die sich unbemerkt durch weitere Schritte fortsetzen.
+
+→ Ausführliche Erklärung: [KI-Agents](/vertiefung/agents)
+
+</div>
+
+<div class="glossar-eintrag" id="rag">
+
+## RAG
+
+RAG steht für Retrieval-Augmented Generation (auf Deutsch: abrufverstärkte Generierung). Es bezeichnet ein Verfahren, bei dem ein KI-System vor dem Generieren einer Antwort gezielt in einer Wissensdatenbank sucht und nur die gefundenen, relevanten Abschnitte in den Kontext lädt.
+
+**Beispiel:** Statt alle Unternehmenshandbücher in den Kontext zu laden, sucht das System bei jeder Anfrage nur nach den Abschnitten, die zur Frage passen – und gibt diese an das Modell weiter. Das Modell antwortet dann auf Basis dieser Abschnitte.
+
+RAG ermöglicht es, KI auf spezifische, aktuelle oder interne Wissensbestände anzuwenden, ohne das Modell neu zu trainieren. Es reduziert [Halluzinationen](/glossar#halluzination), schließt sie aber nicht aus.
+
+→ Ausführliche Erklärung: [RAG](/vertiefung/rag)
+
+</div>
+
+<div class="glossar-eintrag" id="mcp">
+
+## MCP
+
+MCP steht für Model Context Protocol. Es ist ein offener Standard, der beschreibt, wie KI-Modelle mit externen Werkzeugen und Datenquellen kommunizieren können – zum Beispiel um Dateien zu lesen, Datenbanken abzufragen oder Kalender einzusehen.
+
+**Beispiel:** Eine KI-Anwendung kann über MCP auf das lokale Dateisystem zugreifen und ein Dokument direkt öffnen, lesen und bearbeiten – ohne dass man den Inhalt manuell hineinkopieren muss.
+
+MCP wurde von Anthropic entwickelt und ist offen: andere Hersteller und Entwickler können den Standard verwenden. Es ist kein Modell und keine Anwendung, sondern eine Vereinbarung darüber, wie Systeme miteinander sprechen.
+
+→ Ausführliche Erklärung: [MCP](/vertiefung/mcp)
+
+</div>

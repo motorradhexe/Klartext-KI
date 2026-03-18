@@ -15,7 +15,7 @@ MCP ist ein Protokoll – also eine technische Vereinbarung –, das beschreibt,
 
 ## Was MCP ist
 
-MCP steht für Model Context Protocol. Es ist kein KI-Modell, keine Anwendung und kein Dienst. Es ist ein Standard – vergleichbar mit dem Standard, der festlegt, wie Browser und Webserver miteinander kommunizieren.
+[MCP](/glossar#mcp) steht für Model Context Protocol. Es ist kein KI-Modell, keine Anwendung und kein Dienst. Es ist ein Standard – vergleichbar mit dem Standard, der festlegt, wie Browser und Webserver miteinander kommunizieren.
 
 Der Standard beschreibt:
 - Wie ein KI-Modell ein Werkzeug aufrufen kann (eine Datei lesen, eine Suche starten, eine Datenbank abfragen)
