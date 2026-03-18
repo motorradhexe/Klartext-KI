@@ -4,6 +4,7 @@ description: Wie man mit KI Code versteht, schreibt und überprüft – auch ohn
 layout: default
 parent: Mit KI arbeiten
 nav_order: 4
+has_children: true
 ---
 
 # Mit KI entwickeln
@@ -12,58 +13,28 @@ KI verändert das Arbeiten mit Code grundlegend – auch für Menschen ohne tief
 
 ---
 
-## 1. Wofür eignet sich KI hier – und wofür nicht?
+## Wofür eignet sich KI – und wofür nicht?
 
-KI ist beim Entwickeln für eine Reihe von Aufgaben gut geeignet: Code erklären, Fehler finden, Funktionen schreiben, bestehenden Code umbauen, Boilerplate generieren (also Standardcode, der in fast jedem Projekt ähnlich aussieht), Dokumentation ergänzen. Gerade das Verstehen von fremdem Code – aus einem Projekt, einer Bibliothek, einem System – wird mit KI erheblich schneller.
+KI ist beim Entwickeln für eine Reihe von Aufgaben gut geeignet: Code erklären, Fehler finden, Funktionen schreiben, bestehenden Code umbauen, Standardcode generieren, Dokumentation ergänzen. Gerade das Verstehen von fremdem Code – aus einem Projekt, einer Bibliothek, einem System – wird mit KI erheblich schneller.
 
 Was KI nicht kann: die Anforderungen kennen, die man ihr nicht gegeben hat. Wenn man eine Funktion bestellt, ohne zu sagen, welche Randfälle behandelt werden sollen, werden sie nicht behandelt. Wenn man nicht angibt, in welches System der Code eingebettet ist, ignoriert das Modell das System.
 
-Außerdem: KI-generierter Code kann syntaktisch korrekt sein und trotzdem nicht das tun, was man braucht. Das Modell schreibt Code, der auf den [Prompt](../glossar#prompt) passt – nicht auf die eigentliche Absicht, wenn man die nicht präzise beschrieben hat. Wer Code blind übernimmt, ohne ihn zu lesen und zu testen, baut auf einer unsicheren Grundlage.
+KI-generierter Code kann syntaktisch korrekt sein und trotzdem nicht das tun, was man braucht. Wer Code blind übernimmt, ohne ihn zu lesen und zu testen, baut auf einer unsicheren Grundlage.
+
+**KI schreibt Code, der auf den Prompt passt – nicht auf die eigentliche Absicht, wenn man die nicht präzise beschrieben hat.**
 
 ---
 
-## 2. Wie geht man es an?
+## Dieser Lernpfad
 
-**Sprache und Umgebung angeben.** „Schreib eine Funktion" ist kein ausreichender Startpunkt. Welche Sprache? Welche Version? Welches [Framework](../glossar#framework) (also das Grundgerüst, auf dem die Anwendung aufbaut – z. B. Django oder Flask bei Python)? Läuft der Code in einer bestimmten Umgebung? Das Modell trifft sonst Annahmen – und die stimmen manchmal nicht.
+**[Methode: Code-Prompts, die tatsächlich funktionieren](entwickeln/methode)** – Wie man Sprache, Umgebung und Anforderungen beschreibt, bestehenden Code mitgibt, Randfälle benennt und mit Fehlermeldungen umgeht.
 
-**Bestehenden Code mitgeben.** Wenn man eine Funktion erweitern, einen Fehler beheben oder Code umbauen will, gehört der betroffene Code in den [Kontext](../glossar#kontext). Das Modell kann nicht erraten, wie die Umgebung aussieht. Mit dem Code vor Augen kann es konkret und korrekt antworten.
-
-**Die Aufgabe vollständig beschreiben.** Was soll die Funktion tun? Was bekommt sie rein, was kommt raus? Gibt es Randfälle, die behandelt werden müssen? Gibt es etwas, das die Funktion ausdrücklich nicht tun soll? Je vollständiger die Beschreibung, desto näher kommt das erste Ergebnis an das, was man braucht.
-
-**Ergebnisse immer testen.** KI-Code funktioniert häufig auf Anhieb – aber nicht immer. Testen ist kein Misstrauen gegenüber dem Modell, sondern normaler Teil des Entwicklungsprozesses. Und wenn der Code nicht funktioniert: Fehlermeldung in den nächsten Prompt einfügen und fragen lassen, was das Problem ist.
+**[Beispiele: Vorher / Nachher für verschiedene Entwicklungsaufgaben](entwickeln/beispiele)** – Drei Szenarien: Funktion schreiben, fremden Code verstehen, Fehler beheben – mit je einem schwachen und einem starken Prompt und der Erklärung des Unterschieds.
 
 ---
 
-## 3. Typische Fehler – und warum sie passieren
+## Zum Einstieg ausprobieren
 
-**Code übernehmen ohne Lesen.** KI-generierter Code sieht professionell aus. Das verführt dazu, ihn direkt einzusetzen. Aber Lesbarkeit und Korrektheit sind verschiedene Dinge. Wer Code einsetzt, ohne ihn gelesen zu haben, kann ihn nicht auf seine eigene Situation hin prüfen – und merkt Probleme erst, wenn sie auftreten.
+Nimm einen Code-Ausschnitt aus deiner Arbeit – oder aus einem Projekt, das du verstehen willst. Gib ihn in KI ein und frag: „Erkläre mir, was dieser Code tut. Geh Abschnitt für Abschnitt vor und erkläre, wozu jeder Teil da ist."
 
-**Fehlende Randfälle.** Ein Prompt wie „Schreib eine Funktion, die eine Zahl durch eine andere teilt" liefert eine Funktion, die das tut – aber vermutlich keine Behandlung für den Fall, dass der Divisor null ist. Was nicht im Prompt steht, wird nicht bedacht. Wer produktiven Code schreibt, muss diese Lücken selbst schließen.
-
-**Keine Angabe der Umgebung.** „Ich benutze Python 3.9 und das Framework FastAPI, hier ist meine bestehende Route" ist ein anderer Ausgangspunkt als „Schreib Python-Code". Das Modell weiß ohne diese Angaben nicht, welche [Imports](../glossar#import) (also welche Zusatz-Bausteine bereits im Code eingebunden sind) schon existieren, welche Konventionen gelten oder welche Einschränkungen es gibt.
-
-**[Iteration](../glossar#iteration) als Versagen missverstanden.** Wenn das erste Ergebnis nicht passt, ist das kein Fehler. Es bedeutet, dass der Prompt oder die Anforderung nicht vollständig war. Folgeprompts – „Das funktioniert, aber es soll auch den Fall X behandeln" oder „Hier ist die Fehlermeldung, die ich bekomme" – sind der normale Weg zu funktionierendem Code.
-
----
-
-## 4. Beispiel: Vorher / Nachher
-
-**Eingabe 1:**
-„Schreib mir eine Funktion in Python."
-
-Das Modell fragt entweder nach oder schreibt ein generisches Beispiel – eine Funktion, die zwei Zahlen addiert oder einen Namen ausgibt. Nicht falsch, aber für niemanden nützlich.
-
-**Eingabe 2:**
-„Ich arbeite in Python 3.11. Schreib eine Funktion `sortiere_personen`, die eine Liste von Dictionaries entgegennimmt. Jedes Dictionary hat die Schlüssel `name` (String) und `alter` (Integer). Die Funktion gibt die Liste sortiert nach `alter` zurück, aufsteigend. Wenn zwei Personen dasselbe Alter haben, soll nach `name` alphabetisch sortiert werden. Füge einen [Docstring](../glossar#docstring) hinzu."
-
-Ein Dictionary ist in Python eine strukturierte Datensammlung – zum Beispiel `{"name": "Max", "alter": 30}`. String bedeutet Text, Integer bedeutet ganze Zahl. Ein Docstring ist ein eingebetteter Kommentar direkt in der Funktion, der erklärt, was sie tut.
-
-Diese Eingabe gibt die Sprache, die Funktion, die Eingabestruktur, das Ausgabeformat, den Hauptfall und den Randfall vor. Das Modell kann jetzt genau das schreiben, was gebraucht wird.
-
----
-
-## 5. Zum Ausprobieren
-
-Nehmen Sie einen Code-Ausschnitt aus Ihrer Arbeit – oder aus einem Projekt, das Sie verstehen wollen. Geben Sie ihn in KI ein und fragen Sie: „Erkläre mir, was dieser Code tut. Geh Zeile für Zeile vor und erkläre, wozu jeder Abschnitt da ist."
-
-Das Ergebnis zeigt, ob Sie den Code verstanden haben – oder ob die Erklärung Fragen aufwirft, die Sie im nächsten Prompt stellen können. So funktioniert KI als Lernpartner beim Entwickeln.
+Das Ergebnis zeigt, ob du den Code wirklich verstanden hast – oder ob die Erklärung Fragen aufwirft, die du im nächsten Prompt stellen kannst. So funktioniert KI als Lernpartner beim Entwickeln.
