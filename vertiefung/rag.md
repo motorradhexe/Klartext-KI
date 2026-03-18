@@ -9,7 +9,7 @@ nav_order: 32
 
 KI-Modelle wissen viel – aber nicht alles. Sie kennen das nicht, was nach ihrem Trainingsdatum passiert ist. Sie kennen nicht die internen Dokumente eines Unternehmens. Sie kennen nicht die spezifischen Regelungen einer bestimmten Organisation.
 
-Die naheliegende Lösung: alles in den [Kontext](/glossar#kontext) laden. Das funktioniert bis zu einem gewissen Umfang. Aber Kontextfenster haben Grenzen, und hunderte Dokumente hineinzuladen ist langsam, teuer und unübersichtlich.
+Die naheliegende Lösung: alles in den [Kontext](/glossar#kontext) laden. Das funktioniert bis zu einem gewissen Umfang. Aber [Kontextfenster](/glossar#kontextfenster) haben Grenzen, und hunderte Dokumente hineinzuladen ist langsam, teuer und unübersichtlich.
 
 RAG löst dieses Problem: Anstatt alle Dokumente zu laden, sucht das System gezielt nach den relevanten Stellen – und gibt nur diese an das Modell weiter.
 

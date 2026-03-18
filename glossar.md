@@ -31,7 +31,7 @@ Ein Token ist die kleinste Einheit, in der KI-Modelle Text verarbeiten. Das sind
 
 **Beispiel:** Das Modell sieht nicht den Satz „Das ist ein Test" als Ganzes, sondern eine Folge von Token: „Das", „ist", „ein", „Test" – wobei die genaue Aufteilung vom Modell abhängt.
 
-Warum ist das relevant? Weil KI-Modelle eine begrenzte Anzahl von Token auf einmal verarbeiten können. Das nennt man das [Kontextfenster](#kontext). Sehr lange Texte oder sehr lange Gespräche können das Limit überschreiten.
+Warum ist das relevant? Weil KI-Modelle eine begrenzte Anzahl von Token auf einmal verarbeiten können. Das nennt man das [Kontextfenster](#kontextfenster). Sehr lange Texte oder sehr lange Gespräche können das Limit überschreiten.
 
 </div>
 
@@ -44,6 +44,42 @@ Mit Kontext ist gemeint, welche Informationen das KI-Modell bei der Erstellung e
 **Beispiel:** Wenn man fragt „Was meinst du damit?", kann das Modell nur antworten, wenn es aus dem Kontext weiß, worauf sich „damit" bezieht. Ohne diesen Kontext rät es – und liegt oft falsch.
 
 Ein häufiger Fehler: Man setzt voraus, dass das Modell Informationen kennt, die man selbst im Kopf hat, aber nicht eingegeben hat. KI kennt nur, was im Kontext steht.
+
+</div>
+
+<div class="glossar-eintrag" id="sprachmodell">
+
+## Sprachmodell
+
+Ein Sprachmodell ist ein KI-System, das darauf trainiert wurde, Text zu verarbeiten und zu erzeugen. Es liest eine Eingabe und berechnet, welcher Text als Fortsetzung oder Antwort am wahrscheinlichsten ist. Ein Sprachmodell speichert keine Fakten und denkt nicht nach – es berechnet.
+
+**Beispiel:** ChatGPT, Claude und Gemini sind Produkte, die auf Sprachmodellen basieren. Das Sprachmodell ist der Kern, der die eigentliche Textverarbeitung übernimmt.
+
+Der Begriff „Sprachmodell" betont, dass diese Systeme auf Sprache spezialisiert sind – im Unterschied zu KI-Systemen, die Bilder erkennen, Musik erzeugen oder Schach spielen.
+
+</div>
+
+<div class="glossar-eintrag" id="training">
+
+## Training
+
+Mit Training ist der Prozess gemeint, durch den ein Sprachmodell lernt. Dabei liest das System sehr große Mengen an Text – Bücher, Webseiten, Artikel – und lernt daraus, welche Wörter und Sätze wie zusammenpassen. Dieser Prozess findet einmalig (oder in Schüben) statt und ist abgeschlossen, bevor man das Modell nutzt.
+
+**Beispiel:** Ein Modell wurde bis Ende 2024 trainiert. Was danach passiert ist, kennt es nicht – es sei denn, man gibt es ihm in der Eingabe mit.
+
+Training ist kein Lernen im menschlichen Sinne. Das Modell merkt sich keine Gespräche und verbessert sich nicht durch die eigene Nutzung. Jedes neue Gespräch beginnt ohne Erinnerung an vorherige.
+
+</div>
+
+<div class="glossar-eintrag" id="kontextfenster">
+
+## Kontextfenster
+
+Das Kontextfenster ist die Obergrenze dafür, wie viel Text ein Sprachmodell auf einmal verarbeiten kann. Alles, was außerhalb dieser Grenze liegt – weil es zu weit zurückliegt oder der Text zu lang ist –, sieht das Modell nicht mehr.
+
+**Beispiel:** In einem langen Gespräch kann es passieren, dass das Modell frühe Teile der Unterhaltung nicht mehr berücksichtigt, weil sie das Kontextfenster verlassen haben. Es antwortet dann so, als hätte man diese Dinge nie gesagt.
+
+Die Größe des Kontextfensters unterscheidet sich je nach Modell. Für die meisten alltäglichen Aufgaben ist das Limit kein Problem – bei sehr langen Dokumenten oder ausgedehnten Gesprächen wird es relevant.
 
 </div>
 

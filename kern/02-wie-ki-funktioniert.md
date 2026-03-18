@@ -17,11 +17,11 @@ Man muss kein Informatikstudium haben, um KI sinnvoll nutzen zu können. Aber ei
 
 ## Nicht Wissen, sondern Wahrscheinlichkeit
 
-Das Wichtigste zuerst: KI-Sprachmodelle speichern keine Fakten. Sie sind keine Datenbanken, die man abfragt. Sie sind auch keine Suchmaschinen.
+Das Wichtigste zuerst: KI-[Sprachmodelle](/glossar#sprachmodell) speichern keine Fakten. Sie sind keine Datenbanken, die man abfragt. Sie sind auch keine Suchmaschinen.
 
-Ein Sprachmodell hat während des Trainings sehr viele Texte gelesen – Bücher, Webseiten, Artikel, Gespräche. Daraus hat es gelernt, wie Sprache funktioniert: welche Wörter zusammen vorkommen, wie Sätze gebaut sind, wie Themen zusammenhängen. Was es dabei nicht gelernt hat, ist: was stimmt und was nicht.
+Ein [Sprachmodell](/glossar#sprachmodell) hat während des [Trainings](/glossar#training) sehr viele Texte gelesen – Bücher, Webseiten, Artikel, Gespräche. Daraus hat es gelernt, wie Sprache funktioniert: welche Wörter zusammen vorkommen, wie Sätze gebaut sind, wie Themen zusammenhängen. Was es dabei nicht gelernt hat, ist: was stimmt und was nicht.
 
-Wenn man dem Modell eine Frage stellt, berechnet es, welche Zeichenfolge als Antwort am wahrscheinlichsten ist – basierend auf allem, was es während des Trainings gesehen hat. Es „denkt" nicht nach, es sagt nicht: „Ich weiß das." Es sagt: „Dieser Text passt statistisch gut auf diese Eingabe."
+Wenn man dem Modell eine Frage stellt, berechnet es, welche Zeichenfolge als Antwort am wahrscheinlichsten ist – basierend auf allem, was es während des [Trainings](/glossar#training) gesehen hat. Es „denkt" nicht nach, es sagt nicht: „Ich weiß das." Es sagt: „Dieser Text passt statistisch gut auf diese Eingabe."
 
 Das ist der Grund, warum KI-Texte sprachlich oft überzeugend klingen – auch wenn sie sachlich falsch sind. Sprachliche Plausibilität und inhaltliche Richtigkeit sind zwei verschiedene Dinge.
 
@@ -33,7 +33,7 @@ Sprachmodelle arbeiten nicht mit ganzen Wörtern oder Sätzen, sondern mit [Toke
 
 Das Wort „Bundesverfassungsgericht" wird beispielsweise in mehrere Token aufgeteilt. Das Modell sieht nicht das Wort als Ganzes, sondern eine Folge von kleineren Einheiten – und verarbeitet sie Schritt für Schritt.
 
-Warum ist das relevant? Weil Modelle nur eine begrenzte Anzahl von Token gleichzeitig verarbeiten können. Das nennt man das Kontextfenster. Sehr lange Dokumente, sehr lange Gespräche oder viele mitgelieferte Texte können dieses Limit überschreiten – dann „vergisst" das Modell frühere Teile des Gesprächs.
+Warum ist das relevant? Weil Modelle nur eine begrenzte Anzahl von Token gleichzeitig verarbeiten können. Das nennt man das [Kontextfenster](/glossar#kontextfenster). Sehr lange Dokumente, sehr lange Gespräche oder viele mitgelieferte Texte können dieses Limit überschreiten – dann „vergisst" das Modell frühere Teile des Gesprächs.
 
 Für die meisten Aufgaben ist das kein Problem. Bei langen Projekten oder komplexen Analysen ist es gut zu wissen, dass das Modell nicht unbegrenzt „zuhört".
 

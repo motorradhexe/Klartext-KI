@@ -13,7 +13,7 @@ KI verändert das Arbeiten mit Code grundlegend – auch für Menschen ohne tief
 
 ## 1. Wofür eignet sich KI hier – und wofür nicht?
 
-KI ist beim Entwickeln für eine Reihe von Aufgaben gut geeignet: Code erklären, Fehler finden, Funktionen schreiben, bestehenden Code umbauen, Boilerplate generieren, Dokumentation ergänzen. Gerade das Verstehen von fremdem Code – aus einem Projekt, einer Bibliothek, einem System – wird mit KI erheblich schneller.
+KI ist beim Entwickeln für eine Reihe von Aufgaben gut geeignet: Code erklären, Fehler finden, Funktionen schreiben, bestehenden Code umbauen, Boilerplate generieren (also Standardcode, der in fast jedem Projekt ähnlich aussieht), Dokumentation ergänzen. Gerade das Verstehen von fremdem Code – aus einem Projekt, einer Bibliothek, einem System – wird mit KI erheblich schneller.
 
 Was KI nicht kann: die Anforderungen kennen, die man ihr nicht gegeben hat. Wenn man eine Funktion bestellt, ohne zu sagen, welche Randfälle behandelt werden sollen, werden sie nicht behandelt. Wenn man nicht angibt, in welches System der Code eingebettet ist, ignoriert das Modell das System.
 

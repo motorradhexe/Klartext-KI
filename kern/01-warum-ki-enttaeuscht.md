@@ -43,7 +43,7 @@ KI hat keinen Zugriff auf Informationen, die man nicht explizit eingegeben hat. 
 
 Diese drei Muster haben eine gemeinsame Ursache: KI-Modelle reagieren auf das, was sie eingegeben bekommen. Nicht mehr, nicht weniger.
 
-Ein Sprachmodell verarbeitet eine Eingabe und erzeugt daraus eine Ausgabe, die inhaltlich plausibel und sprachlich flüssig ist. Es hat kein Wissen über die eigene Situation, keine Möglichkeit, fehlende Informationen zu erfragen (außer wenn man das explizit verlangt), und keine Möglichkeit, auf externe Quellen zuzugreifen – außer wenn das explizit in das System integriert ist.
+Ein [Sprachmodell](/glossar#sprachmodell) verarbeitet eine Eingabe und erzeugt daraus eine Ausgabe, die inhaltlich plausibel und sprachlich flüssig ist. Es hat kein Wissen über die eigene Situation, keine Möglichkeit, fehlende Informationen zu erfragen (außer wenn man das explizit verlangt), und keine Möglichkeit, auf externe Quellen zuzugreifen – außer wenn das explizit in das System integriert ist.
 
 Das bedeutet: Wenn die Eingabe unvollständig ist, füllt das Modell die Lücken mit dem, was statistisch plausibel ist. Das führt zu Texten, die gut klingen – aber am eigentlichen Bedarf vorbeigehen oder sogar falsche Informationen enthalten.
 
