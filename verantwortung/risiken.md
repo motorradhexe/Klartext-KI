@@ -2,8 +2,8 @@
 title: Risiken beim Einsatz von KI
 description: Welche Risiken beim Einsatz von KI-Tools entstehen – und wie man damit verantwortungsvoll umgeht.
 layout: default
-parent: Vertiefung
-nav_order: 4
+parent: Verantwortung
+nav_order: 1
 ---
 
 # Risiken beim Einsatz von KI
@@ -46,10 +46,10 @@ Wer solchen Code eingibt, überträgt diese Informationen an den Anbieter. Selbs
 Die Lösung ist einfach: Vor dem Einkopieren von Code die relevanten Stellen durch Platzhalter ersetzen.
 
 ```
-# Vorher – nicht so:
+# Nicht so:
 db_password = "mein_echtes_passwort_123"
 
-# Nachher – so:
+# So:
 db_password = "HIER_PLATZHALTER"
 ```
 
@@ -76,8 +76,6 @@ Das Problem ist nicht, dass KI die Daten stiehlt. Das Problem ist, dass das Eink
 ## Rechtliche Risiken: Urheberrecht und Compliance
 
 KI-generierte Inhalte haben keine klare rechtliche Stellung. Das ist kein theoretisches Problem, sondern eines, das in der Praxis auftaucht.
-
-Drei konkrete Bereiche:
 
 **Urheberrecht der Ausgabe:** Wer KI-generierten Text veröffentlicht, sollte wissen, dass in den meisten Ländern kein automatischer Urheberrechtsschutz für KI-Ausgaben entsteht. Die Nutzung ist in vielen Fällen problemlos – aber nicht überall, und nicht für alle Zwecke.
 

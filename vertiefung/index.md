@@ -8,6 +8,6 @@ has_children: true
 
 # Vertiefung
 
-Vier Themen für alle, die über die Grundlagen hinauswollen: KI-Agenten, RAG (KI mit eigenem Wissen), MCP (KI mit externen Werkzeugen) und die Risiken beim KI-Einsatz.
+Drei Themen für alle, die über die Grundlagen hinauswollen: KI-Agenten, RAG (KI mit eigenem Wissen) und MCP (KI mit externen Werkzeugen).
 
 Kein Pflichtprogramm – die Lernpfade funktionieren ohne diese Seiten. Für alle, die verstehen wollen, was hinter modernen KI-Anwendungen steckt.
