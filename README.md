@@ -14,7 +14,7 @@ Für Menschen, die KI (ChatGPT, Copilot o. ä.) schon genutzt haben, mit den Erg
 
 ## Struktur
 
-Das Projekt besteht aus zwei Teilen:
+Das Projekt besteht aus drei Teilen:
 
 **Grundlagen** – drei aufeinander aufbauende Module:
 1. Warum KI oft enttäuscht
@@ -22,7 +22,12 @@ Das Projekt besteht aus zwei Teilen:
 3. Kontext ist alles
 
 **Lernpfade** – fünf unabhängige Module zu konkreten Anwendungsbereichen:
-- Schreiben, Verstehen, Strukturieren, Entwickeln, Erklären
+Schreiben, Verstehen, Strukturieren, Entwickeln, Erklären
+
+**Vertiefung** – drei optionale Seiten für Interessierte:
+KI-Agents, RAG (Retrieval-Augmented Generation), MCP (Model Context Protocol)
+
+Dazu: ein vollständiges **Glossar** mit 16 erklärten Fachbegriffen und eine **Ressourcenseite** mit kostenfreien Lernmaterialien.
 
 ## Wie trägt man bei?
 
