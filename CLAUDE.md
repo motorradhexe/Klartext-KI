@@ -3,6 +3,9 @@
 Dieses Dokument beschreibt Ziel, Struktur und Konventionen des Projekts.
 Es gilt als verbindliche Arbeitsgrundlage für alle Aufgaben in diesem Repository.
 
+**Status:** Projekt ist vollständig aufgebaut und live auf GitHub Pages.
+Neue Aufgaben betreffen Pflege, Erweiterung und Qualitätsverbesserung bestehender Inhalte.
+
 ---
 
 ## Projektziel
@@ -69,6 +72,7 @@ klartext-ki/
 │
 ├── index.md                   # Startseite
 ├── glossar.md                 # Glossar aller Fachbegriffe
+├── ressourcen.md              # Weiterführende Lernmaterialien
 │
 ├── kern/                      # Kernmodule (für alle, sequenziell)
 │   ├── 01-warum-ki-enttaeuscht.md
@@ -81,6 +85,11 @@ klartext-ki/
 │   ├── strukturieren.md
 │   ├── entwickeln.md
 │   └── erklaeren.md
+│
+├── vertiefung/                # Weiterführende Themen (optional)
+│   ├── agents.md
+│   ├── rag.md
+│   └── mcp.md
 │
 ├── _layouts/
 │   ├── default.html
@@ -133,13 +142,28 @@ Jeder durchläuft sie zuerst. Sie bauen aufeinander auf.
 | Entwickeln | Wie man mit KI Code versteht, schreibt und überprüft |
 | Erklären | Wie man mit KI Präsentationen und Übergaben vorbereitet |
 
+### Vertiefungsthemen (optional, für Interessierte)
+
+Keine Voraussetzung für die Lernpfade. Für Menschen, die tiefer einsteigen wollen.
+
+| Seite | Inhalt |
+|-------|--------|
+| agents.md | Was KI-Agents sind, was sie können und wo sie scheitern |
+| rag.md | Wie KI mit eigenem Wissen und Dokumenten arbeitet (RAG) |
+| mcp.md | Wie KI mit externen Werkzeugen verbunden wird (MCP) |
+
+### Ressourcen
+
+`ressourcen.md` – Weiterführende, kostenfreie Lernmaterialien der großen KI-Anbieter.
+Keine Werbung, keine Partnerlinks. Nur geprüfte Einstiegsangebote.
+
 ### Glossar
 
 Eine eigene Seite (`glossar.md`) mit allen Fachbegriffen, die im Projekt vorkommen.
 Jeder Begriff wird erklärt, ohne Vorwissen vorauszusetzen.
 Aus jedem Modul wird beim ersten Auftreten eines Begriffs auf den Glossareintrag verlinkt.
 
-Pflichteinträge: Prompt, Token, Kontext, Modell, Halluzination, Iteration, Ausgabe
+Dokumentierte Begriffe: Prompt, Token, Kontext, Kontextfenster, Sprachmodell, Training, Modell, Halluzination, Iteration, Ausgabe, Agent, RAG, MCP, Framework, Import, Docstring
 
 ---
 
@@ -165,11 +189,12 @@ nav_order: 1
 
 ## Was Claude Code in diesem Projekt tun soll
 
-- Markdown-Inhalte erstellen, überarbeiten und strukturieren
-- Jekyll-Konfiguration aufsetzen und pflegen
-- CSS entwickeln: klar, lesbar, kein Framework-Look
-- Navigation und Verlinkung (inkl. Glossar-Links) pflegen
-- Lernpfade nach der definierten 5-Punkte-Struktur ausarbeiten
+- Bestehende Inhalte überarbeiten, präzisieren und qualitativ verbessern
+- Neue Lernpfade oder Vertiefungsseiten nach den definierten Strukturvorgaben erstellen
+- Glossar pflegen: neue Begriffe ergänzen, Verlinkungen aus Modulen sicherstellen
+- CSS anpassen: klar, lesbar, kein Framework-Look
+- Navigation und interne Verlinkung konsistent halten
+- Ressourcenseite aktuell halten
 
 ## Was Claude Code in diesem Projekt nicht tun soll
 
