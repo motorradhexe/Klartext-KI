@@ -9,24 +9,54 @@ next_title: Wie KI funktioniert
 
 # Warum KI oft enttäuscht
 
-*Dieser Abschnitt ist noch in Bearbeitung.*
+Viele Menschen haben KI ausprobiert und waren enttäuscht. Die Antworten klangen generisch, enthielten Fehler, oder haben am eigentlichen Problem vorbeigezielt. Das Gefühl: Das bringt nichts.
+
+Das Problem liegt fast nie am Modell.
 
 ---
 
-## Gliederung
+## Was typischerweise schiefgeht
 
-### 1. Was typischerweise schiefgeht
+Die häufigsten Enttäuschungen folgen einem Muster. Hier sind drei davon, mit konkreten Beispielen.
 
-Beschreibung der häufigsten Enttäuschungen: vage Antworten, falsche Fakten, Wiederholungen, Texte ohne eigene Aussage. Jeweils mit konkretem Beispiel, was Nutzer eingegeben haben und was sie bekommen haben.
+**Vage Eingabe, vage Ausgabe**
 
-### 2. Warum es schiefgeht
+Jemand gibt ein: „Schreib mir einen Text über Nachhaltigkeit." Die [Ausgabe](/glossar#ausgabe) klingt wie ein Wikipedia-Einleitungsabsatz – allgemein, ohne Haltung, ohne Relevanz für den eigenen Zweck. Der Text ist nicht schlecht, er ist nur für niemanden.
 
-Erklärung der Ursachen: KI reagiert auf Eingaben – und vage Eingaben erzeugen vage Ausgaben. KI kennt nur den [Kontext](/glossar#kontext), den man ihr gibt. KI erfindet keine Antworten, aber produziert plausibel klingende Texte auch dann, wenn das Ergebnis sachlich falsch ist (→ [Halluzination](/glossar#halluzination)).
+Das Problem ist nicht die KI. Das Problem ist, dass „einen Text über Nachhaltigkeit" keine Aufgabe beschreibt – es ist ein Thema. KI braucht einen Auftrag.
 
-### 3. Was sich damit ändert
+**Falsche Fakten mit selbstsicherem Ton**
 
-Wenn man versteht, warum Ergebnisse schlecht waren, ändert sich, wie man mit KI umgeht. Nicht mehr „einmal schreiben und hoffen", sondern gezielt formulieren, Kontext liefern, iterieren (→ [Iteration](/glossar#iteration)).
+Jemand fragt nach einem Ansprechpartner in einer Behörde, nach dem genauen Wortlaut eines Gesetzes oder nach der Telefonnummer eines Unternehmens. Die Antwort klingt präzise und korrekt – und stimmt trotzdem nicht.
+
+KI-Modelle produzieren [Halluzinationen](/glossar#halluzination): Aussagen, die plausibel klingen, aber faktisch falsch sind. Dazu mehr im nächsten Modul. Wichtig hier: Der selbstsichere Ton ist kein Zeichen für Richtigkeit.
+
+**Das Modell kennt den Kontext nicht**
+
+Jemand bittet darum, eine E-Mail zu überarbeiten – ohne die E-Mail mitzuschicken. Oder fragt, wie man auf die Beschwerde eines Kunden reagieren soll – ohne zu sagen, um welchen Kunden es geht, was die Beschwerde war, oder was das Ziel der Antwort ist.
+
+KI hat keinen Zugriff auf Informationen, die man nicht explizit eingegeben hat. Sie kennt nicht den Verlauf des Projekts, nicht die Unternehmenskultur, nicht den Empfänger der E-Mail. Was nicht im [Kontext](/glossar#kontext) steht, existiert für das Modell nicht.
 
 ---
 
-*Weiter: [Wie KI eigentlich funktioniert](/kern/02-wie-ki-funktioniert)*
+## Warum es schiefgeht
+
+Diese drei Muster haben eine gemeinsame Ursache: KI-Modelle reagieren auf das, was sie eingegeben bekommen. Nicht mehr, nicht weniger.
+
+Ein Sprachmodell verarbeitet eine Eingabe und erzeugt daraus eine Ausgabe, die inhaltlich plausibel und sprachlich flüssig ist. Es hat kein Wissen über die eigene Situation, keine Möglichkeit, fehlende Informationen zu erfragen (außer wenn man das explizit verlangt), und keine Möglichkeit, auf externe Quellen zuzugreifen – außer wenn das explizit in das System integriert ist.
+
+Das bedeutet: Wenn die Eingabe unvollständig ist, füllt das Modell die Lücken mit dem, was statistisch plausibel ist. Das führt zu Texten, die gut klingen – aber am eigentlichen Bedarf vorbeigehen oder sogar falsche Informationen enthalten.
+
+Das ist kein Fehler, der behoben wird. Das ist, wie diese Technologie funktioniert.
+
+---
+
+## Was sich damit ändert
+
+Wer das versteht, hört auf zu erwarten, dass KI „einfach funktioniert", wenn man eine Frage stellt. Und fängt an, Eingaben als Aufgabe zu begreifen: Was muss ich mitgeben, damit die Ausgabe brauchbar ist?
+
+Das bedeutet nicht, dass man viel tippen muss. Es bedeutet, dass man klarer formuliert: Wofür brauche ich das Ergebnis? Für wen? In welchem Format? Mit welchem Hintergrundwissen?
+
+Und es bedeutet, dass man aufhört, ein erstes Ergebnis als endgültig zu behandeln. [Iteration](/glossar#iteration) – das gezielte Nachbessern durch Folgeprompts – ist kein Umweg. Es ist der normale Weg.
+
+Das nächste Modul erklärt, warum KI so funktioniert, wie sie funktioniert – und was man davon für die eigene Nutzung mitnehmen kann.
