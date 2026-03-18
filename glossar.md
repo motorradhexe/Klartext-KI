@@ -43,7 +43,7 @@ Mit Kontext ist gemeint, welche Informationen das KI-Modell bei der Erstellung e
 
 **Beispiel:** Wenn man fragt „Was meinst du damit?", kann das Modell nur antworten, wenn es aus dem Kontext weiß, worauf sich „damit" bezieht. Ohne diesen Kontext rät es – und liegt oft falsch.
 
-Ein häufiger Fehler: Man setzt voraus, dass das Modell Informationen kennt, die man selbst im Kopf hat, aber nicht eingegeben hat. KI kennt nur, was im Kontext steht.
+Ein häufiger Fehler: Man setzt voraus, dass das Modell Informationen kennt, die man selbst im Kopf hat, aber nicht eingegeben hat. Das Modell hat zwar umfangreiches Trainingswissen – aber nichts über die eigene Situation, das konkrete Projekt oder die Absicht hinter einer Anfrage. Was situationsspezifisch ist, muss man mitgeben.
 
 </div>
 
