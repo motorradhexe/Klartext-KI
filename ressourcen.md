@@ -2,7 +2,7 @@
 title: Kostenfreie Kurse
 description: Offizielle Lernplattformen von Anthropic, Google, Microsoft und OpenAI – kostenlos, ohne Vorkenntnisse.
 layout: default
-nav_order: 4
+nav_order: 5
 ---
 
 # Kostenfreie Kurse
