@@ -1,7 +1,192 @@
 // Eigene Klassen für Klartext KI
 // Inhalts-spezifische Stile, die Just the Docs nicht mitbringt
 
-// Intro-Absatz auf der Startseite
+// Hero-Bereich auf der Startseite
+.hero {
+  padding: 2.5rem 0 2rem;
+  margin-bottom: 2.5rem;
+  border-bottom: 2px solid $border-color;
+}
+
+.hero-kontext {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: $nav-child-link-color;
+  margin-bottom: 0.75rem;
+}
+
+.hero-these {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+  color: $body-heading-color;
+}
+
+.hero-erklaerung {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: $body-text-color;
+  max-width: 680px;
+  margin-bottom: 1.75rem;
+}
+
+.hero-cta {
+  display: inline-block;
+  padding: 0.65rem 1.4rem;
+  background-color: $link-color;
+  color: white !important;
+  border-radius: 5px;
+  text-decoration: none !important;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: opacity 0.15s;
+
+  &:hover {
+    opacity: 0.85;
+    text-decoration: none !important;
+  }
+}
+
+// Lernweg-Übersicht (3 Schritte)
+.lernweg {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 1.25rem 0 2rem;
+}
+
+.lernweg-schritt {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 1rem 1.25rem;
+  background-color: $sidebar-color;
+  border-radius: 6px;
+  border: 1px solid $border-color;
+
+  .lernweg-nr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.75rem;
+    height: 1.75rem;
+    min-width: 1.75rem;
+    border-radius: 50%;
+    background-color: $link-color;
+    color: white;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-top: 0.1rem;
+  }
+
+  p {
+    margin: 0.25rem 0 0;
+    font-size: 0.9rem;
+    color: $nav-child-link-color;
+  }
+
+  strong {
+    display: block;
+    font-size: 0.95rem;
+  }
+}
+
+// Kernmodul-Karten
+.kern-module {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin: 1.25rem 0 2rem;
+}
+
+.kern-modul {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid $border-color;
+  border-radius: 6px;
+  text-decoration: none !important;
+  color: $body-text-color !important;
+  transition: border-color 0.15s, box-shadow 0.15s;
+
+  &:hover {
+    border-color: $link-color;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  }
+
+  .kern-nr {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: $link-color;
+    white-space: nowrap;
+    padding-top: 0.2rem;
+    min-width: 3rem;
+    text-transform: uppercase;
+  }
+
+  .kern-titel {
+    display: block;
+    font-weight: 600;
+    font-size: 0.975rem;
+    margin-bottom: 0.2rem;
+    color: $body-heading-color;
+  }
+
+  .kern-beschreibung {
+    display: block;
+    font-size: 0.85rem;
+    color: $nav-child-link-color;
+    line-height: 1.5;
+  }
+}
+
+// Vertiefungs-Links (Abschnitt unten auf der Startseite)
+.vertiefung-links {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0 2rem;
+  border: 1px solid $border-color;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.vertiefung-link {
+  display: block;
+  padding: 0.75rem 1.25rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+  border-bottom: 1px solid $border-color;
+  color: $body-text-color !important;
+  transition: background-color 0.1s;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &::after {
+    content: " →";
+    color: $link-color;
+  }
+
+  &:hover {
+    background-color: $sidebar-color;
+    text-decoration: none !important;
+  }
+}
+
+// Meta-Links (Glossar, Ressourcen) am Seitenende
+.meta-links {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+// Intro-Absatz auf der Startseite (Compat)
 .intro {
   font-size: 1.15rem;
   line-height: 1.7;

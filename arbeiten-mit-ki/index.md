@@ -8,8 +8,11 @@ has_children: true
 
 # Mit KI arbeiten
 
-Fünf Lernpfade, die unabhängig voneinander funktionieren. Jeder behandelt eine konkrete Aufgabe: Schreiben, Verstehen, Strukturieren, Entwickeln, Erklären.
+Sieben Lernpfade, die unabhängig voneinander funktionieren. Jeder behandelt eine konkrete Aufgabe: Schreiben, Verstehen, Strukturieren, Entwickeln, Erklären, Recherchieren, Zusammenfassen.
 
-Jeder Lernpfad zeigt, wofür KI hier taugt – und wofür nicht. Mit Methode, typischen Fehlern und einem Vorher/Nachher-Beispiel.
+Jeder Lernpfad hat drei Unterseiten:
+- **Methode** – wie man vorgeht, welche Angaben wichtig sind, was typischerweise schiefgeht
+- **Beispiele** – drei konkrete Vorher/Nachher-Prompts mit Erklärung
+- **Übungen** – aktive Aufgaben mit Anleitung, die man sofort ausprobieren kann
 
 Die Reihenfolge spielt keine Rolle. Anfangen mit dem, was gerade gebraucht wird.
