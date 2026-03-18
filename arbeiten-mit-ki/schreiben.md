@@ -31,6 +31,8 @@ Texte, die KI vollständig ohne inhaltliche Vorgaben schreibt, klingen oft nach 
 
 **[Beispiele: Vorher / Nachher für verschiedene Szenarien](schreiben/beispiele)** – Drei konkrete Schreibsituationen mit je einem schwachen und einem starken Prompt – und der Erklärung, warum der Unterschied so groß ist.
 
+**[Übungen: Selbst ausprobieren und verbessern](schreiben/ueben)** – Drei aktive Übungen mit Anleitung: einen schwachen Prompt verbessern, eine eigene Schreibaufgabe strukturieren, aus einem generischen Entwurf etwas Konkretes machen.
+
 ---
 
 ## Zum Einstieg ausprobieren

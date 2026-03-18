@@ -31,6 +31,8 @@ Und: KI kennt die eigene Zielgruppe nicht. Wie viel die Zuhörenden schon wissen
 
 **[Beispiele: Vorher / Nachher für verschiedene Erklärungssituationen](erklaeren/beispiele)** – Drei Szenarien: technisches Konzept für Nicht-Techniker, Übergabedokument, Präsentation für Entscheider – mit je einem schwachen und einem starken Prompt.
 
+**[Übungen: Erklärungen schärfen und testen](erklaeren/ueben)** – Drei aktive Übungen: dieselbe Erklärung für zwei verschiedene Zielgruppen formulieren, eine Übergabe vorbereiten, eine Erklärung auf ihre Wirkung testen.
+
 ---
 
 ## Zum Einstieg ausprobieren

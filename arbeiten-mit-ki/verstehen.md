@@ -31,6 +31,8 @@ KI ersetzt keine Fachliteratur und keinen Experten. Sie ist ein guter erster Sch
 
 **[Beispiele: Vorher / Nachher für verschiedene Lernszenarien](verstehen/beispiele)** – Drei Situationen, in denen KI beim Verstehen hilft – und wie man die Eingabe so gestaltet, dass die Erklärung tatsächlich passt.
 
+**[Übungen: Selbst durcharbeiten und prüfen](verstehen/ueben)** – Drei aktive Übungen: ein schwieriges Thema im Dialog erschließen, einen Text abschnittsweise verstehen, das eigene Verständnis mit dem Feynman-Prinzip testen.
+
 ---
 
 ## Zum Einstieg ausprobieren

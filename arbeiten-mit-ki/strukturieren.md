@@ -31,6 +31,8 @@ KI ist besonders nützlich als erster Schritt, wenn man nicht weiß, wo man anfa
 
 **[Beispiele: Vorher / Nachher für verschiedene Strukturierungsaufgaben](strukturieren/beispiele)** – Drei Szenarien: Schulungsplanung, Entscheidungsvorbereitung, Projektgliederung – mit je einem schwachen und einem starken Prompt.
 
+**[Übungen: Strukturieren in der Praxis](strukturieren/ueben)** – Drei aktive Übungen: ungeordnetes Material sortieren lassen, eine echte Entscheidung strukturieren, eine Gliederung in drei Iterationsschritten verbessern.
+
 ---
 
 ## Zum Einstieg ausprobieren

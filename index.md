@@ -98,6 +98,14 @@ Fünf Lernpfade, unabhängig voneinander. Jeder erklärt, wie man in einem besti
     <span class="pfad-link-titel">Erklären</span>
     <span class="pfad-link-beschreibung">Präsentationen, Übergaben und Erklärungen vorbereiten, die bei der Zielgruppe ankommen.</span>
   </a>
+  <a href="arbeiten-mit-ki/recherchieren" class="pfad-link">
+    <span class="pfad-link-titel">Recherchieren</span>
+    <span class="pfad-link-beschreibung">KI als Einstieg in unbekannte Themen nutzen – mit dem richtigen Umgang mit Plausibilität und Verifikation.</span>
+  </a>
+  <a href="arbeiten-mit-ki/zusammenfassen" class="pfad-link">
+    <span class="pfad-link-titel">Zusammenfassen</span>
+    <span class="pfad-link-beschreibung">Lange Texte, Meetings und Dokumente auf das Wesentliche reduzieren – für die richtige Zielgruppe, im richtigen Format.</span>
+  </a>
 </div>
 
 ---

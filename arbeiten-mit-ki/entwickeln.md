@@ -31,6 +31,8 @@ KI-generierter Code kann syntaktisch korrekt sein und trotzdem nicht das tun, wa
 
 **[Beispiele: Vorher / Nachher für verschiedene Entwicklungsaufgaben](entwickeln/beispiele)** – Drei Szenarien: Funktion schreiben, fremden Code verstehen, Fehler beheben – mit je einem schwachen und einem starken Prompt und der Erklärung des Unterschieds.
 
+**[Übungen: Code lesen, testen, verbessern](entwickeln/ueben)** – Drei aktive Übungen: fremden Code erschließen, eine Funktion auf Schwächen testen, eine Fehlermeldung systematisch debuggen.
+
 ---
 
 ## Zum Einstieg ausprobieren
