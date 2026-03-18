@@ -11,7 +11,7 @@ Hier sind alle Begriffe erklärt, die im Projekt vorkommen. Wer einen Begriff zu
 
 ---
 
-<div class="glossar-eintrag" id="prompt">
+<div class="glossar-eintrag" id="prompt" markdown="1">
 
 ## Prompt
 
@@ -23,7 +23,7 @@ Der Prompt ist entscheidend für die Qualität der Antwort. Dasselbe Modell lief
 
 </div>
 
-<div class="glossar-eintrag" id="token">
+<div class="glossar-eintrag" id="token" markdown="1">
 
 ## Token
 
@@ -35,7 +35,7 @@ Warum ist das relevant? Weil KI-Modelle eine begrenzte Anzahl von Token auf einm
 
 </div>
 
-<div class="glossar-eintrag" id="kontext">
+<div class="glossar-eintrag" id="kontext" markdown="1">
 
 ## Kontext
 
@@ -43,11 +43,11 @@ Mit Kontext ist gemeint, welche Informationen das KI-Modell bei der Erstellung e
 
 **Beispiel:** Wenn man fragt „Was meinst du damit?", kann das Modell nur antworten, wenn es aus dem Kontext weiß, worauf sich „damit" bezieht. Ohne diesen Kontext rät es – und liegt oft falsch.
 
-Ein häufiger Fehler: Man setzt voraus, dass das Modell Informationen kennt, die man selbst im Kopf hat, aber nicht eingegeben hat. KI kennt nur, was im Kontext steht.
+Ein häufiger Fehler: Man setzt voraus, dass das Modell Informationen kennt, die man selbst im Kopf hat, aber nicht eingegeben hat. Das Modell hat zwar umfangreiches Trainingswissen – aber nichts über die eigene Situation, das konkrete Projekt oder die Absicht hinter einer Anfrage. Was situationsspezifisch ist, muss man mitgeben.
 
 </div>
 
-<div class="glossar-eintrag" id="sprachmodell">
+<div class="glossar-eintrag" id="sprachmodell" markdown="1">
 
 ## Sprachmodell
 
@@ -59,7 +59,7 @@ Der Begriff „Sprachmodell" betont, dass diese Systeme auf Sprache spezialisier
 
 </div>
 
-<div class="glossar-eintrag" id="training">
+<div class="glossar-eintrag" id="training" markdown="1">
 
 ## Training
 
@@ -71,7 +71,7 @@ Training ist kein Lernen im menschlichen Sinne. Das Modell merkt sich keine Gesp
 
 </div>
 
-<div class="glossar-eintrag" id="kontextfenster">
+<div class="glossar-eintrag" id="kontextfenster" markdown="1">
 
 ## Kontextfenster
 
@@ -83,7 +83,7 @@ Die Größe des Kontextfensters unterscheidet sich je nach Modell. Für die meis
 
 </div>
 
-<div class="glossar-eintrag" id="modell">
+<div class="glossar-eintrag" id="modell" markdown="1">
 
 ## Modell
 
@@ -95,7 +95,7 @@ Für die meisten Anwendungen ist die Modellwahl weniger entscheidend als die Qua
 
 </div>
 
-<div class="glossar-eintrag" id="halluzination">
+<div class="glossar-eintrag" id="halluzination" markdown="1">
 
 ## Halluzination
 
@@ -107,7 +107,7 @@ Halluzinationen entstehen, weil Modelle keine Fakten abrufen, sondern Wahrschein
 
 </div>
 
-<div class="glossar-eintrag" id="iteration">
+<div class="glossar-eintrag" id="iteration" markdown="1">
 
 ## Iteration
 
@@ -119,7 +119,7 @@ Wer erwartet, dass ein erster Prompt das perfekte Ergebnis liefert, wird häufig
 
 </div>
 
-<div class="glossar-eintrag" id="ausgabe">
+<div class="glossar-eintrag" id="ausgabe" markdown="1">
 
 ## Ausgabe
 
@@ -131,7 +131,7 @@ Die Ausgabe hängt vollständig vom Prompt und vom Kontext ab. Keine Ausgabe ist
 
 </div>
 
-<div class="glossar-eintrag" id="agent">
+<div class="glossar-eintrag" id="agent" markdown="1">
 
 ## Agent
 
@@ -145,7 +145,7 @@ Der Unterschied zur normalen KI-Nutzung: Man gibt nicht jede Zwischenfrage ein. 
 
 </div>
 
-<div class="glossar-eintrag" id="rag">
+<div class="glossar-eintrag" id="rag" markdown="1">
 
 ## RAG
 
@@ -159,7 +159,7 @@ RAG ermöglicht es, KI auf spezifische, aktuelle oder interne Wissensbestände a
 
 </div>
 
-<div class="glossar-eintrag" id="mcp">
+<div class="glossar-eintrag" id="mcp" markdown="1">
 
 ## MCP
 
@@ -173,7 +173,7 @@ MCP wurde von Anthropic entwickelt und ist offen: andere Hersteller und Entwickl
 
 </div>
 
-<div class="glossar-eintrag" id="framework">
+<div class="glossar-eintrag" id="framework" markdown="1">
 
 ## Framework
 
@@ -185,7 +185,7 @@ Der Unterschied zu einer Bibliothek (auch: Library): Eine Bibliothek stellt einz
 
 </div>
 
-<div class="glossar-eintrag" id="import">
+<div class="glossar-eintrag" id="import" markdown="1">
 
 ## Import
 
@@ -197,7 +197,7 @@ Für KI relevant: Wenn man Code schreiben lässt, ohne die vorhandenen Imports a
 
 </div>
 
-<div class="glossar-eintrag" id="docstring">
+<div class="glossar-eintrag" id="docstring" markdown="1">
 
 ## Docstring
 

@@ -39,7 +39,7 @@ Eine Erklärung ist erst gut, wenn die andere Person sie versteht – nicht wenn
 3. Lies das Ergebnis. Was fehlt, was du selbst weißt, aber nicht in den Prompt gegeben hast?
 4. Ergänze diese Informationen durch einen Folgeprompt oder direkt im Dokument.
 
-**Wichtig:** KI kennt nur, was du mitgibst. Was du weißt, aber nicht eingetippt hast, fehlt im Dokument. Das ist keine Schwäche des Modells – es ist eine Erinnerung daran, was in einer Übergabe explizit werden muss.
+**Wichtig:** Das Modell kennt keine situationsspezifischen Details, die man nicht mitgibt. Was du über das Projekt, den Empfänger oder den Hintergrund weißt, aber nicht eingetippt hast, fehlt im Dokument. Das ist keine Schwäche des Modells – es ist eine Erinnerung daran, was in einer Übergabe explizit werden muss.
 
 ---
 
