@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<article class="modul">
+
+  <header class="modul-header">
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}<p class="modul-description">{{ page.description }}</p>{% endif %}
+  </header>
+
+  <div class="modul-content">
+    {{ content }}
+  </div>
+
+  <nav class="modul-nav" aria-label="Modulnavigation">
+    <div class="modul-nav-prev">
+      {% if page.prev_url %}
+        <a href="{{ page.prev_url | relative_url }}">← {{ page.prev_title }}</a>
+      {% endif %}
+    </div>
+    <div class="modul-nav-next">
+      {% if page.next_url %}
+        <a href="{{ page.next_url | relative_url }}">{{ page.next_title }} →</a>
+      {% endif %}
+    </div>
+  </nav>
+
+</article>

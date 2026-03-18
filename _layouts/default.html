@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} – {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+
+  <header>
+    <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
+  </header>
+
+  <nav aria-label="Hauptnavigation">
+    <div class="nav-section">
+      <span class="nav-label">Grundlagen</span>
+      <ul>
+        <li><a href="{{ '/kern/01-warum-ki-enttaeuscht' | relative_url }}">Warum KI enttäuscht</a></li>
+        <li><a href="{{ '/kern/02-wie-ki-funktioniert' | relative_url }}">Wie KI funktioniert</a></li>
+        <li><a href="{{ '/kern/03-kontext-ist-alles' | relative_url }}">Kontext ist alles</a></li>
+      </ul>
+    </div>
+    <div class="nav-section">
+      <span class="nav-label">Mit KI arbeiten</span>
+      <ul>
+        <li><a href="{{ '/arbeiten-mit-ki/schreiben' | relative_url }}">Schreiben</a></li>
+        <li><a href="{{ '/arbeiten-mit-ki/verstehen' | relative_url }}">Verstehen</a></li>
+        <li><a href="{{ '/arbeiten-mit-ki/strukturieren' | relative_url }}">Strukturieren</a></li>
+        <li><a href="{{ '/arbeiten-mit-ki/entwickeln' | relative_url }}">Entwickeln</a></li>
+        <li><a href="{{ '/arbeiten-mit-ki/erklaeren' | relative_url }}">Erklären</a></li>
+      </ul>
+    </div>
+    <div class="nav-section">
+      <ul>
+        <li><a href="{{ '/glossar' | relative_url }}">Glossar</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>Inhalte: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> &nbsp;·&nbsp; Code: MIT &nbsp;·&nbsp; <a href="https://github.com/motorradhexe/Klartext-KI">GitHub</a></p>
+  </footer>
+
+</body>
+</html>
