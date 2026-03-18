@@ -1,8 +1,9 @@
 ---
 title: RAG – Retrieval-Augmented Generation
 description: Wie KI auf eigene Wissensbestände zugreift, ohne alles in den Kontext laden zu müssen.
-layout: modul
-nav_order: 32
+layout: default
+parent: Vertiefung
+nav_order: 2
 ---
 
 # RAG – Retrieval-Augmented Generation

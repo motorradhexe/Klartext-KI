@@ -1,8 +1,9 @@
 ---
 title: Mit KI strukturieren
 description: Wie man mit KI Ideen ordnet, Entscheidungen vorbereitet und Komplexes gliedert.
-layout: modul
-nav_order: 12
+layout: default
+parent: Mit KI arbeiten
+nav_order: 3
 ---
 
 # Mit KI strukturieren

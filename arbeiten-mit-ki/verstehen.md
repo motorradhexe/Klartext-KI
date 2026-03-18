@@ -1,8 +1,9 @@
 ---
 title: Mit KI verstehen
 description: Wie man KI nutzt, um komplexe Themen zu durchdringen – und wo man aufpassen muss.
-layout: modul
-nav_order: 11
+layout: default
+parent: Mit KI arbeiten
+nav_order: 2
 ---
 
 # Mit KI verstehen

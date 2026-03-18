@@ -1,8 +1,9 @@
 ---
 title: Mit KI erklären
 description: Wie man mit KI Präsentationen, Übergaben und Erklärungen vorbereitet.
-layout: modul
-nav_order: 14
+layout: default
+parent: Mit KI arbeiten
+nav_order: 5
 ---
 
 # Mit KI erklären

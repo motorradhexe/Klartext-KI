@@ -1,10 +1,9 @@
 ---
 title: Kontext ist alles
 description: Warum die Eingabe entscheidender ist als das Modell – und wie man Kontext bewusst gestaltet.
-layout: modul
+layout: default
+parent: Kernmodule
 nav_order: 3
-prev_url: /kern/02-wie-ki-funktioniert
-prev_title: Wie KI funktioniert
 ---
 
 # Kontext ist alles

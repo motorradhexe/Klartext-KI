@@ -1,8 +1,9 @@
 ---
 title: KI-Agents
 description: Was Agents sind, wie sie funktionieren und wo ihre Grenzen liegen.
-layout: modul
-nav_order: 30
+layout: default
+parent: Vertiefung
+nav_order: 1
 ---
 
 # KI-Agents

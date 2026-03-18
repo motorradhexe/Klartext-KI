@@ -1,10 +1,9 @@
 ---
 title: Warum KI oft enttäuscht
 description: Die häufigsten Gründe, warum KI-Ergebnisse enttäuschen – und was dahintersteckt.
-layout: modul
+layout: default
+parent: Kernmodule
 nav_order: 1
-next_url: /kern/02-wie-ki-funktioniert
-next_title: Wie KI funktioniert
 ---
 
 # Warum KI oft enttäuscht

@@ -1,8 +1,9 @@
 ---
 title: Mit KI schreiben
 description: Wie man mit KI Texte, Mails und Dokumentation erarbeitet – und wo die Grenzen liegen.
-layout: modul
-nav_order: 10
+layout: default
+parent: Mit KI arbeiten
+nav_order: 1
 ---
 
 # Mit KI schreiben

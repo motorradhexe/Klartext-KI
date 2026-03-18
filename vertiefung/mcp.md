@@ -1,8 +1,9 @@
 ---
 title: MCP – Model Context Protocol
 description: Wie KI mit externen Werkzeugen und Datenquellen verbunden wird – und was MCP dabei ist.
-layout: modul
-nav_order: 31
+layout: default
+parent: Vertiefung
+nav_order: 3
 ---
 
 # MCP – Model Context Protocol

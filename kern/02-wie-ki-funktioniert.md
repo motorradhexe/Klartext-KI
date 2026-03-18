@@ -1,12 +1,9 @@
 ---
 title: Wie KI eigentlich funktioniert
 description: Das Minimum, das man verstehen muss, um KI produktiv einzusetzen.
-layout: modul
+layout: default
+parent: Kernmodule
 nav_order: 2
-prev_url: /kern/01-warum-ki-enttaeuscht
-prev_title: Warum KI enttäuscht
-next_url: /kern/03-kontext-ist-alles
-next_title: Kontext ist alles
 ---
 
 # Wie KI eigentlich funktioniert

@@ -2,7 +2,7 @@
 title: Glossar
 description: Alle Fachbegriffe, die im Projekt vorkommen – erklärt ohne Vorwissen.
 layout: default
-nav_order: 99
+nav_order: 5
 ---
 
 # Glossar

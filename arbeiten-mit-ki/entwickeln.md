@@ -1,8 +1,9 @@
 ---
 title: Mit KI entwickeln
 description: Wie man mit KI Code versteht, schreibt und überprüft – auch ohne tiefes Programmierwissen.
-layout: modul
-nav_order: 13
+layout: default
+parent: Mit KI arbeiten
+nav_order: 4
 ---
 
 # Mit KI entwickeln
