@@ -10,31 +10,40 @@
 <body>
 
   <header>
-    <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
+    <a href="{{ '/' | relative_url }}" class="site-title">Klartext <span class="ki">KI</span></a>
   </header>
 
   <nav aria-label="Hauptnavigation">
     <div class="nav-section">
       <span class="nav-label">Grundlagen</span>
       <ul>
-        <li><a href="{{ '/kern/01-warum-ki-enttaeuscht' | relative_url }}">Warum KI enttäuscht</a></li>
-        <li><a href="{{ '/kern/02-wie-ki-funktioniert' | relative_url }}">Wie KI funktioniert</a></li>
-        <li><a href="{{ '/kern/03-kontext-ist-alles' | relative_url }}">Kontext ist alles</a></li>
+        <li><a href="{{ '/kern/01-warum-ki-enttaeuscht' | relative_url }}"{% if page.url contains '/kern/01' %} class="aktiv"{% endif %}>Warum KI enttäuscht</a></li>
+        <li><a href="{{ '/kern/02-wie-ki-funktioniert' | relative_url }}"{% if page.url contains '/kern/02' %} class="aktiv"{% endif %}>Wie KI funktioniert</a></li>
+        <li><a href="{{ '/kern/03-kontext-ist-alles' | relative_url }}"{% if page.url contains '/kern/03' %} class="aktiv"{% endif %}>Kontext ist alles</a></li>
       </ul>
     </div>
     <div class="nav-section">
       <span class="nav-label">Mit KI arbeiten</span>
       <ul>
-        <li><a href="{{ '/arbeiten-mit-ki/schreiben' | relative_url }}">Schreiben</a></li>
-        <li><a href="{{ '/arbeiten-mit-ki/verstehen' | relative_url }}">Verstehen</a></li>
-        <li><a href="{{ '/arbeiten-mit-ki/strukturieren' | relative_url }}">Strukturieren</a></li>
-        <li><a href="{{ '/arbeiten-mit-ki/entwickeln' | relative_url }}">Entwickeln</a></li>
-        <li><a href="{{ '/arbeiten-mit-ki/erklaeren' | relative_url }}">Erklären</a></li>
+        <li><a href="{{ '/arbeiten-mit-ki/schreiben' | relative_url }}"{% if page.url contains '/schreiben' %} class="aktiv"{% endif %}>Schreiben</a></li>
+        <li><a href="{{ '/arbeiten-mit-ki/verstehen' | relative_url }}"{% if page.url contains '/verstehen' %} class="aktiv"{% endif %}>Verstehen</a></li>
+        <li><a href="{{ '/arbeiten-mit-ki/strukturieren' | relative_url }}"{% if page.url contains '/strukturieren' %} class="aktiv"{% endif %}>Strukturieren</a></li>
+        <li><a href="{{ '/arbeiten-mit-ki/entwickeln' | relative_url }}"{% if page.url contains '/entwickeln' %} class="aktiv"{% endif %}>Entwickeln</a></li>
+        <li><a href="{{ '/arbeiten-mit-ki/erklaeren' | relative_url }}"{% if page.url contains '/erklaeren' %} class="aktiv"{% endif %}>Erklären</a></li>
+      </ul>
+    </div>
+    <div class="nav-section">
+      <span class="nav-label">Vertiefung</span>
+      <ul>
+        <li><a href="{{ '/vertiefung/agents' | relative_url }}"{% if page.url contains '/agents' %} class="aktiv"{% endif %}>Agents</a></li>
+        <li><a href="{{ '/vertiefung/rag' | relative_url }}"{% if page.url contains '/rag' %} class="aktiv"{% endif %}>RAG</a></li>
+        <li><a href="{{ '/vertiefung/mcp' | relative_url }}"{% if page.url contains '/mcp' %} class="aktiv"{% endif %}>MCP</a></li>
       </ul>
     </div>
     <div class="nav-section">
       <ul>
-        <li><a href="{{ '/glossar' | relative_url }}">Glossar</a></li>
+        <li><a href="{{ '/glossar' | relative_url }}"{% if page.url contains '/glossar' %} class="aktiv"{% endif %}>Glossar</a></li>
+        <li><a href="{{ '/ressourcen' | relative_url }}"{% if page.url contains '/ressourcen' %} class="aktiv"{% endif %}>Ressourcen</a></li>
       </ul>
     </div>
   </nav>
