@@ -23,7 +23,7 @@ Außerdem: KI-generierter Code kann syntaktisch korrekt sein und trotzdem nicht 
 
 ## 2. Wie geht man es an?
 
-**Sprache und Umgebung angeben.** „Schreib eine Funktion" ist kein ausreichender Startpunkt. Welche Sprache? Welche Version? Welches Framework? Läuft der Code in einer bestimmten Umgebung? Das Modell trifft sonst Annahmen – und die stimmen manchmal nicht.
+**Sprache und Umgebung angeben.** „Schreib eine Funktion" ist kein ausreichender Startpunkt. Welche Sprache? Welche Version? Welches [Framework](/glossar#framework) (also das Grundgerüst, auf dem die Anwendung aufbaut – z. B. Django oder Flask bei Python)? Läuft der Code in einer bestimmten Umgebung? Das Modell trifft sonst Annahmen – und die stimmen manchmal nicht.
 
 **Bestehenden Code mitgeben.** Wenn man eine Funktion erweitern, einen Fehler beheben oder Code umbauen will, gehört der betroffene Code in den [Kontext](/glossar#kontext). Das Modell kann nicht erraten, wie die Umgebung aussieht. Mit dem Code vor Augen kann es konkret und korrekt antworten.
 
@@ -39,7 +39,7 @@ Außerdem: KI-generierter Code kann syntaktisch korrekt sein und trotzdem nicht 
 
 **Fehlende Randfälle.** Ein Prompt wie „Schreib eine Funktion, die eine Zahl durch eine andere teilt" liefert eine Funktion, die das tut – aber vermutlich keine Behandlung für den Fall, dass der Divisor null ist. Was nicht im Prompt steht, wird nicht bedacht. Wer produktiven Code schreibt, muss diese Lücken selbst schließen.
 
-**Keine Angabe der Umgebung.** „Ich benutze Python 3.9 und das Framework FastAPI, hier ist meine bestehende Route" ist ein anderer Ausgangspunkt als „Schreib Python-Code". Das Modell weiß ohne diese Angaben nicht, welche Imports schon existieren, welche Konventionen gelten oder welche Einschränkungen es gibt.
+**Keine Angabe der Umgebung.** „Ich benutze Python 3.9 und das Framework FastAPI, hier ist meine bestehende Route" ist ein anderer Ausgangspunkt als „Schreib Python-Code". Das Modell weiß ohne diese Angaben nicht, welche [Imports](/glossar#import) (also welche Zusatz-Bausteine bereits im Code eingebunden sind) schon existieren, welche Konventionen gelten oder welche Einschränkungen es gibt.
 
 **[Iteration](/glossar#iteration) als Versagen missverstanden.** Wenn das erste Ergebnis nicht passt, ist das kein Fehler. Es bedeutet, dass der Prompt oder die Anforderung nicht vollständig war. Folgeprompts – „Das funktioniert, aber es soll auch den Fall X behandeln" oder „Hier ist die Fehlermeldung, die ich bekomme" – sind der normale Weg zu funktionierendem Code.
 
@@ -53,7 +53,9 @@ Außerdem: KI-generierter Code kann syntaktisch korrekt sein und trotzdem nicht 
 Das Modell fragt entweder nach oder schreibt ein generisches Beispiel – eine Funktion, die zwei Zahlen addiert oder einen Namen ausgibt. Nicht falsch, aber für niemanden nützlich.
 
 **Eingabe 2:**
-„Ich arbeite in Python 3.11. Schreib eine Funktion `sortiere_personen`, die eine Liste von Dictionaries entgegennimmt. Jedes Dictionary hat die Schlüssel `name` (String) und `alter` (Integer). Die Funktion gibt die Liste sortiert nach `alter` zurück, aufsteigend. Wenn zwei Personen dasselbe Alter haben, soll nach `name` alphabetisch sortiert werden. Füge einen Docstring hinzu."
+„Ich arbeite in Python 3.11. Schreib eine Funktion `sortiere_personen`, die eine Liste von Dictionaries entgegennimmt. Jedes Dictionary hat die Schlüssel `name` (String) und `alter` (Integer). Die Funktion gibt die Liste sortiert nach `alter` zurück, aufsteigend. Wenn zwei Personen dasselbe Alter haben, soll nach `name` alphabetisch sortiert werden. Füge einen [Docstring](/glossar#docstring) hinzu."
+
+Ein Dictionary ist in Python eine strukturierte Datensammlung – zum Beispiel `{"name": "Max", "alter": 30}`. String bedeutet Text, Integer bedeutet ganze Zahl. Ein Docstring ist ein eingebetteter Kommentar direkt in der Funktion, der erklärt, was sie tut.
 
 Diese Eingabe gibt die Sprache, die Funktion, die Eingabestruktur, das Ausgabeformat, den Hauptfall und den Randfall vor. Das Modell kann jetzt genau das schreiben, was gebraucht wird.
 

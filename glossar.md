@@ -172,3 +172,44 @@ MCP wurde von Anthropic entwickelt und ist offen: andere Hersteller und Entwickl
 → Ausführliche Erklärung: [MCP](/vertiefung/mcp)
 
 </div>
+
+<div class="glossar-eintrag" id="framework">
+
+## Framework
+
+Ein Framework (auf Deutsch: Grundgerüst oder Rahmenwerk) ist eine fertige Sammlung von Code-Bausteinen, die eine bestimmte Art von Anwendung strukturieren. Wer eine Web-Anwendung baut, muss nicht alles von Null anfangen: Ein Framework übernimmt zum Beispiel grundlegende Aufgaben wie das Empfangen von Anfragen, das Weiterleiten zu verschiedenen Seiten oder die Verwaltung von Nutzerdaten.
+
+**Beispiel:** Django und Flask sind bekannte Python-Frameworks für Webanwendungen. Wer Django nutzt, baut auf einem bestimmten Grundgerüst auf – das Modell muss das wissen, damit der Code dazu passt.
+
+Der Unterschied zu einer Bibliothek (auch: Library): Eine Bibliothek stellt einzelne Werkzeuge bereit, die man bei Bedarf aufruft. Ein Framework gibt die Struktur vor, in die man eigenen Code einfügt.
+
+</div>
+
+<div class="glossar-eintrag" id="import">
+
+## Import
+
+Mit einem Import bindet man in einer Programmdatei Code ein, der woanders definiert ist – zum Beispiel eine fertige Funktionssammlung (Bibliothek) oder ein anderes Modul des eigenen Projekts. Imports stehen meist am Anfang einer Datei und geben an, welche externen Bausteine der Code verwendet.
+
+**Beispiel:** `import datetime` in Python bindet die eingebaute Datumsfunktion ein. Danach kann man sie im Code nutzen – ohne sie selbst schreiben zu müssen.
+
+Für KI relevant: Wenn man Code schreiben lässt, ohne die vorhandenen Imports anzugeben, kann das Modell Funktionen verwenden, die im Projekt gar nicht eingebunden sind – und der Code funktioniert dann nicht.
+
+</div>
+
+<div class="glossar-eintrag" id="docstring">
+
+## Docstring
+
+Ein Docstring (von: Documentation String) ist ein Kommentar in einem festgelegten Format, der direkt in einer Funktion oder einem Modul steht und erklärt, was dieser Code tut, welche Eingaben er erwartet und was er zurückgibt. In Python wird er mit dreifachen Anführungszeichen geschrieben.
+
+**Beispiel:**
+```python
+def sortiere_personen(personen):
+    """Sortiert eine Liste von Personen nach Alter, dann nach Name."""
+    ...
+```
+
+Docstrings sind für Menschen gedacht, nicht für den Computer – der ignoriert sie beim Ausführen. Sie helfen, Code verständlich zu halten, auch wenn man ihn Wochen später wieder liest. Viele Werkzeuge lesen Docstrings aus, um automatisch Dokumentation zu erzeugen.
+
+</div>
