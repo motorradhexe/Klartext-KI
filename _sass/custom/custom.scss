@@ -1,0 +1,74 @@
+// Eigene Klassen für Klartext KI
+// Inhalts-spezifische Stile, die Just the Docs nicht mitbringt
+
+// Intro-Absatz auf der Startseite
+.intro {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+// Lernpfad-Karten-Übersicht
+.pfade-uebersicht {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.pfad-link {
+  display: block;
+  padding: 1rem 1.25rem;
+  border: 1px solid $border-color;
+  border-radius: 6px;
+  text-decoration: none;
+  color: $body-text-color;
+  transition: border-color 0.15s, box-shadow 0.15s;
+
+  &:hover {
+    border-color: $link-color;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    text-decoration: none;
+    color: $body-text-color;
+
+    .pfad-link-titel::after {
+      transform: translateX(3px);
+    }
+  }
+}
+
+.pfad-link-titel {
+  font-weight: 600;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.35rem;
+
+  &::after {
+    content: "→";
+    transition: transform 0.15s;
+    display: inline-block;
+  }
+}
+
+.pfad-link-beschreibung {
+  font-size: 0.875rem;
+  color: $nav-child-link-color;
+  line-height: 1.5;
+}
+
+// Glossar-Einträge
+.glossar-eintrag {
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid $border-color;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  h2 {
+    margin-bottom: 0.5rem;
+  }
+}

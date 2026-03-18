@@ -3,10 +3,11 @@ description: >-
   Ein deutschsprachiges Lernprojekt für Menschen, die KI bereits ausprobiert haben –
   aber enttäuscht waren. Konkrete Erklärungen, warum KI oft nicht funktioniert
   und wie man besser damit arbeitet.
-baseurl: ""
-url: ""
+baseurl: /Klartext-KI
+url: "https://motorradhexe.github.io"
 
-theme: null
+remote_theme: just-the-docs/just-the-docs
+color_scheme: light
 
 markdown: kramdown
 kramdown:
@@ -20,4 +21,10 @@ exclude:
   - vendor/
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-seo-tag
+
+search_enabled: true
+
+# Seitenstruktur
+nav_sort: order

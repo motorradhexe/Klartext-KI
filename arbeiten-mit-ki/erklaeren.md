@@ -1,8 +1,9 @@
 ---
 title: Mit KI erklären
 description: Wie man mit KI Präsentationen, Übergaben und Erklärungen vorbereitet.
-layout: modul
-nav_order: 14
+layout: default
+parent: Mit KI arbeiten
+nav_order: 5
 ---
 
 # Mit KI erklären
@@ -21,7 +22,7 @@ Was KI nicht ersetzen kann: das eigene Verständnis des Themas. Wer etwas selbst
 
 ## 2. Wie geht man es an?
 
-Drei Angaben machen jeden Erklärungs-[Prompt](/glossar#prompt) besser:
+Drei Angaben machen jeden Erklärungs-[Prompt](../glossar#prompt) besser:
 
 **Was soll erklärt werden?** Nicht das Thema allgemein, sondern der konkrete Aspekt. „Was eine API ist" ist weniger präzise als „warum zwei Softwaresysteme eine gut dokumentierte API brauchen und was ohne das schiefgehen kann".
 
@@ -37,11 +38,11 @@ Zusätzlich hilfreich: Analogien explizit anfragen. „Benutze eine Analogie aus
 
 **Die Zielgruppe nicht beschrieben.** KI schreibt für ein mittleres Bildungsniveau und mittleres Vorwissen, wenn man nichts anderes sagt. Das passt selten genau. Für jemanden ohne Fachkenntnisse ist es zu voraussetzungsreich, für Fachleute zu oberflächlich.
 
-**Den eigenen [Kontext](/glossar#kontext) nicht mitgegeben.** „Erkläre mir, was eine Übergabe enthält" liefert eine allgemeine Antwort. „Ich übergebe eine laufende Kundenbeziehung an eine Kollegin, die die Branche kennt, aber den Kunden nicht – was gehört in das Übergabedokument?" liefert etwas Nützliches.
+**Den eigenen [Kontext](../glossar#kontext) nicht mitgegeben.** „Erkläre mir, was eine Übergabe enthält" liefert eine allgemeine Antwort. „Ich übergebe eine laufende Kundenbeziehung an eine Kollegin, die die Branche kennt, aber den Kunden nicht – was gehört in das Übergabedokument?" liefert etwas Nützliches.
 
 **Zu viel auf einmal erklärt.** Eine Erklärung, die zu viele Aspekte abdeckt, erklärt am Ende keinen davon richtig. Wenn man mehrere Punkte erklären muss, ist es besser, das Modell einen nach dem anderen ausarbeiten zu lassen – und dann zu entscheiden, welche Tiefe für die Zielgruppe richtig ist.
 
-**Das Ergebnis ohne Prüfung eingesetzt.** KI formuliert gut. Aber der Inhalt kommt von einem Modell, das [halluzinieren](/glossar#halluzination) kann. Wer eine Erklärung für andere erstellt, muss sicherstellen, dass die inhaltlichen Aussagen stimmen – besonders wenn sie für eine Entscheidung relevant sind.
+**Das Ergebnis ohne Prüfung eingesetzt.** KI formuliert gut. Aber der Inhalt kommt von einem Modell, das [halluzinieren](../glossar#halluzination) kann. Wer eine Erklärung für andere erstellt, muss sicherstellen, dass die inhaltlichen Aussagen stimmen – besonders wenn sie für eine Entscheidung relevant sind.
 
 ---
 

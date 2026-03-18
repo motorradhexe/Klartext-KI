@@ -1,10 +1,9 @@
 ---
 title: Kontext ist alles
 description: Warum die Eingabe entscheidender ist als das Modell – und wie man Kontext bewusst gestaltet.
-layout: modul
+layout: default
+parent: Kernmodule
 nav_order: 3
-prev_url: /kern/02-wie-ki-funktioniert
-prev_title: Wie KI funktioniert
 ---
 
 # Kontext ist alles
@@ -17,7 +16,7 @@ Nicht vom Modell. Nicht vom Glück. Von der Eingabe.
 
 ## Was Kontext ist
 
-[Kontext](/glossar#kontext) ist alles, was das Modell beim Erstellen einer Antwort sehen kann: die aktuelle Frage, der bisherige Gesprächsverlauf, mitgelieferte Texte, Anweisungen zu Ton oder Format. Das Modell arbeitet ausschließlich damit.
+[Kontext](../glossar#kontext) ist alles, was das Modell beim Erstellen einer Antwort sehen kann: die aktuelle Frage, der bisherige Gesprächsverlauf, mitgelieferte Texte, Anweisungen zu Ton oder Format. Das Modell arbeitet ausschließlich damit.
 
 Es gibt kein implizites Wissen. Wenn man nicht schreibt, für wen der Text gedacht ist, weiß das Modell es nicht. Wenn man nicht angibt, in welchem Ton geschrieben werden soll, wählt das Modell irgendeinen. Wenn man einen Text überarbeiten möchte und ihn nicht miteingegeben hat, kann das Modell ihn nicht überarbeiten.
 
@@ -27,7 +26,7 @@ Das klingt offensichtlich – aber in der Praxis vergessen die meisten Menschen 
 
 ## Wie viel Kontext ausmacht
 
-Hier ist dasselbe Thema mit zwei verschiedenen [Prompts](/glossar#prompt):
+Hier ist dasselbe Thema mit zwei verschiedenen [Prompts](../glossar#prompt):
 
 **Eingabe 1:**
 „Schreib einen Text über Homeoffice."
@@ -67,7 +66,7 @@ Man muss nicht immer alle vier Fragen beantworten. Aber die bewusste Entscheidun
 
 Auch mit gutem Kontext ist das erste Ergebnis selten das letzte. Das ist normal und kein Zeichen, dass etwas falsch gemacht wurde.
 
-[Iteration](/glossar#iteration) heißt: Das erste Ergebnis als Ausgangspunkt nehmen und durch gezielte Folgeprompts verbessern. „Mach den Ton weniger formal." „Kürze den zweiten Absatz um die Hälfte." „Das Beispiel passt nicht – ersetze es durch eines aus dem Handwerk."
+[Iteration](../glossar#iteration) heißt: Das erste Ergebnis als Ausgangspunkt nehmen und durch gezielte Folgeprompts verbessern. „Mach den Ton weniger formal." „Kürze den zweiten Absatz um die Hälfte." „Das Beispiel passt nicht – ersetze es durch eines aus dem Handwerk."
 
 KI funktioniert als Dialog besser als als Einmaleingabe. Wer nach dem ersten Ergebnis abbricht, nutzt das Werkzeug nur zur Hälfte.
 

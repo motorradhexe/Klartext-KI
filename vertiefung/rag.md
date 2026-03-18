@@ -1,15 +1,16 @@
 ---
 title: RAG – Retrieval-Augmented Generation
 description: Wie KI auf eigene Wissensbestände zugreift, ohne alles in den Kontext laden zu müssen.
-layout: modul
-nav_order: 32
+layout: default
+parent: Vertiefung
+nav_order: 2
 ---
 
 # RAG – Retrieval-Augmented Generation
 
 KI-Modelle wissen viel – aber nicht alles. Sie kennen das nicht, was nach ihrem Trainingsdatum passiert ist. Sie kennen nicht die internen Dokumente eines Unternehmens. Sie kennen nicht die spezifischen Regelungen einer bestimmten Organisation.
 
-Die naheliegende Lösung: alles in den [Kontext](/glossar#kontext) laden. Das funktioniert bis zu einem gewissen Umfang. Aber [Kontextfenster](/glossar#kontextfenster) haben Grenzen, und hunderte Dokumente hineinzuladen ist langsam, teuer und unübersichtlich.
+Die naheliegende Lösung: alles in den [Kontext](../glossar#kontext) laden. Das funktioniert bis zu einem gewissen Umfang. Aber [Kontextfenster](../glossar#kontextfenster) haben Grenzen, und hunderte Dokumente hineinzuladen ist langsam, teuer und unübersichtlich.
 
 RAG löst dieses Problem: Anstatt alle Dokumente zu laden, sucht das System gezielt nach den relevanten Stellen – und gibt nur diese an das Modell weiter.
 
@@ -17,7 +18,7 @@ RAG löst dieses Problem: Anstatt alle Dokumente zu laden, sucht das System gezi
 
 ## Was RAG ist
 
-[RAG](/glossar#rag) steht für Retrieval-Augmented Generation. Auf Deutsch: abrufverstärkte Generierung. Der Begriff beschreibt ein Verfahren, bei dem ein KI-System vor dem Generieren einer Antwort zunächst in einer Wissensdatenbank sucht und die gefundenen Inhalte in den Kontext einbindet.
+[RAG](../glossar#rag) steht für Retrieval-Augmented Generation. Auf Deutsch: abrufverstärkte Generierung. Der Begriff beschreibt ein Verfahren, bei dem ein KI-System vor dem Generieren einer Antwort zunächst in einer Wissensdatenbank sucht und die gefundenen Inhalte in den Kontext einbindet.
 
 Der Ablauf in drei Schritten:
 
@@ -57,7 +58,7 @@ Wenn die Wissensdatenbank falsche oder widersprüchliche Inhalte enthält, bekom
 
 Außerdem: RAG findet, was ähnlich klingt – nicht unbedingt, was gemeint ist. Die Suche basiert auf sprachlicher Ähnlichkeit. Ein Dokument, das die Antwort enthält, aber ganz anders formuliert ist als die Frage, wird möglicherweise nicht gefunden. Wie gut das System sucht, hängt stark von der Qualität der Implementierung ab.
 
-[Halluzinationen](/glossar#halluzination) werden durch RAG reduziert, aber nicht ausgeschlossen. Das Modell kann immer noch auf Basis der gefundenen Abschnitte etwas Falsches schlussfolgern – oder Informationen hinzufügen, die nicht in den Abschnitten standen.
+[Halluzinationen](../glossar#halluzination) werden durch RAG reduziert, aber nicht ausgeschlossen. Das Modell kann immer noch auf Basis der gefundenen Abschnitte etwas Falsches schlussfolgern – oder Informationen hinzufügen, die nicht in den Abschnitten standen.
 
 ---
 
@@ -69,4 +70,4 @@ Die Umsetzung erfordert technischen Aufwand: Dokumente müssen vorbereitet, indi
 
 Das Grundprinzip zu verstehen ist trotzdem nützlich – besonders um einschätzen zu können, was ein RAG-System leisten kann und was nicht. Ein System, das „auf Basis Ihrer Dokumente antwortet", ist nicht unfehlbar. Es ist eine Suchmaschine mit angeschlossenem Sprachmodell.
 
-Wie KI selbstständig mit solchen Systemen arbeitet: [KI-Agents](/vertiefung/agents). Wie die Verbindung zu externen Werkzeugen technisch funktioniert: [MCP](/vertiefung/mcp).
+Wie KI selbstständig mit solchen Systemen arbeitet: [KI-Agents](agents). Wie die Verbindung zu externen Werkzeugen technisch funktioniert: [MCP](mcp).

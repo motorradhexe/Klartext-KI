@@ -1,8 +1,9 @@
 ---
 title: Mit KI entwickeln
 description: Wie man mit KI Code versteht, schreibt und überprüft – auch ohne tiefes Programmierwissen.
-layout: modul
-nav_order: 13
+layout: default
+parent: Mit KI arbeiten
+nav_order: 4
 ---
 
 # Mit KI entwickeln
@@ -17,15 +18,15 @@ KI ist beim Entwickeln für eine Reihe von Aufgaben gut geeignet: Code erklären
 
 Was KI nicht kann: die Anforderungen kennen, die man ihr nicht gegeben hat. Wenn man eine Funktion bestellt, ohne zu sagen, welche Randfälle behandelt werden sollen, werden sie nicht behandelt. Wenn man nicht angibt, in welches System der Code eingebettet ist, ignoriert das Modell das System.
 
-Außerdem: KI-generierter Code kann syntaktisch korrekt sein und trotzdem nicht das tun, was man braucht. Das Modell schreibt Code, der auf den [Prompt](/glossar#prompt) passt – nicht auf die eigentliche Absicht, wenn man die nicht präzise beschrieben hat. Wer Code blind übernimmt, ohne ihn zu lesen und zu testen, baut auf einer unsicheren Grundlage.
+Außerdem: KI-generierter Code kann syntaktisch korrekt sein und trotzdem nicht das tun, was man braucht. Das Modell schreibt Code, der auf den [Prompt](../glossar#prompt) passt – nicht auf die eigentliche Absicht, wenn man die nicht präzise beschrieben hat. Wer Code blind übernimmt, ohne ihn zu lesen und zu testen, baut auf einer unsicheren Grundlage.
 
 ---
 
 ## 2. Wie geht man es an?
 
-**Sprache und Umgebung angeben.** „Schreib eine Funktion" ist kein ausreichender Startpunkt. Welche Sprache? Welche Version? Welches [Framework](/glossar#framework) (also das Grundgerüst, auf dem die Anwendung aufbaut – z. B. Django oder Flask bei Python)? Läuft der Code in einer bestimmten Umgebung? Das Modell trifft sonst Annahmen – und die stimmen manchmal nicht.
+**Sprache und Umgebung angeben.** „Schreib eine Funktion" ist kein ausreichender Startpunkt. Welche Sprache? Welche Version? Welches [Framework](../glossar#framework) (also das Grundgerüst, auf dem die Anwendung aufbaut – z. B. Django oder Flask bei Python)? Läuft der Code in einer bestimmten Umgebung? Das Modell trifft sonst Annahmen – und die stimmen manchmal nicht.
 
-**Bestehenden Code mitgeben.** Wenn man eine Funktion erweitern, einen Fehler beheben oder Code umbauen will, gehört der betroffene Code in den [Kontext](/glossar#kontext). Das Modell kann nicht erraten, wie die Umgebung aussieht. Mit dem Code vor Augen kann es konkret und korrekt antworten.
+**Bestehenden Code mitgeben.** Wenn man eine Funktion erweitern, einen Fehler beheben oder Code umbauen will, gehört der betroffene Code in den [Kontext](../glossar#kontext). Das Modell kann nicht erraten, wie die Umgebung aussieht. Mit dem Code vor Augen kann es konkret und korrekt antworten.
 
 **Die Aufgabe vollständig beschreiben.** Was soll die Funktion tun? Was bekommt sie rein, was kommt raus? Gibt es Randfälle, die behandelt werden müssen? Gibt es etwas, das die Funktion ausdrücklich nicht tun soll? Je vollständiger die Beschreibung, desto näher kommt das erste Ergebnis an das, was man braucht.
 
@@ -39,9 +40,9 @@ Außerdem: KI-generierter Code kann syntaktisch korrekt sein und trotzdem nicht 
 
 **Fehlende Randfälle.** Ein Prompt wie „Schreib eine Funktion, die eine Zahl durch eine andere teilt" liefert eine Funktion, die das tut – aber vermutlich keine Behandlung für den Fall, dass der Divisor null ist. Was nicht im Prompt steht, wird nicht bedacht. Wer produktiven Code schreibt, muss diese Lücken selbst schließen.
 
-**Keine Angabe der Umgebung.** „Ich benutze Python 3.9 und das Framework FastAPI, hier ist meine bestehende Route" ist ein anderer Ausgangspunkt als „Schreib Python-Code". Das Modell weiß ohne diese Angaben nicht, welche [Imports](/glossar#import) (also welche Zusatz-Bausteine bereits im Code eingebunden sind) schon existieren, welche Konventionen gelten oder welche Einschränkungen es gibt.
+**Keine Angabe der Umgebung.** „Ich benutze Python 3.9 und das Framework FastAPI, hier ist meine bestehende Route" ist ein anderer Ausgangspunkt als „Schreib Python-Code". Das Modell weiß ohne diese Angaben nicht, welche [Imports](../glossar#import) (also welche Zusatz-Bausteine bereits im Code eingebunden sind) schon existieren, welche Konventionen gelten oder welche Einschränkungen es gibt.
 
-**[Iteration](/glossar#iteration) als Versagen missverstanden.** Wenn das erste Ergebnis nicht passt, ist das kein Fehler. Es bedeutet, dass der Prompt oder die Anforderung nicht vollständig war. Folgeprompts – „Das funktioniert, aber es soll auch den Fall X behandeln" oder „Hier ist die Fehlermeldung, die ich bekomme" – sind der normale Weg zu funktionierendem Code.
+**[Iteration](../glossar#iteration) als Versagen missverstanden.** Wenn das erste Ergebnis nicht passt, ist das kein Fehler. Es bedeutet, dass der Prompt oder die Anforderung nicht vollständig war. Folgeprompts – „Das funktioniert, aber es soll auch den Fall X behandeln" oder „Hier ist die Fehlermeldung, die ich bekomme" – sind der normale Weg zu funktionierendem Code.
 
 ---
 
@@ -53,7 +54,7 @@ Außerdem: KI-generierter Code kann syntaktisch korrekt sein und trotzdem nicht 
 Das Modell fragt entweder nach oder schreibt ein generisches Beispiel – eine Funktion, die zwei Zahlen addiert oder einen Namen ausgibt. Nicht falsch, aber für niemanden nützlich.
 
 **Eingabe 2:**
-„Ich arbeite in Python 3.11. Schreib eine Funktion `sortiere_personen`, die eine Liste von Dictionaries entgegennimmt. Jedes Dictionary hat die Schlüssel `name` (String) und `alter` (Integer). Die Funktion gibt die Liste sortiert nach `alter` zurück, aufsteigend. Wenn zwei Personen dasselbe Alter haben, soll nach `name` alphabetisch sortiert werden. Füge einen [Docstring](/glossar#docstring) hinzu."
+„Ich arbeite in Python 3.11. Schreib eine Funktion `sortiere_personen`, die eine Liste von Dictionaries entgegennimmt. Jedes Dictionary hat die Schlüssel `name` (String) und `alter` (Integer). Die Funktion gibt die Liste sortiert nach `alter` zurück, aufsteigend. Wenn zwei Personen dasselbe Alter haben, soll nach `name` alphabetisch sortiert werden. Füge einen [Docstring](../glossar#docstring) hinzu."
 
 Ein Dictionary ist in Python eine strukturierte Datensammlung – zum Beispiel `{"name": "Max", "alter": 30}`. String bedeutet Text, Integer bedeutet ganze Zahl. Ein Docstring ist ein eingebetteter Kommentar direkt in der Funktion, der erklärt, was sie tut.
 
