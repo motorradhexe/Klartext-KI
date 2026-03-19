@@ -13,6 +13,8 @@ Eine Erklärung ist erst gut, wenn die andere Person sie versteht – nicht wenn
 
 ---
 
+<div class="uebung" markdown="1">
+
 ## Übung 1: Dieselbe Erklärung für zwei verschiedene Zielgruppen
 
 **Aufgabe:** Wähle ein Konzept, das du regelmäßig erklären musst. Lass KI es einmal für eine technisch versierte Person und einmal für eine Person ohne Fachkenntnisse erklären.
@@ -27,7 +29,9 @@ Eine Erklärung ist erst gut, wenn die andere Person sie versteht – nicht wenn
 - Was hat die Angabe der Zielgruppe konkret verändert?
 - Welche Erklärung würdest du ohne diese Übung verschickt haben?
 
----
+</div>
+
+<div class="uebung" markdown="1">
 
 ## Übung 2: Eine Übergabe vorbereiten
 
@@ -41,7 +45,9 @@ Eine Erklärung ist erst gut, wenn die andere Person sie versteht – nicht wenn
 
 **Wichtig:** Das Modell kennt keine situationsspezifischen Details, die man nicht mitgibt. Was du über das Projekt, den Empfänger oder den Hintergrund weißt, aber nicht eingetippt hast, fehlt im Dokument. Das ist keine Schwäche des Modells – es ist eine Erinnerung daran, was in einer Übergabe explizit werden muss.
 
----
+</div>
+
+<div class="uebung" markdown="1">
 
 ## Übung 3: Eine Erklärung auf ihre Wirkung testen
 
@@ -54,6 +60,8 @@ Eine Erklärung ist erst gut, wenn die andere Person sie versteht – nicht wenn
 4. Optional: Teste die Erklärung an einer echten Person und beobachte, welche Fragen tatsächlich entstehen.
 
 **Reflexionsfrage:** Wie gut deckte KIs Einschätzung der verbleibenden Fragen mit dem überein, was die Person tatsächlich fragte?
+
+</div>
 
 ---
 

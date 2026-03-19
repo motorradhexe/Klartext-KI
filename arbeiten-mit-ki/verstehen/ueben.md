@@ -13,6 +13,8 @@ Verstehen passiert im Dialog, nicht beim Lesen. Diese Übungen trainieren, wie m
 
 ---
 
+<div class="uebung" markdown="1">
+
 ## Übung 1: Ein schwieriges Thema durcharbeiten
 
 **Aufgabe:** Wähle ein Thema, mit dem du beruflich in Berührung kommst, das du aber nie wirklich verstanden hast. Das kann ein juristischer Begriff sein, ein Fachkonzept, ein technisches Prinzip.
@@ -28,7 +30,9 @@ Verstehen passiert im Dialog, nicht beim Lesen. Diese Übungen trainieren, wie m
 - Was hast du nach fünf Fragen verstanden, was du nach einer nicht verstanden hättest?
 - Welche Aussage aus der Erklärung würdest du gegenchecken wollen?
 
----
+</div>
+
+<div class="uebung" markdown="1">
 
 ## Übung 2: Einen Text erschließen
 
@@ -42,7 +46,9 @@ Verstehen passiert im Dialog, nicht beim Lesen. Diese Übungen trainieren, wie m
 
 **Wichtig:** Überprüfe konkrete Fakten und rechtliche Aussagen aus dem Text separat. KI erklärt den Text – aber sie ist keine Rechtsauskunft.
 
----
+</div>
+
+<div class="uebung" markdown="1">
 
 ## Übung 3: Das Feynman-Prinzip mit KI
 
@@ -56,6 +62,8 @@ Richard Feynman, Physiknobelpreisträger, hatte eine einfache Methode: Man hat e
 5. Ergänze deine Erklärung basierend auf der Rückmeldung.
 
 **Warum das funktioniert:** Das eigene Formulieren deckt Lücken auf, die beim Lesen verborgen bleiben. KI gibt ein Feedback, das ein Buch nicht geben kann.
+
+</div>
 
 ---
 

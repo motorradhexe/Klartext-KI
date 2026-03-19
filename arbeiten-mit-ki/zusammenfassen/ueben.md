@@ -13,6 +13,8 @@ Zusammenfassen klingt einfacher, als es ist. Diese Übungen helfen, den eigenen 
 
 ---
 
+<div class="uebung" markdown="1">
+
 ## Übung 1: Zusammenfassung auf Vollständigkeit prüfen
 
 **Aufgabe:** Lass KI einen Text zusammenfassen – und prüfe dann systematisch, was fehlt.
@@ -28,7 +30,9 @@ Zusammenfassen klingt einfacher, als es ist. Diese Übungen helfen, den eigenen 
 - Welche Art von Inhalten hat das Modell systematisch weggelassen (Einschränkungen, Zahlen, Widersprüche)?
 - Hätte die Zusammenfassung für den Verwendungszweck ausgereicht – oder war das Weglassen ein Problem?
 
----
+</div>
+
+<div class="uebung" markdown="1">
 
 ## Übung 2: Dasselbe Dokument in drei Formaten zusammenfassen
 
@@ -46,7 +50,9 @@ Zusammenfassen klingt einfacher, als es ist. Diese Übungen helfen, den eigenen 
 - Welches Format hat am meisten Zeit gespart – und welches wäre das ohne KI?
 - Für welchen dieser Zwecke würdest du das Ergebnis direkt verwenden, für welchen überarbeiten?
 
----
+</div>
+
+<div class="uebung" markdown="1">
 
 ## Übung 3: Einen langen E-Mail-Thread aufarbeiten
 
@@ -59,6 +65,8 @@ Zusammenfassen klingt einfacher, als es ist. Diese Übungen helfen, den eigenen 
 4. Lass KI die Zusammenfassung um die fehlenden Punkte ergänzen.
 
 **Wichtig:** Bei E-Mail-Threads ist die Chronologie oft entscheidend – eine frühere Position, die später revidiert wurde, ist anders zu behandeln als eine, die am Ende noch gilt. Frage KI explizit, ob sich Positionen im Verlauf geändert haben.
+
+</div>
 
 ---
 

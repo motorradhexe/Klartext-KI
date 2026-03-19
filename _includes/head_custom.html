@@ -1,18 +1,124 @@
+<style>
+  .page-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border-color, #ddd);
+    gap: 1rem;
+  }
+
+  .page-nav-btn {
+    display: inline-block;
+    padding: 0.45rem 1rem;
+    border: 1px solid var(--border-color, #ccc);
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: inherit;
+    max-width: 45%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .page-nav-btn:hover {
+    opacity: 0.7;
+    text-decoration: none;
+  }
+
+  .page-nav-next {
+    margin-left: auto;
+  }
+
+  #theme-toggle {
+    background: none;
+    border: 1px solid var(--border-color, #ccc);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
+    line-height: 1.4;
+    color: inherit;
+    margin-left: 0.75rem;
+    vertical-align: middle;
+  }
+  #theme-toggle:hover {
+    opacity: 0.7;
+  }
+</style>
+
 <script>
   (function () {
+    var stored = localStorage.getItem('color-scheme');
     var mq = window.matchMedia('(prefers-color-scheme: dark)');
+    var isDark = stored ? stored === 'dark' : mq.matches;
 
     function applyScheme(dark) {
       var link = document.querySelector('link[href*="just-the-docs"]');
       if (!link) return;
       var base = link.href.replace(/just-the-docs(-\w+)?\.css(\?.*)?$/, '');
-      link.href = base + (dark ? 'just-the-docs-dark.css' : 'just-the-docs.css');
+      link.href = base + (dark ? 'just-the-docs-dark.css' : 'just-the-docs-light.css');
     }
 
-    applyScheme(mq.matches);
+    function updateButton(dark) {
+      var btn = document.getElementById('theme-toggle');
+      if (btn) btn.textContent = dark ? '☀' : '☾';
+    }
 
+    applyScheme(isDark);
+
+    document.addEventListener('DOMContentLoaded', function () {
+      updateButton(isDark);
+      var btn = document.getElementById('theme-toggle');
+      if (btn) {
+        btn.addEventListener('click', function () {
+          isDark = !isDark;
+          localStorage.setItem('color-scheme', isDark ? 'dark' : 'light');
+          applyScheme(isDark);
+          updateButton(isDark);
+        });
+      }
+    });
+
+    // Systemänderungen nur berücksichtigen, wenn keine manuelle Wahl gespeichert ist
     mq.addEventListener('change', function (e) {
-      applyScheme(e.matches);
+      if (!localStorage.getItem('color-scheme')) {
+        isDark = e.matches;
+        applyScheme(isDark);
+        updateButton(isDark);
+      }
     });
   })();
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var tooltips = {
+      'prompt':         'Die Eingabe an ein KI-Modell – Frage, Auftrag oder Anweisung',
+      'token':          'Kleinste Texteinheit, die ein KI-Modell verarbeitet',
+      'kontext':        'Alle Informationen, die das Modell beim Antworten sehen kann',
+      'sprachmodell':   'KI-System, das Text verarbeitet und erzeugt',
+      'training':       'Prozess, durch den das Modell aus Texten gelernt hat – einmalig, nicht veränderlich',
+      'kontextfenster': 'Obergrenze, wie viel Text das Modell auf einmal verarbeiten kann',
+      'modell':         'Der trainierte KI-Kern, der Anfragen berechnet und beantwortet',
+      'halluzination':  'KI erfindet plausibel klingende, aber faktisch falsche Aussagen',
+      'iteration':      'Ergebnis als Ausgangspunkt nehmen und durch Folgeprompts verbessern',
+      'ausgabe':        'Die Antwort, die das KI-Modell auf einen Prompt produziert',
+      'agent':          'KI-System, das selbstständig handelt und Werkzeuge einsetzt',
+      'rag':            'KI sucht vor dem Antworten gezielt in einer eigenen Wissensdatenbank',
+      'mcp':            'Standard, über den KI-Modelle externe Werkzeuge nutzen',
+      'framework':      'Fertiges Code-Grundgerüst für eine bestimmte Art von Anwendung',
+      'import':         'Einbinden von externem Code in eine Programmdatei',
+      'docstring':      'Kommentar im Code, der erklärt, was eine Funktion tut'
+    };
+
+    document.querySelectorAll('a[href*="glossar#"]').forEach(function (a) {
+      var anchor = a.href.split('#')[1];
+      if (anchor && tooltips[anchor]) {
+        a.setAttribute('data-tip', tooltips[anchor]);
+        a.classList.add('glossar-link');
+      }
+    });
+  });
 </script>

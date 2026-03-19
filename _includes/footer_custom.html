@@ -1,0 +1,31 @@
+{% if page.parent %}
+  {% assign siblings = site.pages | where: "parent", page.parent | sort: "nav_order" %}
+  {% assign prev_page = nil %}
+  {% assign next_page = nil %}
+  {% assign found = "" %}
+
+  {% for p in siblings %}
+    {% if found == "" %}
+      {% if p.url == page.url %}
+        {% assign found = "yes" %}
+      {% else %}
+        {% assign prev_page = p %}
+      {% endif %}
+    {% else %}
+      {% unless next_page %}
+        {% assign next_page = p %}
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+
+  {% if prev_page or next_page %}
+  <nav class="page-nav" aria-label="Seitennavigation">
+    {% if prev_page %}
+    <a href="{{ prev_page.url | relative_url }}" class="page-nav-btn page-nav-prev">← {{ prev_page.title }}</a>
+    {% endif %}
+    {% if next_page %}
+    <a href="{{ next_page.url | relative_url }}" class="page-nav-btn page-nav-next">{{ next_page.title }} →</a>
+    {% endif %}
+  </nav>
+  {% endif %}
+{% endif %}

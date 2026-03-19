@@ -13,6 +13,8 @@ Lesen und Verstehen ist der erste Schritt. Dieser hier ist der zweite: selbst fo
 
 ---
 
+<div class="uebung" markdown="1">
+
 ## Übung 1: Einen schwachen Prompt verbessern
 
 **Aufgabe:** Hier ist ein schlechter Prompt. Formuliere ihn so um, dass er ein brauchbares Ergebnis liefert.
@@ -36,7 +38,9 @@ Schreib mir einen Text über unser neues Produkt.
 - Welche Angabe hat den größten Unterschied gemacht?
 - Was hätte im Ergebnis noch gefehlt, wenn du einen der Punkte weggelassen hättest?
 
----
+</div>
+
+<div class="uebung" markdown="1">
 
 ## Übung 2: Eine eigene Schreibaufgabe strukturieren
 
@@ -54,7 +58,9 @@ Dann formuliere daraus einen Prompt und lass KI einen Entwurf schreiben.
 **Auswertung:**
 Vergleiche das KI-Ergebnis mit deinem eigenen ersten Entwurf (falls du schon einen hattest) oder mit dem, was du ohne KI geschrieben hättest. Was ist besser, was schlechter? Was klingt nicht nach dir?
 
----
+</div>
+
+<div class="uebung" markdown="1">
 
 ## Übung 3: Iterieren – aus einem generischen Entwurf etwas Konkretes machen
 
@@ -74,6 +80,8 @@ Schreib für jeden Schritt auf:
 **Ziel:** Drei Iterationsschritte. Am Ende soll ein Text stehen, den du wirklich so verschicken könntest.
 
 **Hinweis:** Iteration bedeutet nicht, den Prompt zu wiederholen. Es bedeutet, eine gezielte Anweisung zu geben: „Der zweite Absatz klingt zu förmlich" ist ein Iterationsschritt. „Schreib das nochmal besser" ist keiner.
+
+</div>
 
 ---
 
