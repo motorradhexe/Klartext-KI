@@ -6,7 +6,7 @@
       var link = document.querySelector('link[href*="just-the-docs"]');
       if (!link) return;
       var base = link.href.replace(/just-the-docs(-\w+)?\.css(\?.*)?$/, '');
-      link.href = base + (dark ? 'just-the-docs-dark.css' : 'just-the-docs.css');
+      link.href = base + (dark ? 'just-the-docs-dark.css' : 'just-the-docs-light.css');
     }
 
     applyScheme(mq.matches);
