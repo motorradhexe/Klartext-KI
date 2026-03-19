@@ -17,7 +17,9 @@ Drei Situationen, in denen KI beim Verstehen helfen kann – und wie man den [Pr
 
 **Schwacher Prompt:**
 
-> „Erkläre mir Quantencomputer."
+```
+Erkläre mir Quantencomputer.
+```
 
 Das Modell liefert eine korrekte, aber generische Erklärung auf mittlerem Niveau. Für jemanden ohne Physikstudium enthält sie Begriffe, die wieder erklärt werden müssten. Für jemanden mit Informatikstudium ist sie zu oberflächlich. Sie passt auf niemanden genau.
 
@@ -25,7 +27,9 @@ Das Modell liefert eine korrekte, aber generische Erklärung auf mittlerem Nivea
 
 **Starker Prompt:**
 
-> „Ich habe Informatik-Grundkenntnisse aus einer Berufsausbildung, aber kein Physikstudium. Erkläre mir in drei Absätzen, was ein Quantencomputer von einem klassischen Computer unterscheidet – ohne Formeln. Benutze eine Analogie aus dem Alltag, um den Kernunterschied zu veranschaulichen. Gehe nicht auf die Hardware-Details ein."
+```
+Ich habe Informatik-Grundkenntnisse aus einer Berufsausbildung, aber kein Physikstudium. Erkläre mir in drei Absätzen, was ein Quantencomputer von einem klassischen Computer unterscheidet – ohne Formeln. Benutze eine Analogie aus dem Alltag, um den Kernunterschied zu veranschaulichen. Gehe nicht auf die Hardware-Details ein.
+```
 
 **Was diese Eingabe besser macht:**
 - Vorwissen: Informatik-Grundkenntnisse, kein Physikwissen

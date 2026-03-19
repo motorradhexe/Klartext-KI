@@ -17,7 +17,9 @@ Drei häufige Schreibsituationen – jede mit einem schwachen Prompt, einem star
 
 **Schwacher Prompt:**
 
-> „Schreib eine Entschuldigungsmail an einen Kunden."
+```
+Schreib eine Entschuldigungsmail an einen Kunden.
+```
 
 Das Modell schreibt eine freundliche, entschuldigende E-Mail, die gut klingt und für jeden und keinen passt. Sie könnte an jeden Kunden mit jeder Beschwerde gehen. Generisch, austauschbar, ohne Haltung.
 
@@ -25,9 +27,11 @@ Das Modell schreibt eine freundliche, entschuldigende E-Mail, die gut klingt und
 
 **Starker Prompt:**
 
-> „Ich bin Kundenbetreuer bei einem Softwareunternehmen. Ein langjähriger Kunde hat sich per E-Mail beschwert, dass ein Feature seit zwei Wochen nicht mehr funktioniert. Er hat dadurch Zeit verloren und klingt genervt, aber nicht aggressiv. Wir haben den Fehler gestern identifiziert und werden ihn voraussichtlich morgen beheben.
->
-> Schreib eine knappe E-Mail (max. 5 Sätze), die: (1) den Stand erklärt, (2) sich ohne Übertreibung entschuldigt, (3) einen konkreten Zeitplan nennt. Ton: professionell, direkt, ohne Floskeln."
+```
+Ich bin Kundenbetreuer bei einem Softwareunternehmen. Ein langjähriger Kunde hat sich per E-Mail beschwert, dass ein Feature seit zwei Wochen nicht mehr funktioniert. Er hat dadurch Zeit verloren und klingt genervt, aber nicht aggressiv. Wir haben den Fehler gestern identifiziert und werden ihn voraussichtlich morgen beheben.
+
+Schreib eine knappe E-Mail (max. 5 Sätze), die: (1) den Stand erklärt, (2) sich ohne Übertreibung entschuldigt, (3) einen konkreten Zeitplan nennt. Ton: professionell, direkt, ohne Floskeln.
+```
 
 **Was diese Eingabe besser macht:**
 - Rolle der schreibenden Person: Kundenbetreuer
@@ -45,7 +49,9 @@ Der Unterschied liegt nicht in der Länge des Prompts, sondern im Informationsge
 
 **Schwacher Prompt:**
 
-> „Schreib einen Projektabschlussbericht."
+```
+Schreib einen Projektabschlussbericht.
+```
 
 Das Modell liefert eine Vorlage mit Standardabschnitten: Ziel, Ergebnis, Learnings. Sprachlich korrekt, inhaltlich leer – weil das Modell nichts über das Projekt weiß.
 
@@ -53,9 +59,11 @@ Das Modell liefert eine Vorlage mit Standardabschnitten: Ziel, Ergebnis, Learnin
 
 **Starker Prompt:**
 
-> „Wir haben gerade ein dreimonatiges Projekt abgeschlossen: Einführung eines neuen CRM-Systems für unser Vertriebsteam (15 Personen). Das Projekt war insgesamt erfolgreich, aber zwei Wochen im Verzug wegen Datenmigrationsproblemen. Das System läuft jetzt stabil, und das Team hat es gut angenommen.
->
-> Schreib einen internen Abschlussbericht (ca. eine Seite) für die Geschäftsführung. Sie kennt das Projekt, interessiert sich aber vor allem für: Was hat funktioniert? Was hat den Verzug verursacht, und wie wurde es gelöst? Was würden wir beim nächsten Mal anders machen? Sachlicher Ton, keine Rechtfertigung, keine Selbstkritik-Performance."
+```
+Wir haben gerade ein dreimonatiges Projekt abgeschlossen: Einführung eines neuen CRM-Systems für unser Vertriebsteam (15 Personen). Das Projekt war insgesamt erfolgreich, aber zwei Wochen im Verzug wegen Datenmigrationsproblemen. Das System läuft jetzt stabil, und das Team hat es gut angenommen.
+
+Schreib einen internen Abschlussbericht (ca. eine Seite) für die Geschäftsführung. Sie kennt das Projekt, interessiert sich aber vor allem für: Was hat funktioniert? Was hat den Verzug verursacht, und wie wurde es gelöst? Was würden wir beim nächsten Mal anders machen? Sachlicher Ton, keine Rechtfertigung, keine Selbstkritik-Performance.
+```
 
 **Was diese Eingabe besser macht:**
 - Projektinhalt: CRM-Einführung, 15 Personen, drei Monate
@@ -73,7 +81,9 @@ Das Modell kann jetzt etwas schreiben, das tatsächlich über dieses Projekt han
 
 **Schwacher Prompt:**
 
-> „Schreib eine Dokumentation über unsere Datenbanklösung."
+```
+Schreib eine Dokumentation über unsere Datenbanklösung.
+```
 
 Das Modell schreibt entweder etwas Allgemeines über Datenbankkonzepte oder fragt zurück. In jedem Fall hilft es ohne Kontext nicht.
 
@@ -81,9 +91,11 @@ Das Modell schreibt entweder etwas Allgemeines über Datenbankkonzepte oder frag
 
 **Starker Prompt:**
 
-> „Ich muss dokumentieren, warum wir uns für PostgreSQL und gegen MongoDB entschieden haben. Die Entscheidung fiel vor drei Monaten. Hauptgründe: unsere Daten sind stark relational, das Team hat mehr Erfahrung mit SQL, und wir wollten kein neues Ökosystem einführen. MongoDB war attraktiv wegen der flexiblen Schemas, aber das war für uns kein ausreichender Vorteil.
->
-> Schreib eine knappe technische Entscheidungsdokumentation (Architecture Decision Record, ADR) im Stil: Kontext, Entscheidung, Begründung, abgewogene Alternativen, Konsequenzen. Für ein technisches Team, das die Entscheidung später nachvollziehen soll. Max. 300 Wörter."
+```
+Ich muss dokumentieren, warum wir uns für PostgreSQL und gegen MongoDB entschieden haben. Die Entscheidung fiel vor drei Monaten. Hauptgründe: unsere Daten sind stark relational, das Team hat mehr Erfahrung mit SQL, und wir wollten kein neues Ökosystem einführen. MongoDB war attraktiv wegen der flexiblen Schemas, aber das war für uns kein ausreichender Vorteil.
+
+Schreib eine knappe technische Entscheidungsdokumentation (Architecture Decision Record, ADR) im Stil: Kontext, Entscheidung, Begründung, abgewogene Alternativen, Konsequenzen. Für ein technisches Team, das die Entscheidung später nachvollziehen soll. Max. 300 Wörter.
+```
 
 **Was diese Eingabe besser macht:**
 - Klares Thema: PostgreSQL vs. MongoDB

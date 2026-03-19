@@ -16,3 +16,20 @@
     });
   })();
 </script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('pre > code').forEach(function (codeEl) {
+      var pre = codeEl.parentElement;
+      var btn = document.createElement('button');
+      btn.className = 'copy-btn';
+      btn.textContent = 'Kopieren';
+      btn.addEventListener('click', function () {
+        navigator.clipboard.writeText(codeEl.textContent).then(function () {
+          btn.textContent = 'Kopiert ✓';
+          setTimeout(function () { btn.textContent = 'Kopieren'; }, 2000);
+        });
+      });
+      pre.appendChild(btn);
+    });
+  });
+</script>
