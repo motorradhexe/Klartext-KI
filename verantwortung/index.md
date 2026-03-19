@@ -15,25 +15,25 @@ Diese Seiten behandeln keine abstrakten Risikoszenarien, sondern konkrete Situat
 ---
 
 <div class="kern-module">
-  <a href="datenschutz" class="kern-modul">
+  <a href="grenzen-und-regeln" class="kern-modul">
     <span class="kern-nr">1</span>
+    <div>
+      <span class="kern-titel">Grenzen und Regeln</span>
+      <span class="kern-beschreibung">Unternehmensrichtlinien, Urheberrecht, Branchenregulierung, Kennzeichnungspflichten und was der EU AI Act für Nutzende bedeutet.</span>
+    </div>
+  </a>
+  <a href="datenschutz" class="kern-modul">
+    <span class="kern-nr">2</span>
     <div>
       <span class="kern-titel">Datenschutz</span>
       <span class="kern-beschreibung">Was mit Eingaben passiert, wenn man sie an einen KI-Dienst schickt – Anbieter-Policies, DSGVO, Credentials und der Irrtum, dass Vertrauen in einen Anbieter Nachdenken ersetzt.</span>
     </div>
   </a>
   <a href="verlaesslichkeit" class="kern-modul">
-    <span class="kern-nr">2</span>
+    <span class="kern-nr">3</span>
     <div>
       <span class="kern-titel">Verlässlichkeit</span>
       <span class="kern-beschreibung">Warum KI-Ausgaben keine verlässlichen Ergebnisse sind, wer haftet wenn etwas schiefgeht – und warum die eigene Urteilsfähigkeit das entscheidende Werkzeug bleibt.</span>
-    </div>
-  </a>
-  <a href="grenzen-und-regeln" class="kern-modul">
-    <span class="kern-nr">3</span>
-    <div>
-      <span class="kern-titel">Grenzen und Regeln</span>
-      <span class="kern-beschreibung">Unternehmensrichtlinien, Urheberrecht, Branchenregulierung, Kennzeichnungspflichten und was der EU AI Act für Nutzende bedeutet.</span>
     </div>
   </a>
   <a href="kurzcheck" class="kern-modul">

@@ -54,27 +54,18 @@ nav_order: 0
 
 ## Grundlagen
 
-<div class="kern-module">
-  <a href="kern/01-warum-ki-enttaeuscht" class="kern-modul">
-    <span class="kern-nr">K 01</span>
-    <div>
-      <span class="kern-titel">Warum KI oft enttäuscht</span>
-      <span class="kern-beschreibung">Die häufigsten Muster, warum KI-Ergebnisse enttäuschen – und was dahintersteckt. Das Problem liegt fast immer woanders, als man denkt.</span>
-    </div>
+<div class="pfade-uebersicht">
+  <a href="kern/01-warum-ki-enttaeuscht" class="pfad-link">
+    <span class="pfad-link-titel">Warum KI oft enttäuscht</span>
+    <span class="pfad-link-beschreibung">Die häufigsten Muster, warum KI-Ergebnisse enttäuschen – und was dahintersteckt. Das Problem liegt fast immer woanders, als man denkt.</span>
   </a>
-  <a href="kern/02-wie-ki-funktioniert" class="kern-modul">
-    <span class="kern-nr">K 02</span>
-    <div>
-      <span class="kern-titel">Wie KI eigentlich funktioniert</span>
-      <span class="kern-beschreibung">Das Minimum, das den Unterschied macht. Warum KI keine Fakten kennt, sondern Wahrscheinlichkeiten berechnet – ohne Mathematik, ohne Fachchinesisch.</span>
-    </div>
+  <a href="kern/02-wie-ki-funktioniert" class="pfad-link">
+    <span class="pfad-link-titel">Wie KI eigentlich funktioniert</span>
+    <span class="pfad-link-beschreibung">Das Minimum, das den Unterschied macht. Warum KI keine Fakten kennt, sondern Wahrscheinlichkeiten berechnet – ohne Mathematik, ohne Fachchinesisch.</span>
   </a>
-  <a href="kern/03-kontext-ist-alles" class="kern-modul">
-    <span class="kern-nr">K 03</span>
-    <div>
-      <span class="kern-titel">Kontext ist alles</span>
-      <span class="kern-beschreibung">Warum die Eingabe entscheidender ist als das Modell – und wie man sie gezielt besser formuliert. Mit Vorher/Nachher-Beispiel.</span>
-    </div>
+  <a href="kern/03-kontext-ist-alles" class="pfad-link">
+    <span class="pfad-link-titel">Kontext ist alles</span>
+    <span class="pfad-link-beschreibung">Warum die Eingabe entscheidender ist als das Modell – und wie man sie gezielt besser formuliert. Mit Vorher/Nachher-Beispiel.</span>
   </a>
 </div>
 
@@ -121,24 +112,28 @@ Fünf Lernpfade, unabhängig voneinander. Jeder erklärt, wie man in einem besti
 
 Wer die Grundlagen kennt und verstehen will, wie KI-Systeme komplexer werden:
 
-<div class="vertiefung-links">
-  <a href="vertiefung/agents" class="vertiefung-link">Agents – KI, die selbstständig Aufgaben ausführt</a>
-  <a href="vertiefung/rag" class="vertiefung-link">RAG – Wie KI auf eigene Wissensdatenbanken zugreift</a>
-  <a href="vertiefung/mcp" class="vertiefung-link">MCP – Wie KI mit externen Werkzeugen verbunden wird</a>
+<div class="pfade-uebersicht">
+  <a href="vertiefung/agents" class="pfad-link">
+    <span class="pfad-link-titel">Agents</span>
+    <span class="pfad-link-beschreibung">KI, die selbstständig Aufgaben ausführt – was das bedeutet, was möglich ist und wo die Grenzen liegen.</span>
+  </a>
+  <a href="vertiefung/rag" class="pfad-link">
+    <span class="pfad-link-titel">RAG</span>
+    <span class="pfad-link-beschreibung">Wie KI auf eigene Wissensdatenbanken zugreift und mit eigenen Dokumenten arbeitet.</span>
+  </a>
+  <a href="vertiefung/mcp" class="pfad-link">
+    <span class="pfad-link-titel">MCP</span>
+    <span class="pfad-link-beschreibung">Wie KI mit externen Werkzeugen verbunden wird und dadurch mehr kann als ein reines Sprachmodell.</span>
+  </a>
 </div>
 
 ---
 
 ## Verantwortung
 
-Was passiert mit Daten, die man in KI eingibt? Wann ist KI im Arbeitskontext erlaubt? Wer haftet, wenn eine KI-Ausgabe falsch ist? Diese Seiten behandeln keine abstrakten Szenarien, sondern konkrete Fragen aus dem Alltag.
+Bevor du KI im Arbeitsalltag einsetzt, lohnt es sich, ein paar Fragen einmal durchgedacht zu haben: Was passiert mit Eingaben? Was ist in deinem Kontext erlaubt? Wer trägt die Verantwortung, wenn eine KI-Ausgabe falsch ist?
 
-<div class="vertiefung-links">
-  <a href="verantwortung/datenschutz" class="vertiefung-link">Datenschutz – Was mit Eingaben passiert</a>
-  <a href="verantwortung/verlaesslichkeit" class="vertiefung-link">Verlässlichkeit – Wer haftet, wenn KI falsch liegt</a>
-  <a href="verantwortung/grenzen-und-regeln" class="vertiefung-link">Grenzen und Regeln – Was erlaubt ist</a>
-  <a href="verantwortung/kurzcheck" class="vertiefung-link">Kurzcheck – Fünf Fragen vor dem Einsatz</a>
-</div>
+[Zu Datenschutz, Haftung, Regeln und Kurzcheck →](verantwortung/)
 
 <div class="meta-links">
   <a href="glossar">Glossar</a>
