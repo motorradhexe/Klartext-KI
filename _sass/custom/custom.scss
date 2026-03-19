@@ -243,6 +243,25 @@
   line-height: 1.5;
 }
 
+// Übungsblöcke
+.uebung {
+  margin: 1.75rem 0;
+  padding: 1.25rem 1.5rem;
+  background-color: $sidebar-color;
+  border-left: 3px solid $link-color;
+  border-radius: 0 6px 6px 0;
+
+  > h2:first-child {
+    margin-top: 0;
+    padding-top: 0;
+
+    &::before {
+      content: "✏ ";
+      font-size: 0.85em;
+    }
+  }
+}
+
 // Code-Blöcke: Zeilenumbruch statt horizontalem Scrollbalken
 pre, pre code {
   white-space: pre-wrap;

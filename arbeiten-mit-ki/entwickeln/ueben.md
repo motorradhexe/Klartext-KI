@@ -13,6 +13,8 @@ Code schreiben lassen ist der einfache Teil. Diese Übungen trainieren das, was 
 
 ---
 
+<div class="uebung" markdown="1">
+
 ## Übung 1: Fremden Code lesen und erklären lassen
 
 **Aufgabe:** Nimm einen Codeausschnitt aus einem Projekt, das du nicht selbst geschrieben hast – aus einer Bibliothek, einem Kollegen-Commit, einem Tutorial.
@@ -26,7 +28,9 @@ Code schreiben lassen ist der einfache Teil. Diese Übungen trainieren das, was 
 
 **Reflexionsfrage:** Was wäre passiert, wenn du den Code ohne die Erklärung einfach übernommen hättest?
 
----
+</div>
+
+<div class="uebung" markdown="1">
 
 ## Übung 2: Eine Funktion schreiben – und bewusst Schwächen finden
 
@@ -43,7 +47,9 @@ Code schreiben lassen ist der einfache Teil. Diese Übungen trainieren das, was 
 - Welche Randfälle hatte KI selbst identifiziert, die du nicht im Prompt benannt hattest?
 - Welche hattest du im Prompt benannt, aber KI trotzdem nicht korrekt behandelt?
 
----
+</div>
+
+<div class="uebung" markdown="1">
 
 ## Übung 3: Eine Fehlermeldung debuggen
 
@@ -56,6 +62,8 @@ Code schreiben lassen ist der einfache Teil. Diese Übungen trainieren das, was 
 4. Optional: Bitte um einen Test, der sicherstellt, dass der Fehler nicht erneut auftritt.
 
 **Ziel:** Du verstehst nicht nur, wie der Fehler behoben wird – sondern auch, warum er entstanden ist. Das ist der Lerneffekt.
+
+</div>
 
 ---
 

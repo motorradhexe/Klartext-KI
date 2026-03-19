@@ -13,6 +13,8 @@ Strukturieren mit KI ist kein passiver Vorgang. Diese Übungen helfen, das Zusam
 
 ---
 
+<div class="uebung" markdown="1">
+
 ## Übung 1: Ungeordnetes Material sortieren lassen
 
 **Aufgabe:** Nimm ein Thema, das dich gerade beschäftigt – ein Projekt, eine Entscheidung, ein Dokument in Vorbereitung. Schreibe acht bis zwölf Stichpunkte dazu auf, in beliebiger Reihenfolge, ohne zu sortieren.
@@ -26,7 +28,9 @@ Strukturieren mit KI ist kein passiver Vorgang. Diese Übungen helfen, das Zusam
 - Welche Struktur hätte das Modell nicht vorgeschlagen, die du aber für deine Situation besser findest?
 - Was hat die Angabe des Zwecks verändert – was wäre ohne sie anders gewesen?
 
----
+</div>
+
+<div class="uebung" markdown="1">
 
 ## Übung 2: Eine Entscheidung strukturieren
 
@@ -40,7 +44,9 @@ Strukturieren mit KI ist kein passiver Vorgang. Diese Übungen helfen, das Zusam
 
 **Wichtig:** Das Modell trifft die Entscheidung nicht. Es bereitet sie vor. Die Wertung und die Entscheidung liegen bei dir.
 
----
+</div>
+
+<div class="uebung" markdown="1">
 
 ## Übung 3: Eine Gliederung iterieren
 
@@ -58,6 +64,8 @@ Du planst eine interne Präsentation (20 Minuten) über den Stand eines laufende
 **Reflexionsfragen:**
 - Wie viele Schritte hat es gebraucht, bis die Gliederung wirklich auf die Situation passte?
 - Was hat das Modell konsequent nicht „verstanden" – weil es eine Wertung war, die nur du treffen kannst?
+
+</div>
 
 ---
 

@@ -13,6 +13,8 @@ Diese Übungen trainieren den kritischen Umgang mit KI als Recherchetool: nicht 
 
 ---
 
+<div class="uebung" markdown="1">
+
 ## Übung 1: Überblick zu einem Thema erarbeiten
 
 **Aufgabe:** Wähle ein Thema, das du beruflich oder privat beschäftigt – etwas, das du noch nicht vollständig verstehst.
@@ -30,7 +32,9 @@ Diese Übungen trainieren den kritischen Umgang mit KI als Recherchetool: nicht 
 
 **Reflexionsfrage:** Welche Punkte aus dem KI-Überblick würdest du wirklich in einer Originalquelle nachschlagen – und welche behandelst du als „wahrscheinlich richtig"?
 
----
+</div>
+
+<div class="uebung" markdown="1">
 
 ## Übung 2: KI-Aussagen gezielt prüfen
 
@@ -44,7 +48,9 @@ Diese Übungen trainieren den kritischen Umgang mit KI als Recherchetool: nicht 
 
 **Ziel:** Du lernst, welche Art von KI-Aussagen besonders prüfbedürftig ist – und wie du das überprüfst, ohne jede Aussage nachzuschlagen.
 
----
+</div>
+
+<div class="uebung" markdown="1">
 
 ## Übung 3: Einen Recherche-Workflow aufbauen
 
@@ -59,6 +65,8 @@ Diese Übungen trainieren den kritischen Umgang mit KI als Recherchetool: nicht 
 **Reflexionsfragen:**
 - Bei welchen Schritten hilft KI am meisten?
 - Wo wäre es gefährlich, nur auf KI zu vertrauen?
+
+</div>
 
 ---
 
