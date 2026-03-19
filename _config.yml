@@ -26,5 +26,9 @@ plugins:
 
 search_enabled: true
 
+# Inhaltsverzeichnis
+toc:
+  enabled: true
+
 # Seitenstruktur
 nav_sort: order
