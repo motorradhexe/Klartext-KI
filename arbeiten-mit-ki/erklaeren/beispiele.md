@@ -17,7 +17,9 @@ Drei häufige Situationen, in denen KI beim Formulieren von Erklärungen hilft �
 
 **Schwacher Prompt:**
 
-> „Erkläre, was eine API ist."
+```
+Erkläre, was eine API ist.
+```
 
 Das Modell liefert eine technisch korrekte, aber generische Definition. Für jemanden ohne Technikstudium enthält sie Begriffe, die wieder erklärt werden müssten. Für eine Präsentation vor der Geschäftsführung ist sie weder anschaulich noch auf das Wesentliche fokussiert.
 
@@ -25,7 +27,9 @@ Das Modell liefert eine technisch korrekte, aber generische Definition. Für jem
 
 **Starker Prompt:**
 
-> „Erkläre einer Projektleiterin ohne technisches Hintergrundwissen, was eine API ist und warum es für ihr Projekt wichtig ist, dass zwei Softwaresysteme eine gut dokumentierte API haben. Sie entscheidet nächste Woche, ob das Projekt genehmigt wird. Benutze eine Alltagsanalogie. Kein Fachjargon – der Begriff ‚API' selbst darf vorkommen und soll einmal kurz erklärt werden. Länge: max. vier Absätze."
+```
+Erkläre einer Projektleiterin ohne technisches Hintergrundwissen, was eine API ist und warum es für ihr Projekt wichtig ist, dass zwei Softwaresysteme eine gut dokumentierte API haben. Sie entscheidet nächste Woche, ob das Projekt genehmigt wird. Benutze eine Alltagsanalogie. Kein Fachjargon – der Begriff ‚API' selbst darf vorkommen und soll einmal kurz erklärt werden. Länge: max. vier Absätze.
+```
 
 **Was diese Eingabe besser macht:**
 - Person: Projektleiterin, kein technisches Wissen
@@ -44,7 +48,9 @@ Das Modell liefert eine technisch korrekte, aber generische Definition. Für jem
 
 **Schwacher Prompt:**
 
-> „Erkläre mir, was eine Übergabe enthält."
+```
+Erkläre mir, was eine Übergabe enthält.
+```
 
 Das Modell liefert eine allgemeine Antwort mit typischen Übergabeelementen. Nützlich als Erinnerungshilfe – aber nicht als fertiges Dokument für eine konkrete Situation.
 
@@ -52,15 +58,17 @@ Das Modell liefert eine allgemeine Antwort mit typischen Übergabeelementen. Nü
 
 **Starker Prompt:**
 
-> „Ich übergebe in zwei Wochen eine laufende Kundenbeziehung an eine Kollegin. Der Kunde ist ein mittelständisches Produktionsunternehmen, das seit drei Jahren Kunde ist. Meine Kollegin kennt die Branche, aber nicht diesen Kunden. Sie übernimmt alle operativen Aufgaben.
->
-> Erstelle ein Übergabedokument mit diesen Informationen, die ich dir jetzt gebe:
-> – Hauptansprechpartner beim Kunden: Thomas Berger, Einkaufsleiter, kommuniziert bevorzugt per E-Mail, reagiert langsam auf Anrufe
-> – Aktuelles Projekt: Liefervertragsanpassung, läuft seit Oktober, nächster Meilenstein 15. April
-> – Besonderheit: Der Kunde hat eine schlechte Erfahrung mit einem früheren Dienstleister gemacht und ist sensibel bei Themen rund um Qualitätssicherung
-> – Offener Punkt: Rechnungsdiskrepanz aus Q4 noch ungeklärt, ich kümmere mich bis zu meinem letzten Tag darum
->
-> Format: klares, lesbares Dokument, max. eine Seite. Meine Kollegin soll nach der Lektüre in der Lage sein, das erste Gespräch mit dem Kunden vorzubereiten."
+```
+Ich übergebe in zwei Wochen eine laufende Kundenbeziehung an eine Kollegin. Der Kunde ist ein mittelständisches Produktionsunternehmen, das seit drei Jahren Kunde ist. Meine Kollegin kennt die Branche, aber nicht diesen Kunden. Sie übernimmt alle operativen Aufgaben.
+
+Erstelle ein Übergabedokument mit diesen Informationen, die ich dir jetzt gebe:
+– Hauptansprechpartner beim Kunden: Thomas Berger, Einkaufsleiter, kommuniziert bevorzugt per E-Mail, reagiert langsam auf Anrufe
+– Aktuelles Projekt: Liefervertragsanpassung, läuft seit Oktober, nächster Meilenstein 15. April
+– Besonderheit: Der Kunde hat eine schlechte Erfahrung mit einem früheren Dienstleister gemacht und ist sensibel bei Themen rund um Qualitätssicherung
+– Offener Punkt: Rechnungsdiskrepanz aus Q4 noch ungeklärt, ich kümmere mich bis zu meinem letzten Tag darum
+
+Format: klares, lesbares Dokument, max. eine Seite. Meine Kollegin soll nach der Lektüre in der Lage sein, das erste Gespräch mit dem Kunden vorzubereiten.
+```
 
 **Was diese Eingabe besser macht:**
 - Beziehungskontext: Dauer, Branche, Art der Übergabe
@@ -81,7 +89,9 @@ Das Modell kann jetzt ein Dokument erstellen, das über diesen Kunden spricht �
 
 **Schwacher Prompt:**
 
-> „Erkläre meinem Team, warum wir zu einem neuen Tool wechseln."
+```
+Erkläre meinem Team, warum wir zu einem neuen Tool wechseln.
+```
 
 Das Modell schreibt etwas Allgemeines über Toolwechsel – freundlich, halbherzig, ohne Substanz. Das eigene Team wird das durchschauen.
 
@@ -89,11 +99,13 @@ Das Modell schreibt etwas Allgemeines über Toolwechsel – freundlich, halbherz
 
 **Starker Prompt:**
 
-> „Ich muss meinem Team erklären, warum wir von Trello auf Jira wechseln. Das Team arbeitet seit drei Jahren mit Trello und ist damit zufrieden. Der Wechsel kommt von der Geschäftsführung.
->
-> Gründe für den Wechsel: bessere Integration mit unserem bestehenden Confluence-Wiki, einheitliche Plattform für alle Teams im Unternehmen, leistungsfähigere Berichte für das Management.
->
-> Formuliere eine kurze, direkte Erklärung für mein Team (acht Personen, technisch versiert, skeptisch gegenüber Wechseln). Benenne die Gründe ehrlich – auch dass ein Teil des Drucks von oben kommt. Kein Spin, kein Enthusiasmus, den ich nicht halten kann. Max. 150 Wörter."
+```
+Ich muss meinem Team erklären, warum wir von Trello auf Jira wechseln. Das Team arbeitet seit drei Jahren mit Trello und ist damit zufrieden. Der Wechsel kommt von der Geschäftsführung.
+
+Gründe für den Wechsel: bessere Integration mit unserem bestehenden Confluence-Wiki, einheitliche Plattform für alle Teams im Unternehmen, leistungsfähigere Berichte für das Management.
+
+Formuliere eine kurze, direkte Erklärung für mein Team (acht Personen, technisch versiert, skeptisch gegenüber Wechseln). Benenne die Gründe ehrlich – auch dass ein Teil des Drucks von oben kommt. Kein Spin, kein Enthusiasmus, den ich nicht halten kann. Max. 150 Wörter.
+```
 
 **Was diese Eingabe besser macht:**
 - Situation: zufriedenes Team, externer Druck

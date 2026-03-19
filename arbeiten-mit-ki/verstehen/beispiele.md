@@ -48,7 +48,9 @@ Ich habe Informatik-Grundkenntnisse aus einer Berufsausbildung, aber kein Physik
 
 **Schwacher Prompt:**
 
-> „Erkläre mir den DSGVO-Artikel 17."
+```
+Erkläre mir den DSGVO-Artikel 17.
+```
 
 Das Modell liefert eine Zusammenfassung des Artikels – korrekt im Groben, aber für eine konkrete Entscheidung meist nicht ausreichend präzise. Und: Für Detailfragen in juristischen Texten gilt besondere Vorsicht vor [Halluzinationen](../../glossar#halluzination).
 
@@ -56,9 +58,11 @@ Das Modell liefert eine Zusammenfassung des Artikels – korrekt im Groben, aber
 
 **Starker Prompt:**
 
-> „Ich leite eine kleine Marketingagentur. Ein ehemaliger Kunde hat uns gebeten, alle Daten zu löschen, die wir über ihn gespeichert haben. Ich möchte DSGVO-Artikel 17 verstehen, um zu wissen: Haben wir die Pflicht, das zu tun? Gibt es Ausnahmen, die für Agenturen relevant sein könnten?
->
-> Ich bin kein Jurist. Erkläre es so, dass ich verstehe, was ich als nächstes prüfen oder tun muss. Weise mich darauf hin, wenn du unsicher bist oder wenn ich unbedingt juristischen Rat einholen sollte."
+```
+Ich leite eine kleine Marketingagentur. Ein ehemaliger Kunde hat uns gebeten, alle Daten zu löschen, die wir über ihn gespeichert haben. Ich möchte DSGVO-Artikel 17 verstehen, um zu wissen: Haben wir die Pflicht, das zu tun? Gibt es Ausnahmen, die für Agenturen relevant sein könnten?
+
+Ich bin kein Jurist. Erkläre es so, dass ich verstehe, was ich als nächstes prüfen oder tun muss. Weise mich darauf hin, wenn du unsicher bist oder wenn ich unbedingt juristischen Rat einholen sollte.
+```
 
 **Was diese Eingabe besser macht:**
 - Kontext: kleine Marketingagentur, konkreter Fall
@@ -78,7 +82,9 @@ Das Modell liefert eine Zusammenfassung des Artikels – korrekt im Groben, aber
 
 **Schwacher Prompt:**
 
-> „Erkläre mir diese Dokumentation." [Dokumentation eingefügt]
+```
+Erkläre mir diese Dokumentation. [Dokumentation eingefügt]
+```
 
 Das Modell fasst die Dokumentation zusammen – was nützlich ist, aber oft nicht das, was man wirklich braucht. Man bekommt einen Überblick, aber kein Verständnis der Teile, die tatsächlich unklar waren.
 
@@ -86,9 +92,11 @@ Das Modell fasst die Dokumentation zusammen – was nützlich ist, aber oft nich
 
 **Starker Prompt:**
 
-> „Ich lese diese technische API-Dokumentation [Abschnitt eingefügt]. Ich bin Backend-Entwicklerin mit Python-Kenntnissen, aber ohne Erfahrung mit dieser spezifischen API.
->
-> Ich verstehe nicht, was der Unterschied zwischen ‚synchronen' und ‚asynchronen' Anfragen in diesem Kontext bedeutet – und warum ich mich in meinem Fall für die eine oder andere entscheiden würde. Erkläre mir das anhand dieser Dokumentation, nicht abstrakt."
+```
+Ich lese diese technische API-Dokumentation [Abschnitt eingefügt]. Ich bin Backend-Entwicklerin mit Python-Kenntnissen, aber ohne Erfahrung mit dieser spezifischen API.
+
+Ich verstehe nicht, was der Unterschied zwischen ‚synchronen' und ‚asynchronen' Anfragen in diesem Kontext bedeutet – und warum ich mich in meinem Fall für die eine oder andere entscheiden würde. Erkläre mir das anhand dieser Dokumentation, nicht abstrakt.
+```
 
 **Was diese Eingabe besser macht:**
 - Konkreter Abschnitt: eingefügt, nicht nur beschrieben

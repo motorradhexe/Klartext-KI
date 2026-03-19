@@ -17,7 +17,9 @@ Drei häufige Situationen, in denen KI beim Strukturieren hilft – von der Schu
 
 **Schwacher Prompt:**
 
-> „Hilf mir, mein Projekt zu strukturieren."
+```
+Hilf mir, mein Projekt zu strukturieren.
+```
 
 Das Modell liefert eine generische Projektstruktur mit Phasen wie Initiierung, Planung, Durchführung, Abschluss. Richtig – aber für niemanden besonders nützlich.
 
@@ -25,9 +27,11 @@ Das Modell liefert eine generische Projektstruktur mit Phasen wie Initiierung, P
 
 **Starker Prompt:**
 
-> „Ich plane eine interne Schulung zum Thema Datenschutz für 15 Mitarbeitende ohne IT-Hintergrund. Dauer: 90 Minuten, kein Präsenzunterricht – wir machen das per Video-Call. Ziel: Die Teilnehmenden sollen am Ende wissen, was sie im Umgang mit Kundendaten dürfen, was nicht, und was sie tun sollen, wenn sie unsicher sind. Es gibt keine Abschlussprüfung.
->
-> Schlage mir eine Gliederung für die 90 Minuten vor. Bitte unterscheide, welche Teile Vortrag sind und welche interaktiv sein sollten."
+```
+Ich plane eine interne Schulung zum Thema Datenschutz für 15 Mitarbeitende ohne IT-Hintergrund. Dauer: 90 Minuten, kein Präsenzunterricht – wir machen das per Video-Call. Ziel: Die Teilnehmenden sollen am Ende wissen, was sie im Umgang mit Kundendaten dürfen, was nicht, und was sie tun sollen, wenn sie unsicher sind. Es gibt keine Abschlussprüfung.
+
+Schlage mir eine Gliederung für die 90 Minuten vor. Bitte unterscheide, welche Teile Vortrag sind und welche interaktiv sein sollten.
+```
 
 **Was diese Eingabe besser macht:**
 - Art der Veranstaltung: interne Schulung, Video-Call
@@ -46,7 +50,9 @@ Das Modell liefert eine generische Projektstruktur mit Phasen wie Initiierung, P
 
 **Schwacher Prompt:**
 
-> „Hilf mir, eine Entscheidung zu treffen."
+```
+Hilf mir, eine Entscheidung zu treffen.
+```
 
 Das Modell fragt zurück oder liefert eine allgemeine Entscheidungsmatrix. Ohne Kontext kann es keine nützliche Grundlage bieten.
 
@@ -54,9 +60,11 @@ Das Modell fragt zurück oder liefert eine allgemeine Entscheidungsmatrix. Ohne 
 
 **Starker Prompt:**
 
-> „Ich muss entscheiden, ob wir unsere Kundendaten in einer selbst gehosteten Datenbank behalten oder zu einem Cloud-Anbieter wechseln. Unser Unternehmen: 25 Mitarbeitende, B2B-Software, Kunden in Deutschland und Österreich, DSGVO-Pflichten.
->
-> Ich bin nicht technisch. Ich brauche keine Empfehlung, sondern eine strukturierte Liste der Kriterien, die ich bei dieser Entscheidung berücksichtigen sollte – nach Relevanz geordnet. Falls es Kriterien gibt, die ich als Nicht-Techniker ohne externe Hilfe nicht beurteilen kann, markiere sie."
+```
+Ich muss entscheiden, ob wir unsere Kundendaten in einer selbst gehosteten Datenbank behalten oder zu einem Cloud-Anbieter wechseln. Unser Unternehmen: 25 Mitarbeitende, B2B-Software, Kunden in Deutschland und Österreich, DSGVO-Pflichten.
+
+Ich bin nicht technisch. Ich brauche keine Empfehlung, sondern eine strukturierte Liste der Kriterien, die ich bei dieser Entscheidung berücksichtigen sollte – nach Relevanz geordnet. Falls es Kriterien gibt, die ich als Nicht-Techniker ohne externe Hilfe nicht beurteilen kann, markiere sie.
+```
 
 **Was diese Eingabe besser macht:**
 - Kontext: Unternehmensgröße, Branche, Regulierungsbereich
@@ -76,7 +84,9 @@ Das Modell gibt keine Antwort auf die Frage, welche Option besser ist. Es strukt
 
 **Schwacher Prompt:**
 
-> „Ich habe viele Ideen für mein Konzeptpapier. Hilf mir, sie zu ordnen."
+```
+Ich habe viele Ideen für mein Konzeptpapier. Hilf mir, sie zu ordnen.
+```
 
 Ohne die Ideen zu kennen, kann das Modell nichts ordnen. Es fragt zurück oder liefert eine generische Papierstruktur.
 
@@ -84,17 +94,19 @@ Ohne die Ideen zu kennen, kann das Modell nichts ordnen. Es fragt zurück oder l
 
 **Starker Prompt:**
 
-> „Ich schreibe ein internes Konzeptpapier für die Einführung eines neuen Onboarding-Prozesses für neue Mitarbeitende. Hier sind meine ungeordneten Notizen:
->
-> – aktueller Prozess ist unstrukturiert, jede Abteilung macht es anders
-> – neue Mitarbeitende fühlen sich in den ersten Wochen oft verloren
-> – HR hat keine Kapazität, alles selbst zu koordinieren
-> – Vorschlag: digitale Onboarding-Plattform + persönliche Paten
-> – Kosten: Plattform ca. 300 € / Monat, Paten brauchen Training
-> – Pilotprojekt in Q3 mit zwei Abteilungen geplant
-> – Erfolgsmessung: Zufriedenheitsumfrage nach 4 Wochen
->
-> Bring diese Punkte in eine logische Gliederung für ein Konzeptpapier. Zielgruppe ist die Geschäftsführung, die entscheiden soll, ob sie dem Vorschlag zustimmt. Maximal fünf Abschnitte."
+```
+Ich schreibe ein internes Konzeptpapier für die Einführung eines neuen Onboarding-Prozesses für neue Mitarbeitende. Hier sind meine ungeordneten Notizen:
+
+– aktueller Prozess ist unstrukturiert, jede Abteilung macht es anders
+– neue Mitarbeitende fühlen sich in den ersten Wochen oft verloren
+– HR hat keine Kapazität, alles selbst zu koordinieren
+– Vorschlag: digitale Onboarding-Plattform + persönliche Paten
+– Kosten: Plattform ca. 300 € / Monat, Paten brauchen Training
+– Pilotprojekt in Q3 mit zwei Abteilungen geplant
+– Erfolgsmessung: Zufriedenheitsumfrage nach 4 Wochen
+
+Bring diese Punkte in eine logische Gliederung für ein Konzeptpapier. Zielgruppe ist die Geschäftsführung, die entscheiden soll, ob sie dem Vorschlag zustimmt. Maximal fünf Abschnitte.
+```
 
 **Was diese Eingabe besser macht:**
 - Konkretes Material: sieben Stichpunkte, ungeordnet
