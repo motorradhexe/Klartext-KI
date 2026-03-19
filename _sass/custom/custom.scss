@@ -262,6 +262,39 @@
   }
 }
 
+// Glossar-Links mit Tooltip
+.glossar-link {
+  border-bottom: 1px dotted $link-color;
+  text-decoration: none !important;
+  position: relative;
+  cursor: help;
+
+  &[data-tip]::after {
+    content: attr(data-tip);
+    position: absolute;
+    bottom: calc(100% + 6px);
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: $body-heading-color;
+    color: $sidebar-color;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.78rem;
+    line-height: 1.4;
+    white-space: nowrap;
+    max-width: 280px;
+    white-space: normal;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s;
+    z-index: 200;
+  }
+
+  &[data-tip]:hover::after {
+    opacity: 1;
+  }
+}
+
 // Code-Blöcke: Zeilenumbruch statt horizontalem Scrollbalken
 pre, pre code {
   white-space: pre-wrap;

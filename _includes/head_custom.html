@@ -16,3 +16,34 @@
     });
   })();
 </script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var tooltips = {
+      'prompt':         'Die Eingabe an ein KI-Modell – Frage, Auftrag oder Anweisung',
+      'token':          'Kleinste Texteinheit, die ein KI-Modell verarbeitet',
+      'kontext':        'Alle Informationen, die das Modell beim Antworten sehen kann',
+      'sprachmodell':   'KI-System, das Text verarbeitet und erzeugt',
+      'training':       'Prozess, durch den das Modell aus Texten gelernt hat – einmalig, nicht veränderlich',
+      'kontextfenster': 'Obergrenze, wie viel Text das Modell auf einmal verarbeiten kann',
+      'modell':         'Der trainierte KI-Kern, der Anfragen berechnet und beantwortet',
+      'halluzination':  'KI erfindet plausibel klingende, aber faktisch falsche Aussagen',
+      'iteration':      'Ergebnis als Ausgangspunkt nehmen und durch Folgeprompts verbessern',
+      'ausgabe':        'Die Antwort, die das KI-Modell auf einen Prompt produziert',
+      'agent':          'KI-System, das selbstständig handelt und Werkzeuge einsetzt',
+      'rag':            'KI sucht vor dem Antworten gezielt in einer eigenen Wissensdatenbank',
+      'mcp':            'Standard, über den KI-Modelle externe Werkzeuge nutzen',
+      'framework':      'Fertiges Code-Grundgerüst für eine bestimmte Art von Anwendung',
+      'import':         'Einbinden von externem Code in eine Programmdatei',
+      'docstring':      'Kommentar im Code, der erklärt, was eine Funktion tut'
+    };
+
+    document.querySelectorAll('a[href*="glossar#"]').forEach(function (a) {
+      var anchor = a.href.split('#')[1];
+      if (anchor && tooltips[anchor]) {
+        a.setAttribute('data-tip', tooltips[anchor]);
+        a.classList.add('glossar-link');
+      }
+    });
+  });
+</script>
