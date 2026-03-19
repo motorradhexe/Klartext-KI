@@ -41,6 +41,13 @@ nav_order: 0
       <p>Für alle, die mehr verstehen wollen: wie KI-Systeme mit eigenen Daten, externen Werkzeugen und automatisierten Abläufen arbeiten. Kein Pflichtprogramm – aber hilfreich, wenn man den größeren Rahmen verstehen will.</p>
     </div>
   </div>
+  <div class="lernweg-schritt">
+    <span class="lernweg-nr">!</span>
+    <div>
+      <strong>Verantwortung</strong>
+      <p>Was man wissen sollte, bevor man KI im Arbeitsalltag einsetzt: Datenschutz, Haftung, Fehlerrisiken und wann die Verantwortung beim Menschen liegt – nicht beim Modell.</p>
+    </div>
+  </div>
 </div>
 
 ---
@@ -118,6 +125,17 @@ Wer die Grundlagen kennt und verstehen will, wie KI-Systeme komplexer werden:
   <a href="vertiefung/agents" class="vertiefung-link">Agents – KI, die selbstständig Aufgaben ausführt</a>
   <a href="vertiefung/rag" class="vertiefung-link">RAG – Wie KI auf eigene Wissensdatenbanken zugreift</a>
   <a href="vertiefung/mcp" class="vertiefung-link">MCP – Wie KI mit externen Werkzeugen verbunden wird</a>
+</div>
+
+---
+
+## Verantwortung
+
+Was passiert mit Daten, die man in KI eingibt? Wann ist KI im Arbeitskontext erlaubt? Wer haftet, wenn eine KI-Ausgabe falsch ist? Diese Seiten behandeln keine abstrakten Szenarien, sondern konkrete Fragen aus dem Alltag.
+
+<div class="vertiefung-links">
+  <a href="verantwortung/risiken" class="vertiefung-link">Risiken im Überblick – Fehler, Haftung, Fehleinschätzungen</a>
+  <a href="verantwortung" class="vertiefung-link">Übersicht: Verantwortung beim KI-Einsatz</a>
 </div>
 
 <div class="meta-links">
