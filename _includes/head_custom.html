@@ -1,4 +1,36 @@
 <style>
+  .page-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border-color, #ddd);
+    gap: 1rem;
+  }
+
+  .page-nav-btn {
+    display: inline-block;
+    padding: 0.45rem 1rem;
+    border: 1px solid var(--border-color, #ccc);
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: inherit;
+    max-width: 45%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .page-nav-btn:hover {
+    opacity: 0.7;
+    text-decoration: none;
+  }
+
+  .page-nav-next {
+    margin-left: auto;
+  }
+
   #theme-toggle {
     background: none;
     border: 1px solid var(--border-color, #ccc);
