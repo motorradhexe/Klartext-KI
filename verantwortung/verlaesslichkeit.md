@@ -3,7 +3,7 @@ title: Verlässlichkeit von KI-Ausgaben
 description: Warum KI-Ausgaben keine verlässlichen Ergebnisse sind – und was das für Prüfpflicht, Haftung und den eigenen Urteilsvermögen bedeutet.
 layout: default
 parent: Verantwortung
-nav_order: 2
+nav_order: 3
 ---
 
 # Verlässlichkeit von KI-Ausgaben

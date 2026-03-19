@@ -3,7 +3,7 @@ title: Datenschutz beim KI-Einsatz
 description: Was mit Eingaben passiert, wenn man sie an einen KI-Dienst schickt – und welche Konsequenzen das für den Arbeitsalltag hat.
 layout: default
 parent: Verantwortung
-nav_order: 1
+nav_order: 2
 ---
 
 # Datenschutz beim KI-Einsatz

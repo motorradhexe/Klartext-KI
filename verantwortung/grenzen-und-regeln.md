@@ -3,7 +3,7 @@ title: Grenzen und Regeln beim KI-Einsatz
 description: Wann der Einsatz von KI-Tools erlaubt ist – und wann nicht. Unternehmensrichtlinien, Urheberrecht, Kennzeichnungspflichten und der EU AI Act für Nutzende.
 layout: default
 parent: Verantwortung
-nav_order: 3
+nav_order: 1
 ---
 
 # Grenzen und Regeln beim KI-Einsatz
