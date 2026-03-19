@@ -11,8 +11,8 @@ has_children: true
 Sieben Lernpfade, die unabhängig voneinander funktionieren. Jeder behandelt eine konkrete Aufgabe: Schreiben, Verstehen, Strukturieren, Entwickeln, Erklären, Recherchieren, Zusammenfassen.
 
 Jeder Lernpfad hat drei Unterseiten:
-- **Methode** – wie man vorgeht, welche Angaben wichtig sind, was typischerweise schiefgeht
+- **Methode** – wie Du vorgehst, welche Angaben wichtig sind, was typischerweise schiefgeht
 - **Beispiele** – drei konkrete Vorher/Nachher-Prompts mit Erklärung
-- **Übungen** – aktive Aufgaben mit Anleitung, die man sofort ausprobieren kann
+- **Übungen** – aktive Aufgaben mit Anleitung, die Du sofort ausprobieren kannst
 
 Die Reihenfolge spielt keine Rolle. Anfangen mit dem, was gerade gebraucht wird.

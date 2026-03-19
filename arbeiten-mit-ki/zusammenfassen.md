@@ -9,7 +9,7 @@ has_children: true
 
 # Mit KI zusammenfassen
 
-Lange Texte kürzen, Meetingnotizen strukturieren, komplexe Dokumente auf das Wesentliche reduzieren – das sind Aufgaben, bei denen KI erheblich Zeit sparen kann. Aber eine Zusammenfassung ist nur so gut wie ihre Grundlage. Und was als „wesentlich" gilt, hängt vom Zweck ab – den das Modell nicht kennt, wenn man ihn nicht angibt.
+Lange Texte kürzen, Meetingnotizen strukturieren, komplexe Dokumente auf das Wesentliche reduzieren – das sind Aufgaben, bei denen KI erheblich Zeit sparen kann. Aber eine Zusammenfassung ist nur so gut wie ihre Grundlage. Und was als „wesentlich" gilt, hängt vom Zweck ab – den das Modell nicht kennt, wenn Du ihn nicht angibst.
 
 ---
 
@@ -17,17 +17,17 @@ Lange Texte kürzen, Meetingnotizen strukturieren, komplexe Dokumente auf das We
 
 KI ist gut darin, lange Texte auf Kernaussagen zu reduzieren, Meetingprotokolle in Handlungspunkte zu übersetzen, parallele Dokumente auf Gemeinsamkeiten und Unterschiede zu prüfen und mehrseitige Berichte auf das für eine bestimmte Zielgruppe Relevante zu verdichten.
 
-Was KI nicht kann: wissen, was für den eigenen Kontext relevant ist – wenn man ihn nicht beschreibt. Eine Zusammenfassung ohne Zweckangabe ist immer eine Durchschnittszusammenfassung. Was bei einer Zusammenfassung für die Geschäftsführung wichtig ist, unterscheidet sich von dem, was für das Projektteam zählt.
+Was KI nicht kann: wissen, was für den eigenen Kontext relevant ist – wenn Du ihn nicht beschreibst. Eine Zusammenfassung ohne Zweckangabe ist immer eine Durchschnittszusammenfassung. Was bei einer Zusammenfassung für die Geschäftsführung wichtig ist, unterscheidet sich von dem, was für das Projektteam zählt.
 
 Außerdem: KI lässt manchmal Dinge weg, die sie für unwichtig hält – die es aber nicht sind. Wer einen Text zusammenfassen lässt, ohne das Ergebnis am Original zu prüfen, riskiert, dass wichtige Nuancen verloren gehen.
 
-**KI fasst schnell zusammen. Was relevant ist, entscheidet man selbst.**
+**KI fasst schnell zusammen. Was relevant ist, entscheidest Du selbst.**
 
 ---
 
 ## Dieser Lernpfad
 
-**[Methode: Zusammenfassungen, die auf den Punkt kommen](zusammenfassen/methode)** – Wie man den Zweck einer Zusammenfassung benennt, den richtigen Umfang vorgibt, verschiedene Formate einsetzt und das Ergebnis auf Vollständigkeit prüft.
+**[Methode: Zusammenfassungen, die auf den Punkt kommen](zusammenfassen/methode)** – Wie Du den Zweck einer Zusammenfassung benennst, den richtigen Umfang vorgibst, verschiedene Formate einsetzt und das Ergebnis auf Vollständigkeit prüfst.
 
 **[Beispiele: Vorher / Nachher für verschiedene Zusammenfassungsaufgaben](zusammenfassen/beispiele)** – Drei Szenarien: Fachartikel zusammenfassen, Meetingprotokoll strukturieren, mehrere Dokumente vergleichen – mit je einem schwachen und einem starken Prompt.
 
@@ -37,7 +37,7 @@ Außerdem: KI lässt manchmal Dinge weg, die sie für unwichtig hält – die es
 
 ## Zum Einstieg ausprobieren
 
-Nimm einen Text aus deiner Arbeit, den du zuletzt gelesen hast – einen langen E-Mail-Thread, einen Bericht, ein Meeting-Protokoll.
+Nimm einen Text aus Deiner Arbeit, den Du zuletzt gelesen hast – einen langen E-Mail-Thread, einen Bericht, ein Meeting-Protokoll.
 
 Gib ihn in KI ein und schreibe dazu: Für wen ist die Zusammenfassung? Was soll die Person danach wissen oder entscheiden können? Wie lang darf sie sein?
 

@@ -9,7 +9,7 @@ nav_order: 2
 
 # Beispiele: Vorher / Nachher für verschiedene Lernszenarien
 
-Drei Situationen, in denen KI beim Verstehen helfen kann – und wie man den [Prompt](../../glossar#prompt) so gestaltet, dass die Erklärung tatsächlich passt.
+Drei Situationen, in denen KI beim Verstehen helfen kann – und wie Du den [Prompt](../../glossar#prompt) so gestaltest, dass die Erklärung tatsächlich passt.
 
 ---
 
@@ -86,7 +86,7 @@ Ich bin kein Jurist. Erkläre es so, dass ich verstehe, was ich als nächstes pr
 Erkläre mir diese Dokumentation. [Dokumentation eingefügt]
 ```
 
-Das Modell fasst die Dokumentation zusammen – was nützlich ist, aber oft nicht das, was man wirklich braucht. Man bekommt einen Überblick, aber kein Verständnis der Teile, die tatsächlich unklar waren.
+Das Modell fasst die Dokumentation zusammen – was nützlich ist, aber oft nicht das, was wirklich gebraucht wird. Es entsteht ein Überblick, aber kein Verständnis der Teile, die tatsächlich unklar waren.
 
 ---
 
@@ -112,6 +112,6 @@ Ich verstehe nicht, was der Unterschied zwischen ‚synchronen' und ‚asynchron
 
 ## Übung
 
-Nimm einen Text, den du schon einmal gelesen und nicht vollständig verstanden hast – einen Fachartikel, eine Dokumentation, ein Gesetz, einen technischen Standard.
+Nimm einen Text, den Du schon einmal gelesen und nicht vollständig verstanden hast – einen Fachartikel, eine Dokumentation, ein Gesetz, einen technischen Standard.
 
-Gib einen Abschnitt davon in KI ein. Schreibe dazu: Was weißt du schon? Was verstehst du nicht? Wozu brauchst du das Verständnis? Dann lies die Antwort – und stell mindestens drei Folgefragen. Das Verständnis, das nach fünf Fragen entsteht, ist immer tiefer als das nach einer.
+Gib einen Abschnitt davon in KI ein. Schreibe dazu: Was weißt Du schon? Was verstehst Du nicht? Wozu brauchst Du das Verständnis? Dann lies die Antwort – und stell mindestens drei Folgefragen. Das Verständnis, das nach fünf Fragen entsteht, ist immer tiefer als das nach einer.

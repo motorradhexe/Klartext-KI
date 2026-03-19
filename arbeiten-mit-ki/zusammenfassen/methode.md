@@ -64,7 +64,7 @@ Für Meetingprotokolle oder Projektreviews. Enthält: Was wurde beschlossen? Wer
 Für mehrere Dokumente oder Optionen. Enthält: Was haben alle gemeinsam? Was unterscheidet sie? Was sind die Hauptargumente für jede Position?
 
 **Lese-Zusammenfassung:**
-Für einen Text, den man selbst gelesen hat und über den man sprechen oder schreiben muss. Enthält: Kernaussage, wichtigste Argumente, mögliche Schwachstellen.
+Für einen Text, den Du selbst gelesen hast und über den Du sprechen oder schreiben musst. Enthält: Kernaussage, wichtigste Argumente, mögliche Schwachstellen.
 
 ---
 

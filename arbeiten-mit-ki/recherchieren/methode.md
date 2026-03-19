@@ -7,7 +7,7 @@ grand_parent: Mit KI arbeiten
 nav_order: 1
 ---
 
-# Methode: Wie man KI produktiv für Recherche einsetzt
+# Methode: Wie Du KI produktiv für Recherche einsetzt
 
 Recherche mit KI ist kein Nachschlagen. Es ist ein strukturierter Einstieg in ein Thema – mit dem Ziel, die richtigen Fragen für die echte Recherche zu finden.
 
@@ -22,7 +22,7 @@ Nützliche Einstiegsfragen:
 - „Welche Fragen sollte ich zu [Thema] stellen, bevor ich tiefer recherchiere?"
 - „Was sind die häufigsten Missverständnisse zu [Thema]?"
 
-Diese Fragen liefern keine gesicherten Antworten, sondern eine Landkarte: Was gibt es in diesem Gebiet? Wo muss man genauer hinschauen?
+Diese Fragen liefern keine gesicherten Antworten, sondern eine Landkarte: Was gibt es in diesem Gebiet? Wo musst Du genauer hinschauen?
 
 ---
 
@@ -75,13 +75,13 @@ Nützlicher Einsatz: KI nach Schlagwörtern oder relevanten Fachbegriffen fragen
 ## Typische Fehler – und warum sie passieren
 
 **KI als einzige Quelle behandeln.**
-Recherche endet nicht bei KI. Sie beginnt dort. Wer einen KI-Überblick als ausreichende Grundlage für eine Entscheidung behandelt, hat nicht recherchiert – er hat sich etwas erklären lassen.
+Recherche endet nicht bei KI. Sie beginnt dort. Wer einen KI-Überblick als ausreichende Grundlage für eine Entscheidung behandelt, hat nicht recherchiert – sondern sich etwas erklären lassen.
 
 **Quellenangaben nicht prüfen.**
 KI nennt manchmal Quellen, die nicht existieren oder den angegebenen Inhalt nicht haben. Wer Quellen aus einer KI-Antwort zitiert, ohne sie selbst gesehen zu haben, riskiert, etwas zu zitieren, das so nie geschrieben wurde.
 
 **Aktualität überschätzen.**
-Das Modell, das du gerade nutzt, hat einen Trainingsstand – oft sechs Monate bis zwei Jahre vor dem aktuellen Datum. Für Themen, bei denen Aktualität wichtig ist (Recht, Markt, Technologie, Politik), ist KI keine verlässliche Quelle für den aktuellen Stand.
+Das Modell, das Du gerade nutzt, hat einen Trainingsstand – oft sechs Monate bis zwei Jahre vor dem aktuellen Datum. Für Themen, bei denen Aktualität wichtig ist (Recht, Markt, Technologie, Politik), ist KI keine verlässliche Quelle für den aktuellen Stand.
 
 **Plausibilität mit Richtigkeit verwechseln.**
 KI-Antworten klingen überzeugend. Das ist keine Eigenschaft von Wahrheit, sondern von gut trainierten Sprachmodellen. Eine selbstsicher klingende Antwort ist kein Beweis für ihre Richtigkeit.

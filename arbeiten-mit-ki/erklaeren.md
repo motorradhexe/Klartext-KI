@@ -9,25 +9,25 @@ has_children: true
 
 # Mit KI erklären
 
-Wissen zu haben ist eine Sache. Es so erklären zu können, dass andere es verstehen, ist eine andere. KI kann dabei helfen – aber nur, wenn man weiß, wem man was erklären will. Sonst entsteht eine Erklärung, die für alle und niemanden passt.
+Wissen zu haben ist eine Sache. Es so erklären zu können, dass andere es verstehen, ist eine andere. KI kann dabei helfen – aber nur, wenn Du weißt, wem Du was erklären willst. Sonst entsteht eine Erklärung, die für alle und niemanden passt.
 
 ---
 
 ## Wofür eignet sich KI – und wofür nicht?
 
-KI ist gut darin, komplizierte Sachverhalte in verständliche Sprache zu übersetzen, Analogien zu bilden, Präsentationsstrukturen vorzuschlagen und Übergabedokumente zu entwerfen. Wenn man etwas erklären muss, das man selbst gut versteht, ist KI ein nützliches Formulierungswerkzeug: Man gibt den Inhalt vor, das Modell übersetzt ihn in die Sprache der Zielgruppe.
+KI ist gut darin, komplizierte Sachverhalte in verständliche Sprache zu übersetzen, Analogien zu bilden, Präsentationsstrukturen vorzuschlagen und Übergabedokumente zu entwerfen. Wenn Du etwas erklären musst, das Du selbst gut verstehst, ist KI ein nützliches Formulierungswerkzeug: Du gibst den Inhalt vor, das Modell übersetzt ihn in die Sprache der Zielgruppe.
 
 Was KI nicht ersetzen kann: das eigene Verständnis des Themas. Wer etwas selbst nicht versteht, kann KI nicht sinnvoll einsetzen, um es zu erklären – das Modell produziert dann etwas, das klingt als ob es stimmt, aber nicht geprüft werden kann.
 
-Und: KI kennt die eigene Zielgruppe nicht. Wie viel die Zuhörenden schon wissen, was ihre Vorbehalte sind, welche Analogien bei ihnen ankommen – das muss man mitgeben.
+Und: KI kennt die eigene Zielgruppe nicht. Wie viel die Zuhörenden schon wissen, was ihre Vorbehalte sind, welche Analogien bei ihnen ankommen – das musst Du mitgeben.
 
-**KI formuliert. Das Verständnis des Themas und das Wissen über die Zielgruppe muss man selbst mitbringen.**
+**KI formuliert. Das Verständnis des Themas und das Wissen über die Zielgruppe musst Du selbst mitbringen.**
 
 ---
 
 ## Dieser Lernpfad
 
-**[Methode: Erklärungen, die bei der Zielgruppe ankommen](erklaeren/methode)** – Die drei Angaben, die jeden Erklärungs-Prompt verbessern, wie man Analogien gezielt einsetzt und wie man eine Erklärung in mehreren Schritten aufbaut.
+**[Methode: Erklärungen, die bei der Zielgruppe ankommen](erklaeren/methode)** – Die drei Angaben, die jeden Erklärungs-Prompt verbessern, wie Du Analogien gezielt einsetzt und wie Du eine Erklärung in mehreren Schritten aufbaust.
 
 **[Beispiele: Vorher / Nachher für verschiedene Erklärungssituationen](erklaeren/beispiele)** – Drei Szenarien: technisches Konzept für Nicht-Techniker, Übergabedokument, Präsentation für Entscheider – mit je einem schwachen und einem starken Prompt.
 
@@ -37,6 +37,6 @@ Und: KI kennt die eigene Zielgruppe nicht. Wie viel die Zuhörenden schon wissen
 
 ## Zum Einstieg ausprobieren
 
-Denk an etwas, das du regelmäßig erklären musst – einem Kollegen, einem Kunden, einer Führungskraft. Etwas, bei dem die Erklärungen oft nicht ankommen oder zu lange dauern.
+Denk an etwas, das Du regelmäßig erklären musst – einem Kollegen, einem Kunden, einer Führungskraft. Etwas, bei dem die Erklärungen oft nicht ankommen oder zu lange dauern.
 
 Beschreibe KI: Was ist das Thema? Wer ist die Person? Was weiß sie schon? Was soll sie am Ende verstehen oder entscheiden können? Dann lies das Ergebnis kritisch: Würde diese Person das wirklich verstehen?

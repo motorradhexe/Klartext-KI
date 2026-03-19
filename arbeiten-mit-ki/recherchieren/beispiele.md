@@ -9,7 +9,7 @@ nav_order: 2
 
 # Beispiele: Vorher / Nachher für verschiedene Rechercheaufgaben
 
-Drei häufige Situationen, in denen KI bei der Recherche helfen kann – und wie man den [Prompt](../../glossar#prompt) so gestaltet, dass das Ergebnis tatsächlich nützlich ist.
+Drei häufige Situationen, in denen KI bei der Recherche helfen kann – und wie Du den [Prompt](../../glossar#prompt) so gestaltest, dass das Ergebnis tatsächlich nützlich ist.
 
 ---
 
@@ -104,12 +104,12 @@ Kannst du mir sagen: Entspricht das dem, was du weißt? Wenn ja – welche Fakto
 
 Das Modell wird jetzt eher differenzierter antworten – und darauf hinweisen, wenn eine Aussage unsicher ist oder von bestimmten Bedingungen abhängt.
 
-**Wichtig:** Auch wenn KI eine Aussage bestätigt, ist das kein Beleg. Für faktische Entscheidungen braucht man Originalquellen.
+**Wichtig:** Auch wenn KI eine Aussage bestätigt, ist das kein Beleg. Für faktische Entscheidungen braucht es Originalquellen.
 
 ---
 
 ## Übung
 
-Wähle ein Thema, zu dem du in letzter Zeit etwas gelesen hast, das dich überrascht hat. Stell KI die Frage, ob diese Aussage bekannt ist und ob es Gründe gibt, sie genauer zu prüfen.
+Wähle ein Thema, zu dem Du in letzter Zeit etwas gelesen hast, das Dich überrascht hat. Stell KI die Frage, ob diese Aussage bekannt ist und ob es Gründe gibt, sie genauer zu prüfen.
 
 Dann: Suche die Originalquelle für die Aussage. Vergleiche, was KI gesagt hat, mit dem, was die Quelle tatsächlich sagt. Was stimmt überein – und was weicht ab?

@@ -23,7 +23,7 @@ Lesen und Verstehen ist der erste Schritt. Dieser hier ist der zweite: selbst fo
 Schreib mir einen Text über unser neues Produkt.
 ```
 
-**Was du weißt (fiktives Szenario):**
+**Was Du weißt (fiktives Szenario):**
 - Das Produkt ist eine neue Projektmanagement-Software für kleine Teams
 - Zielgruppe: Selbstständige und kleine Agenturen (3–10 Personen)
 - Besonderheit: keine Einarbeitung nötig, läuft im Browser
@@ -36,7 +36,7 @@ Schreib mir einen Text über unser neues Produkt.
 
 **Reflexionsfragen:**
 - Welche Angabe hat den größten Unterschied gemacht?
-- Was hätte im Ergebnis noch gefehlt, wenn du einen der Punkte weggelassen hättest?
+- Was hätte im Ergebnis noch gefehlt, wenn Du einen der Punkte weggelassen hättest?
 
 </div>
 
@@ -44,9 +44,9 @@ Schreib mir einen Text über unser neues Produkt.
 
 ## Übung 2: Eine eigene Schreibaufgabe strukturieren
 
-**Aufgabe:** Nimm einen Text, den du in den nächsten Tagen schreiben musst – oder einen, den du kürzlich geschrieben hast.
+**Aufgabe:** Nimm einen Text, den Du in den nächsten Tagen schreiben musst – oder einen, den Du kürzlich geschrieben hast.
 
-Beantworte diese vier Fragen schriftlich, bevor du KI einsetzt:
+Beantworte diese vier Fragen schriftlich, bevor Du KI einsetzt:
 
 1. Wer liest den Text?
 2. Was soll der Text bewirken?
@@ -56,7 +56,7 @@ Beantworte diese vier Fragen schriftlich, bevor du KI einsetzt:
 Dann formuliere daraus einen Prompt und lass KI einen Entwurf schreiben.
 
 **Auswertung:**
-Vergleiche das KI-Ergebnis mit deinem eigenen ersten Entwurf (falls du schon einen hattest) oder mit dem, was du ohne KI geschrieben hättest. Was ist besser, was schlechter? Was klingt nicht nach dir?
+Vergleiche das KI-Ergebnis mit Deinem eigenen ersten Entwurf (falls Du schon einen hattest) oder mit dem, was Du ohne KI geschrieben hättest. Was ist besser, was schlechter? Was klingt nicht nach Dir?
 
 </div>
 
@@ -70,14 +70,14 @@ Vergleiche das KI-Ergebnis mit deinem eigenen ersten Entwurf (falls du schon ein
 Schreib eine E-Mail an einen Kunden, dem wir uns verspätet haben.
 ```
 
-Lies die Ausgabe. Dann arbeite sie in mindestens drei Iterationsschritten zur passenden E-Mail für eine konkrete Situation aus, die du dir selbst ausgedacht hast.
+Lies die Ausgabe. Dann arbeite sie in mindestens drei Iterationsschritten zur passenden E-Mail für eine konkrete Situation aus, die Du Dir selbst ausgedacht hast.
 
 Schreib für jeden Schritt auf:
-- Was du am Ergebnis verändern wolltest
-- Wie du es formuliert hast
+- Was Du am Ergebnis verändern wolltest
+- Wie Du es formuliert hast
 - Ob der nächste Entwurf besser war – und wenn nicht, warum
 
-**Ziel:** Drei Iterationsschritte. Am Ende soll ein Text stehen, den du wirklich so verschicken könntest.
+**Ziel:** Drei Iterationsschritte. Am Ende soll ein Text stehen, den Du wirklich so verschicken könntest.
 
 **Hinweis:** Iteration bedeutet nicht, den Prompt zu wiederholen. Es bedeutet, eine gezielte Anweisung zu geben: „Der zweite Absatz klingt zu förmlich" ist ein Iterationsschritt. „Schreib das nochmal besser" ist keiner.
 
@@ -87,7 +87,7 @@ Schreib für jeden Schritt auf:
 
 ## Checkliste: Vor dem Absenden eines Schreib-Prompts
 
-Bevor du einen Schreib-Prompt abschickst, kurz prüfen:
+Bevor Du einen Schreib-Prompt abschickst, kurz prüfen:
 
 - [ ] Habe ich gesagt, wer den Text liest?
 - [ ] Habe ich beschrieben, was der Text bewirken soll?

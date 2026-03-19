@@ -8,17 +8,17 @@ nav_order: 2
 
 # Wie KI eigentlich funktioniert
 
-Man muss kein Informatikstudium haben, um KI sinnvoll nutzen zu können. Aber ein Grundverständnis davon, was im Hintergrund passiert, verhindert viele Fehler – und erklärt, warum KI manchmal überraschend gut und manchmal überraschend schlecht ist.
+Du musst kein Informatikstudium haben, um KI sinnvoll nutzen zu können. Aber ein Grundverständnis davon, was im Hintergrund passiert, verhindert viele Fehler – und erklärt, warum KI manchmal überraschend gut und manchmal überraschend schlecht ist.
 
 ---
 
 ## Nicht Wissen, sondern Wahrscheinlichkeit
 
-Das Wichtigste zuerst: KI-[Sprachmodelle](../glossar#sprachmodell) speichern keine Fakten. Sie sind keine Datenbanken, die man abfragt. Sie sind auch keine Suchmaschinen.
+Das Wichtigste zuerst: KI-[Sprachmodelle](../glossar#sprachmodell) speichern keine Fakten. Sie sind keine Datenbanken, die Du abfragst. Sie sind auch keine Suchmaschinen.
 
 Ein [Sprachmodell](../glossar#sprachmodell) hat während des [Trainings](../glossar#training) sehr viele Texte gelesen – Bücher, Webseiten, Artikel, Gespräche. Daraus hat es gelernt, wie Sprache funktioniert: welche Wörter zusammen vorkommen, wie Sätze gebaut sind, wie Themen zusammenhängen. Was es dabei nicht gelernt hat, ist: was stimmt und was nicht.
 
-Wenn man dem Modell eine Frage stellt, berechnet es, welche Zeichenfolge als Antwort am wahrscheinlichsten ist – basierend auf allem, was es während des [Trainings](../glossar#training) gesehen hat. Es „denkt" nicht nach, es sagt nicht: „Ich weiß das." Es sagt: „Dieser Text passt statistisch gut auf diese Eingabe."
+Wenn Du dem Modell eine Frage stellst, berechnet es, welche Zeichenfolge als Antwort am wahrscheinlichsten ist – basierend auf allem, was es während des [Trainings](../glossar#training) gesehen hat. Es „denkt" nicht nach, es sagt nicht: „Ich weiß das." Es sagt: „Dieser Text passt statistisch gut auf diese Eingabe."
 
 Das ist der Grund, warum KI-Texte sprachlich oft überzeugend klingen – auch wenn sie sachlich falsch sind. Sprachliche Plausibilität und inhaltliche Richtigkeit sind zwei verschiedene Dinge.
 
@@ -30,7 +30,7 @@ Sprachmodelle arbeiten nicht mit ganzen Wörtern oder Sätzen, sondern mit [Toke
 
 Das Wort „Bundesverfassungsgericht" wird beispielsweise in mehrere Token aufgeteilt. Das Modell sieht nicht das Wort als Ganzes, sondern eine Folge von kleineren Einheiten – und verarbeitet sie Schritt für Schritt.
 
-Warum ist das relevant? Weil Modelle nur eine begrenzte Anzahl von Token gleichzeitig verarbeiten können. Das nennt man das [Kontextfenster](../glossar#kontextfenster). Sehr lange Dokumente, sehr lange Gespräche oder viele mitgelieferte Texte können dieses Limit überschreiten – dann „vergisst" das Modell frühere Teile des Gesprächs.
+Warum ist das relevant? Weil Modelle nur eine begrenzte Anzahl von Token gleichzeitig verarbeiten können. Das nennt sich [Kontextfenster](../glossar#kontextfenster). Sehr lange Dokumente, sehr lange Gespräche oder viele mitgelieferte Texte können dieses Limit überschreiten – dann „vergisst" das Modell frühere Teile des Gesprächs.
 
 Für die meisten Aufgaben ist das kein Problem. Bei langen Projekten oder komplexen Analysen ist es gut zu wissen, dass das Modell nicht unbegrenzt „zuhört".
 
@@ -38,7 +38,7 @@ Für die meisten Aufgaben ist das kein Problem. Bei langen Projekten oder komple
 
 ## Was das Modell weiß – und was nicht
 
-[Modelle](../glossar#modell) wurden auf Daten bis zu einem bestimmten Zeitpunkt trainiert. Was danach passiert ist, ist ihnen unbekannt – es sei denn, man gibt es ihnen in der Eingabe mit. Wer nach aktuellen Ereignissen, neuen Gesetzen oder dem Stand eines laufenden Projekts fragt, bekommt entweder eine veraltete Antwort oder – schlimmer – eine erfundene, die sich plausibel anhört.
+[Modelle](../glossar#modell) wurden auf Daten bis zu einem bestimmten Zeitpunkt trainiert. Was danach passiert ist, ist ihnen unbekannt – es sei denn, Du gibst es ihnen in der Eingabe mit. Wer nach aktuellen Ereignissen, neuen Gesetzen oder dem Stand eines laufenden Projekts fragt, bekommt entweder eine veraltete Antwort oder – schlimmer – eine erfundene, die sich plausibel anhört.
 
 Außerdem: Was im Training stand, war nicht immer korrekt. Das Internet, auf dem viele Modelle trainiert wurden, enthält Fehler, Meinungen, Widersprüche und Halbwahrheiten. Das Modell hat gelernt, wie häufig bestimmte Aussagen im Text vorkommen – nicht, ob sie stimmen.
 
@@ -46,7 +46,7 @@ Das führt zu [Halluzinationen](../glossar#halluzination): Das Modell erfindet S
 
 ---
 
-## Was man daraus mitnimmt
+## Was Du daraus mitnimmst
 
 Diese drei Punkte sind das Minimum:
 
@@ -54,6 +54,6 @@ KI prüft keine Fakten. Wer Informationen braucht, auf die es ankommt, muss sie 
 
 KI kennt Deine Situation nicht. Was das Modell über das konkrete Projekt, die Absicht oder den Empfänger wissen soll, muss in der Eingabe stehen – es erschließt sich nichts von selbst.
 
-KI ist keine Suchmaschine. Man fragt nicht, um Fakten abzurufen. Man gibt eine Aufgabe – und bekommt eine sprachlich verarbeitete Ausgabe, die man einordnen und prüfen muss.
+KI ist keine Suchmaschine. Du fragst nicht, um Fakten abzurufen. Du gibst eine Aufgabe – und bekommst eine sprachlich verarbeitete Ausgabe, die Du einordnen und prüfen musst.
 
-Das klingt nach Einschränkungen. Das sind auch Einschränkungen. Aber innerhalb dieser Grenzen ist KI außerordentlich nützlich – wenn man weiß, wie man die Eingabe gestaltet. Darum geht es im nächsten Modul.
+Das klingt nach Einschränkungen. Das sind auch Einschränkungen. Aber innerhalb dieser Grenzen ist KI außerordentlich nützlich – wenn Du weißt, wie Du die Eingabe gestaltest. Darum geht es im nächsten Modul.

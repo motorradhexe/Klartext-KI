@@ -27,4 +27,4 @@ Das klingt nach Science-Fiction. Es ist es nicht mehr. Aber es ist auch noch kei
 
 ## Zum Einstieg
 
-Wenn du das nächste Mal eine Aufgabe hast, die aus vielen Einzelschritten besteht – zum Beispiel eine Recherche mit mehreren Quellen –, probiere aus, wie weit ein normaler Prompt reicht und ab welchem Punkt du jeden Schritt manuell steuern musst. Das zeigt, was Agents lösen würden – und warum sie nicht überall die Antwort sind.
+Wenn Du das nächste Mal eine Aufgabe hast, die aus vielen Einzelschritten besteht – zum Beispiel eine Recherche mit mehreren Quellen –, probiere aus, wie weit ein normaler Prompt reicht und ab welchem Punkt Du jeden Schritt manuell steuern musst. Das zeigt, was Agents lösen würden – und warum sie nicht überall die Antwort sind.

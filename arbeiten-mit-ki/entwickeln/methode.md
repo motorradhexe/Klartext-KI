@@ -9,7 +9,7 @@ nav_order: 1
 
 # Methode: Code-Prompts, die tatsächlich funktionieren
 
-KI kann Code schreiben, erklären und überprüfen – aber nur, wenn man ihr genug Kontext gibt. Unpräzise Prompts liefern Code, der zwar läuft, aber nicht das tut, was man wirklich braucht.
+KI kann Code schreiben, erklären und überprüfen – aber nur, wenn Du ihr genug Kontext gibst. Unpräzise Prompts liefern Code, der zwar läuft, aber nicht das tut, was Du wirklich brauchst.
 
 ---
 
@@ -23,13 +23,13 @@ Nützliche Angaben:
 - **Umgebung:** Läuft der Code im Browser, auf einem Server, in einer Datenbank?
 - **Vorhandene [Imports](../../glossar#import):** Welche Zusatz-Bausteine sind bereits eingebunden?
 
-Warum das wichtig ist: KI schreibt Code, der zu den Angaben passt. Fehlt die Angabe, schreibt das Modell für einen imaginierten Standardfall – der nicht deiner ist.
+Warum das wichtig ist: KI schreibt Code, der zu den Angaben passt. Fehlt die Angabe, schreibt das Modell für einen imaginierten Standardfall – der nicht Deiner ist.
 
 ---
 
 ## Bestehenden Code immer mitgeben
 
-Wenn man eine Funktion erweitern, einen Fehler beheben oder Code umbauen will, gehört der betroffene Code in den [Kontext](../../glossar#kontext). Ohne ihn kann das Modell keine Verbindung zur bestehenden Struktur herstellen.
+Wenn Du eine Funktion erweitern, einen Fehler beheben oder Code umbauen willst, gehört der betroffene Code in den [Kontext](../../glossar#kontext). Ohne ihn kann das Modell keine Verbindung zur bestehenden Struktur herstellen.
 
 Das betrifft:
 - Die Funktion, die geändert werden soll
@@ -48,7 +48,7 @@ Neben Sprache und Kontext braucht das Modell eine klare Aufgabenbeschreibung. Vo
 Klar und konkret: Was geht rein, was kommt raus? In welchem Format?
 
 **Welche Randfälle sollen behandelt werden?**
-Was passiert, wenn die Eingabe leer ist? Was, wenn eine Zahl durch null dividiert werden würde? Was, wenn der Nutzer etwas eingibt, das das Format nicht erfüllt? Randfälle, die im Prompt nicht vorkommen, kommen in der Lösung meist auch nicht vor.
+Was passiert, wenn die Eingabe leer ist? Was, wenn eine Zahl durch null dividiert werden würde? Was, wenn der Nutzer etwas eingibt, das das Format nicht erfüllt? Randfälle, die im Prompt nicht vorkommen, kommen in der Lösung meist ebenfalls nicht vor.
 
 **Was soll die Funktion ausdrücklich nicht tun?**
 Negative Anforderungen helfen, um ungewollte Nebeneffekte zu vermeiden.
@@ -74,9 +74,9 @@ Was ist das Problem, und wie wird es behoben?
 
 KI-generierter Code sieht professionell aus. Das kann dazu verführen, ihn direkt einzusetzen. Aber:
 
-- **Lesbarkeit ist nicht dasselbe wie Korrektheit.** Code kann syntaktisch einwandfrei sein und trotzdem nicht das tun, was man braucht.
-- **Randfälle sind selten automatisch abgedeckt.** Besonders in produktivem Code – also Code, der tatsächlich bei Nutzerinnen und Nutzern läuft – muss man prüfen, was bei unerwarteten Eingaben passiert.
-- **Code, den man nicht versteht, kann man nicht prüfen.** Wenn man eine Funktion nicht lesen und erklären kann, kann man nicht sicherstellen, dass sie das richtige tut.
+- **Lesbarkeit ist nicht dasselbe wie Korrektheit.** Code kann syntaktisch einwandfrei sein und trotzdem nicht das tun, was Du brauchst.
+- **Randfälle sind selten automatisch abgedeckt.** Besonders in produktivem Code – also Code, der tatsächlich bei Nutzerinnen und Nutzern läuft – musst Du prüfen, was bei unerwarteten Eingaben passiert.
+- **Code, den Du nicht verstehst, kannst Du nicht prüfen.** Wenn Du eine Funktion nicht lesen und erklären kannst, kannst Du nicht sicherstellen, dass sie das Richtige tut.
 
 Testen ist kein Misstrauen gegenüber dem Modell. Es ist normaler Teil des Entwicklungsprozesses.
 
@@ -88,10 +88,10 @@ Testen ist kein Misstrauen gegenüber dem Modell. Es ist normaler Teil des Entwi
 „Schreib Python-Code" und „Ich benutze Python 3.11 mit FastAPI, hier ist meine bestehende Route" liefern grundlegend verschiedene Ergebnisse. Der zweite Prompt ist nie zu detailliert.
 
 **Randfälle vergessen.**
-Was nicht im Prompt steht, wird nicht bedacht. Wer produktiven Code schreibt, muss die Randfälle selbst benennen – oder explizit fragen: „Welche Randfälle hast du nicht behandelt?"
+Was nicht im Prompt steht, wird nicht bedacht. Wer produktiven Code schreibt, muss die Randfälle selbst benennen – oder explizit fragen: „Welche Randfälle hast Du nicht behandelt?"
 
 **Code übernehmen ohne Lesen.**
-KI-generierter Code sieht professionell aus. Aber Professionalität im Aussehen ist kein Beweis für Korrektheit. Immer lesen, bevor man einsetzt.
+KI-generierter Code sieht professionell aus. Aber Professionalität im Aussehen ist kein Beweis für Korrektheit. Immer lesen, bevor Du einsetzt.
 
 **[Docstring](../../glossar#docstring) vergessen.**
-Ein Docstring ist ein eingebetteter Kommentar direkt in der Funktion, der erklärt, was sie tut, was sie erwartet und was sie zurückgibt. KI schreibt ihn gern mit – wenn man darum bittet. Für jede Funktion, die andere lesen oder nutzen sollen, lohnt sich die Anfrage.
+Ein Docstring ist ein eingebetteter Kommentar direkt in der Funktion, der erklärt, was sie tut, was sie erwartet und was sie zurückgibt. KI schreibt ihn gern mit – wenn Du darum bittest. Für jede Funktion, die andere lesen oder nutzen sollen, lohnt sich die Anfrage.

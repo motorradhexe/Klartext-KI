@@ -32,9 +32,9 @@ KI-Modelle produzieren [Halluzinationen](../glossar#halluzination): Aussagen, di
 
 **Das Modell kennt den Kontext nicht**
 
-Jemand bittet darum, eine E-Mail zu überarbeiten – ohne die E-Mail mitzuschicken. Oder fragt, wie man auf die Beschwerde eines Kunden reagieren soll – ohne zu sagen, um welchen Kunden es geht, was die Beschwerde war, oder was das Ziel der Antwort ist.
+Jemand bittet darum, eine E-Mail zu überarbeiten – ohne die E-Mail mitzuschicken. Oder fragt, wie auf die Beschwerde eines Kunden reagiert werden soll – ohne zu sagen, um welchen Kunden es geht, was die Beschwerde war, oder was das Ziel der Antwort ist.
 
-KI hat keinen Zugriff auf Informationen, die man nicht explizit eingegeben hat. Sie kennt nicht den Verlauf des Projekts, nicht die Unternehmenskultur, nicht den Empfänger der E-Mail. Was nicht im [Kontext](../glossar#kontext) steht, existiert für das Modell nicht.
+KI hat keinen Zugriff auf Informationen, die Du nicht explizit eingegeben hast. Sie kennt nicht den Verlauf des Projekts, nicht die Unternehmenskultur, nicht den Empfänger der E-Mail. Was nicht im [Kontext](../glossar#kontext) steht, existiert für das Modell nicht.
 
 ---
 
@@ -42,7 +42,7 @@ KI hat keinen Zugriff auf Informationen, die man nicht explizit eingegeben hat. 
 
 Diese drei Muster haben eine gemeinsame Ursache: KI-Modelle reagieren auf das, was sie eingegeben bekommen. Nicht mehr, nicht weniger.
 
-Ein [Sprachmodell](../glossar#sprachmodell) verarbeitet eine Eingabe und erzeugt daraus eine Ausgabe, die inhaltlich plausibel und sprachlich flüssig ist. Es hat kein Wissen über die eigene Situation, keine Möglichkeit, fehlende Informationen zu erfragen (außer wenn man das explizit verlangt), und keine Möglichkeit, auf externe Quellen zuzugreifen – außer wenn das explizit in das System integriert ist.
+Ein [Sprachmodell](../glossar#sprachmodell) verarbeitet eine Eingabe und erzeugt daraus eine Ausgabe, die inhaltlich plausibel und sprachlich flüssig ist. Es hat kein Wissen über die eigene Situation, keine Möglichkeit, fehlende Informationen zu erfragen (außer wenn Du das explizit verlangst), und keine Möglichkeit, auf externe Quellen zuzugreifen – außer wenn das explizit in das System integriert ist.
 
 Das bedeutet: Wenn die Eingabe unvollständig ist, füllt das Modell die Lücken mit dem, was statistisch plausibel ist. Das führt zu Texten, die gut klingen – aber am eigentlichen Bedarf vorbeigehen oder sogar falsche Informationen enthalten.
 
@@ -52,10 +52,10 @@ Das ist kein Fehler, der behoben wird. Das ist, wie diese Technologie funktionie
 
 ## Was sich damit ändert
 
-Wer das versteht, hört auf zu erwarten, dass KI „einfach funktioniert", wenn man eine Frage stellt. Und fängt an, Eingaben als Aufgabe zu begreifen: Was muss ich mitgeben, damit die Ausgabe brauchbar ist?
+Wer das versteht, hört auf zu erwarten, dass KI „einfach funktioniert", wenn Du eine Frage stellst. Und fängt an, Eingaben als Aufgabe zu begreifen: Was muss ich mitgeben, damit die Ausgabe brauchbar ist?
 
-Das bedeutet nicht, dass man viel tippen muss. Es bedeutet, dass man klarer formuliert: Wofür brauche ich das Ergebnis? Für wen? In welchem Format? Mit welchem Hintergrundwissen?
+Das bedeutet nicht, dass Du viel tippen musst. Es bedeutet, dass Du klarer formulierst: Wofür brauche ich das Ergebnis? Für wen? In welchem Format? Mit welchem Hintergrundwissen?
 
-Und es bedeutet, dass man aufhört, ein erstes Ergebnis als endgültig zu behandeln. [Iteration](../glossar#iteration) – das gezielte Nachbessern durch Folgeprompts – ist kein Umweg. Es ist der normale Weg.
+Und es bedeutet, dass Du aufhörst, ein erstes Ergebnis als endgültig zu behandeln. [Iteration](../glossar#iteration) – das gezielte Nachbessern durch Folgeprompts – ist kein Umweg. Es ist der normale Weg.
 
-Das nächste Modul erklärt, warum KI so funktioniert, wie sie funktioniert – und was man davon für die eigene Nutzung mitnehmen kann.
+Das nächste Modul erklärt, warum KI so funktioniert, wie sie funktioniert – und was Du davon für die eigene Nutzung mitnehmen kannst.

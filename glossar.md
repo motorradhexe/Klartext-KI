@@ -15,7 +15,7 @@ Hier sind alle Begriffe erklärt, die im Projekt vorkommen. Wer einen Begriff zu
 
 ## Prompt
 
-Ein Prompt ist die Eingabe, die man an ein KI-System schickt. Der Begriff kommt aus dem Englischen und bedeutet so viel wie „Anstoß" oder „Aufforderung". Alles, was man ins Textfeld tippt – eine Frage, ein Auftrag, ein Beispiel – ist ein Prompt.
+Ein Prompt ist die Eingabe, die Du an ein KI-System schickst. Der Begriff kommt aus dem Englischen und bedeutet so viel wie „Anstoß" oder „Aufforderung". Alles, was Du ins Textfeld tippst – eine Frage, ein Auftrag, ein Beispiel – ist ein Prompt.
 
 **Beispiel:** „Erkläre mir, wie eine Suchmaschine funktioniert" ist ein Prompt. Die Antwort der KI darauf nicht.
 
@@ -31,7 +31,7 @@ Ein Token ist die kleinste Einheit, in der KI-Modelle Text verarbeiten. Das sind
 
 **Beispiel:** Das Modell sieht nicht den Satz „Das ist ein Test" als Ganzes, sondern eine Folge von Token: „Das", „ist", „ein", „Test" – wobei die genaue Aufteilung vom Modell abhängt.
 
-Warum ist das relevant? Weil KI-Modelle eine begrenzte Anzahl von Token auf einmal verarbeiten können. Das nennt man das [Kontextfenster](#kontextfenster). Sehr lange Texte oder sehr lange Gespräche können das Limit überschreiten.
+Warum ist das relevant? Weil KI-Modelle eine begrenzte Anzahl von Token auf einmal verarbeiten können. Das nennt sich [Kontextfenster](#kontextfenster). Sehr lange Texte oder sehr lange Gespräche können das Limit überschreiten.
 
 </div>
 
@@ -41,9 +41,9 @@ Warum ist das relevant? Weil KI-Modelle eine begrenzte Anzahl von Token auf einm
 
 Mit Kontext ist gemeint, welche Informationen das KI-Modell bei der Erstellung einer Antwort zur Verfügung hat. Das ist nicht nur die aktuelle Frage, sondern alles: der bisherige Gesprächsverlauf, mitgelieferte Dokumente, Anweisungen am Anfang.
 
-**Beispiel:** Wenn man fragt „Was meinst du damit?", kann das Modell nur antworten, wenn es aus dem Kontext weiß, worauf sich „damit" bezieht. Ohne diesen Kontext rät es – und liegt oft falsch.
+**Beispiel:** Wenn Du fragst „Was meinst Du damit?", kann das Modell nur antworten, wenn es aus dem Kontext weiß, worauf sich „damit" bezieht. Ohne diesen Kontext rät es – und liegt oft falsch.
 
-Ein häufiger Fehler: Man setzt voraus, dass das Modell Informationen kennt, die man selbst im Kopf hat, aber nicht eingegeben hat. Das Modell hat zwar umfangreiches Trainingswissen – aber nichts über die eigene Situation, das konkrete Projekt oder die Absicht hinter einer Anfrage. Was situationsspezifisch ist, muss man mitgeben.
+Ein häufiger Fehler: Du setzt voraus, dass das Modell Informationen kennt, die Du selbst im Kopf hast, aber nicht eingegeben hast. Das Modell hat zwar umfangreiches Trainingswissen – aber nichts über Deine eigene Situation, das konkrete Projekt oder die Absicht hinter einer Anfrage. Was situationsspezifisch ist, musst Du mitgeben.
 
 </div>
 
@@ -63,9 +63,9 @@ Der Begriff „Sprachmodell" betont, dass diese Systeme auf Sprache spezialisier
 
 ## Training
 
-Mit Training ist der Prozess gemeint, durch den ein Sprachmodell lernt. Dabei liest das System sehr große Mengen an Text – Bücher, Webseiten, Artikel – und lernt daraus, welche Wörter und Sätze wie zusammenpassen. Dieser Prozess findet einmalig (oder in Schüben) statt und ist abgeschlossen, bevor man das Modell nutzt.
+Mit Training ist der Prozess gemeint, durch den ein Sprachmodell lernt. Dabei liest das System sehr große Mengen an Text – Bücher, Webseiten, Artikel – und lernt daraus, welche Wörter und Sätze wie zusammenpassen. Dieser Prozess findet einmalig (oder in Schüben) statt und ist abgeschlossen, bevor Du das Modell nutzt.
 
-**Beispiel:** Ein Modell wurde bis Ende 2024 trainiert. Was danach passiert ist, kennt es nicht – es sei denn, man gibt es ihm in der Eingabe mit.
+**Beispiel:** Ein Modell wurde bis Ende 2024 trainiert. Was danach passiert ist, kennt es nicht – es sei denn, Du gibst es ihm in der Eingabe mit.
 
 Training ist kein Lernen im menschlichen Sinne. Das Modell merkt sich keine Gespräche und verbessert sich nicht durch die eigene Nutzung. Jedes neue Gespräch beginnt ohne Erinnerung an vorherige.
 
@@ -77,7 +77,7 @@ Training ist kein Lernen im menschlichen Sinne. Das Modell merkt sich keine Gesp
 
 Das Kontextfenster ist die Obergrenze dafür, wie viel Text ein Sprachmodell auf einmal verarbeiten kann. Alles, was außerhalb dieser Grenze liegt – weil es zu weit zurückliegt oder der Text zu lang ist –, sieht das Modell nicht mehr.
 
-**Beispiel:** In einem langen Gespräch kann es passieren, dass das Modell frühe Teile der Unterhaltung nicht mehr berücksichtigt, weil sie das Kontextfenster verlassen haben. Es antwortet dann so, als hätte man diese Dinge nie gesagt.
+**Beispiel:** In einem langen Gespräch kann es passieren, dass das Modell frühe Teile der Unterhaltung nicht mehr berücksichtigt, weil sie das Kontextfenster verlassen haben. Es antwortet dann so, als hättest Du diese Dinge nie gesagt.
 
 Die Größe des Kontextfensters unterscheidet sich je nach Modell. Für die meisten alltäglichen Aufgaben ist das Limit kein Problem – bei sehr langen Dokumenten oder ausgedehnten Gesprächen wird es relevant.
 
@@ -101,7 +101,7 @@ Für die meisten Anwendungen ist die Modellwahl weniger entscheidend als die Qua
 
 Halluzination beschreibt das Phänomen, dass KI-Modelle Aussagen machen, die faktisch falsch sind – und das mit derselben Selbstsicherheit, mit der sie richtige Aussagen machen. Das Modell „erfindet" keine Lügen im menschlichen Sinne. Es produziert Text, der plausibel klingt, aber nicht stimmt.
 
-**Beispiel:** Fragt man ein Modell nach einer wissenschaftlichen Studie zu einem Nischenthema, kann es eine Studie nennen, die so nie existiert hat – mit korrektem Titel, Autornamen und Erscheinungsjahr.
+**Beispiel:** Fragst Du ein Modell nach einer wissenschaftlichen Studie zu einem Nischenthema, kann es eine Studie nennen, die so nie existiert hat – mit korrektem Titel, Autornamen und Erscheinungsjahr.
 
 Halluzinationen entstehen, weil Modelle keine Fakten abrufen, sondern Wahrscheinlichkeiten berechnen: Welches Wort folgt sinnvoll auf das vorherige? Das führt zu flüssigem, klingendem Text – der manchmal einfach falsch ist. Kritische Informationen immer selbst überprüfen.
 
@@ -113,7 +113,7 @@ Halluzinationen entstehen, weil Modelle keine Fakten abrufen, sondern Wahrschein
 
 Iteration bedeutet: einen Prozess wiederholen und dabei verbessern. In der Arbeit mit KI heißt das, ein erstes Ergebnis nicht sofort zu akzeptieren, sondern es als Ausgangspunkt zu nutzen – und durch gezielte Folgeprompts besser zu machen.
 
-**Beispiel:** Man bekommt einen Textentwurf, der zu förmlich klingt. Statt ihn zu verwerfen, schreibt man: „Schreib das informeller um, wie in einem Brief an einen Kollegen." Das ist Iteration.
+**Beispiel:** Du bekommst einen Textentwurf, der zu förmlich klingt. Statt ihn zu verwerfen, schreibst Du: „Schreib das informeller um, wie in einem Brief an einen Kollegen." Das ist Iteration.
 
 Wer erwartet, dass ein erster Prompt das perfekte Ergebnis liefert, wird häufig enttäuscht sein. KI funktioniert besser als Dialog als als Befehlsautomat.
 
@@ -123,9 +123,9 @@ Wer erwartet, dass ein erster Prompt das perfekte Ergebnis liefert, wird häufig
 
 ## Ausgabe
 
-Die Ausgabe ist das, was das KI-Modell als Antwort auf einen Prompt produziert. Das kann ein Text sein, ein Codeausschnitt, eine Liste, eine Übersetzung oder eine Zusammenfassung – je nachdem, was man angefragt hat.
+Die Ausgabe ist das, was das KI-Modell als Antwort auf einen Prompt produziert. Das kann ein Text sein, ein Codeausschnitt, eine Liste, eine Übersetzung oder eine Zusammenfassung – je nachdem, was Du angefragt hast.
 
-**Beispiel:** Man gibt den Prompt „Fasse diesen Artikel in drei Sätzen zusammen" ein und bekommt drei Sätze zurück. Diese drei Sätze sind die Ausgabe.
+**Beispiel:** Du gibst den Prompt „Fasse diesen Artikel in drei Sätzen zusammen" ein und bekommst drei Sätze zurück. Diese drei Sätze sind die Ausgabe.
 
 Die Ausgabe hängt vollständig vom Prompt und vom Kontext ab. Keine Ausgabe ist „die richtige" – es gibt immer viele mögliche Antworten auf einen Prompt. Wenn eine Ausgabe nicht passt, liegt das fast immer daran, dass der Prompt zu vage oder zu wenig kontextuell war.
 
@@ -139,7 +139,7 @@ Ein Agent ist ein KI-System, das nicht nur antwortet, sondern selbstständig han
 
 **Beispiel:** Ein Agent bekommt den Auftrag, die drei günstigsten Hosting-Anbieter in Deutschland zu recherchieren und eine Vergleichstabelle zu erstellen. Er sucht selbstständig im Web, liest Seiten, extrahiert Preise und liefert das Ergebnis.
 
-Der Unterschied zur normalen KI-Nutzung: Man gibt nicht jede Zwischenfrage ein. Der Agent entscheidet selbst, welche Schritte nötig sind – und kann dabei auch Fehler machen, die sich unbemerkt durch weitere Schritte fortsetzen.
+Der Unterschied zur normalen KI-Nutzung: Du gibst nicht jede Zwischenfrage ein. Der Agent entscheidet selbst, welche Schritte nötig sind – und kann dabei auch Fehler machen, die sich unbemerkt durch weitere Schritte fortsetzen.
 
 → Ausführliche Erklärung: [KI-Agents](vertiefung/agents)
 
@@ -165,7 +165,7 @@ RAG ermöglicht es, KI auf spezifische, aktuelle oder interne Wissensbestände a
 
 MCP steht für Model Context Protocol. Es ist ein offener Standard, der beschreibt, wie KI-Modelle mit externen Werkzeugen und Datenquellen kommunizieren können – zum Beispiel um Dateien zu lesen, Datenbanken abzufragen oder Kalender einzusehen.
 
-**Beispiel:** Eine KI-Anwendung kann über MCP auf das lokale Dateisystem zugreifen und ein Dokument direkt öffnen, lesen und bearbeiten – ohne dass man den Inhalt manuell hineinkopieren muss.
+**Beispiel:** Eine KI-Anwendung kann über MCP auf das lokale Dateisystem zugreifen und ein Dokument direkt öffnen, lesen und bearbeiten – ohne dass Du den Inhalt manuell hineinkopieren musst.
 
 MCP wurde von Anthropic entwickelt und ist offen: andere Hersteller und Entwickler können den Standard verwenden. Es ist kein Modell und keine Anwendung, sondern eine Vereinbarung darüber, wie Systeme miteinander sprechen.
 
@@ -181,7 +181,7 @@ Ein Framework (auf Deutsch: Grundgerüst oder Rahmenwerk) ist eine fertige Samml
 
 **Beispiel:** Django und Flask sind bekannte Python-Frameworks für Webanwendungen. Wer Django nutzt, baut auf einem bestimmten Grundgerüst auf – das Modell muss das wissen, damit der Code dazu passt.
 
-Der Unterschied zu einer Bibliothek (auch: Library): Eine Bibliothek stellt einzelne Werkzeuge bereit, die man bei Bedarf aufruft. Ein Framework gibt die Struktur vor, in die man eigenen Code einfügt.
+Der Unterschied zu einer Bibliothek (auch: Library): Eine Bibliothek stellt einzelne Werkzeuge bereit, die Du bei Bedarf aufrufst. Ein Framework gibt die Struktur vor, in die Du eigenen Code einfügst.
 
 </div>
 
@@ -189,11 +189,11 @@ Der Unterschied zu einer Bibliothek (auch: Library): Eine Bibliothek stellt einz
 
 ## Import
 
-Mit einem Import bindet man in einer Programmdatei Code ein, der woanders definiert ist – zum Beispiel eine fertige Funktionssammlung (Bibliothek) oder ein anderes Modul des eigenen Projekts. Imports stehen meist am Anfang einer Datei und geben an, welche externen Bausteine der Code verwendet.
+Mit einem Import bindest Du in einer Programmdatei Code ein, der woanders definiert ist – zum Beispiel eine fertige Funktionssammlung (Bibliothek) oder ein anderes Modul des eigenen Projekts. Imports stehen meist am Anfang einer Datei und geben an, welche externen Bausteine der Code verwendet.
 
-**Beispiel:** `import datetime` in Python bindet die eingebaute Datumsfunktion ein. Danach kann man sie im Code nutzen – ohne sie selbst schreiben zu müssen.
+**Beispiel:** `import datetime` in Python bindet die eingebaute Datumsfunktion ein. Danach kannst Du sie im Code nutzen – ohne sie selbst schreiben zu müssen.
 
-Für KI relevant: Wenn man Code schreiben lässt, ohne die vorhandenen Imports anzugeben, kann das Modell Funktionen verwenden, die im Projekt gar nicht eingebunden sind – und der Code funktioniert dann nicht.
+Für KI relevant: Wenn Du Code schreiben lässt, ohne die vorhandenen Imports anzugeben, kann das Modell Funktionen verwenden, die im Projekt gar nicht eingebunden sind – und der Code funktioniert dann nicht.
 
 </div>
 
@@ -210,6 +210,6 @@ def sortiere_personen(personen):
     ...
 ```
 
-Docstrings sind für Menschen gedacht, nicht für den Computer – der ignoriert sie beim Ausführen. Sie helfen, Code verständlich zu halten, auch wenn man ihn Wochen später wieder liest. Viele Werkzeuge lesen Docstrings aus, um automatisch Dokumentation zu erzeugen.
+Docstrings sind für Menschen gedacht, nicht für den Computer – der ignoriert sie beim Ausführen. Sie helfen, Code verständlich zu halten, auch wenn Du ihn Wochen später wieder liest. Viele Werkzeuge lesen Docstrings aus, um automatisch Dokumentation zu erzeugen.
 
 </div>

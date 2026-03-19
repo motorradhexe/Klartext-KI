@@ -8,19 +8,19 @@ nav_order: 2
 
 # Datenschutz beim KI-Einsatz
 
-Wer einen Prompt an einen KI-Dienst schickt, sendet Daten an einen externen Server. Das klingt banal, hat aber Konsequenzen, die viele nicht bewusst reflektieren – besonders dann, wenn es schnell gehen muss und man einfach einen Text hineinkopiert.
+Wer einen Prompt an einen KI-Dienst schickt, sendet Daten an einen externen Server. Das klingt banal, hat aber Konsequenzen, die viele nicht bewusst reflektieren – besonders dann, wenn es schnell gehen muss und Du einfach einen Text hineinkopierst.
 
 ---
 
-## Was passiert mit dem, was man eingibt?
+## Was passiert mit dem, was Du eingibst?
 
 Bei den großen Anbietern – OpenAI, Google, Anthropic – gelten je nach Produkt und Vertrag unterschiedliche Regeln. Der entscheidende Unterschied liegt zwischen kostenlosen und bezahlten bzw. Enterprise-Accounts.
 
-Bei kostenlosen oder persönlichen Accounts werden Eingaben teils für das [Training](../glossar#training) neuer Modelle verwendet. Das lässt sich in den Einstellungen oft deaktivieren – aber es ist nicht immer die Standardeinstellung. Wer das nicht aktiv überprüft hat, sollte nicht davon ausgehen, dass seine Eingaben nicht verwendet werden.
+Bei kostenlosen oder persönlichen Accounts werden Eingaben teils für das [Training](../glossar#training) neuer Modelle verwendet. Das lässt sich in den Einstellungen oft deaktivieren – aber es ist nicht immer die Standardeinstellung. Wer das nicht aktiv überprüft hat, sollte nicht davon ausgehen, dass die eigenen Eingaben nicht verwendet werden.
 
 Bei Business- oder Enterprise-Accounts schließen die Anbieter das Training auf Basis von Kundendaten vertraglich aus. Die Daten werden für den Dienst verarbeitet und vorübergehend gespeichert – typischerweise 30 Tage –, aber nicht für das Training des Basismodells genutzt. Das ist ein realer Unterschied, kein Marketingversprechen.
 
-Das Problem entsteht selten durch bösen Willen des Anbieters. Es entsteht dadurch, dass man in der Praxis vergisst, was man eingibt – und dass der Text den eigenen Rechner verlässt, sobald man auf Senden drückt.
+Das Problem entsteht selten durch bösen Willen des Anbieters. Es entsteht dadurch, dass Du in der Praxis vergisst, was Du eingibst – und dass der Text Deinen Rechner verlässt, sobald Du auf Senden drückst.
 
 ---
 
@@ -34,7 +34,7 @@ Eine einfache Einstufung für den Alltag:
 
 **Stop ohne weitere Klärung:** Kundendaten, Patientendaten, Personaldaten, Passwörter, API-Keys, Vertragsinhalte mit Vertraulichkeitsklauseln, Informationen aus internen Systemen mit eingeschränktem Zugriff.
 
-Die Faustregel: Alles, was man nicht an eine fremde, grundsätzlich vertrauenswürdige Person weitergeben würde, sollte man auch nicht in einen KI-Dienst eingeben.
+Die Faustregel: Alles, was Du nicht an eine fremde, grundsätzlich vertrauenswürdige Person weitergeben würdest, solltest Du auch nicht in einen KI-Dienst eingeben.
 
 ---
 
