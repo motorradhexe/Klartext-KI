@@ -243,6 +243,12 @@
   line-height: 1.5;
 }
 
+// Code-Blöcke: Zeilenumbruch statt horizontalem Scrollbalken
+pre, pre code {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
 // Glossar-Einträge
 .glossar-eintrag {
   padding-bottom: 1.5rem;
