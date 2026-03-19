@@ -1,6 +1,26 @@
+<style>
+  #theme-toggle {
+    background: none;
+    border: 1px solid var(--border-color, #ccc);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
+    line-height: 1.4;
+    color: inherit;
+    margin-left: 0.75rem;
+    vertical-align: middle;
+  }
+  #theme-toggle:hover {
+    opacity: 0.7;
+  }
+</style>
+
 <script>
   (function () {
+    var stored = localStorage.getItem('color-scheme');
     var mq = window.matchMedia('(prefers-color-scheme: dark)');
+    var isDark = stored ? stored === 'dark' : mq.matches;
 
     function applyScheme(dark) {
       var link = document.querySelector('link[href*="just-the-docs"]');
@@ -9,10 +29,33 @@
       link.href = base + (dark ? 'just-the-docs-dark.css' : 'just-the-docs-light.css');
     }
 
-    applyScheme(mq.matches);
+    function updateButton(dark) {
+      var btn = document.getElementById('theme-toggle');
+      if (btn) btn.textContent = dark ? '☀' : '☾';
+    }
 
+    applyScheme(isDark);
+
+    document.addEventListener('DOMContentLoaded', function () {
+      updateButton(isDark);
+      var btn = document.getElementById('theme-toggle');
+      if (btn) {
+        btn.addEventListener('click', function () {
+          isDark = !isDark;
+          localStorage.setItem('color-scheme', isDark ? 'dark' : 'light');
+          applyScheme(isDark);
+          updateButton(isDark);
+        });
+      }
+    });
+
+    // Systemänderungen nur berücksichtigen, wenn keine manuelle Wahl gespeichert ist
     mq.addEventListener('change', function (e) {
-      applyScheme(e.matches);
+      if (!localStorage.getItem('color-scheme')) {
+        isDark = e.matches;
+        applyScheme(isDark);
+        updateButton(isDark);
+      }
     });
   })();
 </script>
