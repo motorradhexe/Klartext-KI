@@ -15,15 +15,15 @@ nav_order: 1
 
 Der Standard beschreibt, wie ein KI-Modell ein Werkzeug aufrufen kann, wie das Werkzeug antwortet und welche Informationen dabei ausgetauscht werden. MCP wurde von Anthropic entwickelt und ist offen: Andere Hersteller und Entwickler können es verwenden.
 
-Der entscheidende Punkt: MCP macht diese Verbindungen einheitlich. Wer einen MCP-Server für ein System baut – etwa für GitHub –, kann diesen Server sofort mit jeder Anwendung nutzen, die MCP unterstützt. Man muss nicht für jede KI-Anwendung eine eigene Schnittstelle bauen.
+Der entscheidende Punkt: MCP macht diese Verbindungen einheitlich. Wer einen MCP-Server für ein System baut – etwa für GitHub –, kann diesen Server sofort mit jeder Anwendung nutzen, die MCP unterstützt. Du musst nicht für jede KI-Anwendung eine eigene Schnittstelle bauen.
 
 ---
 
 ## Eine Analogie
 
-Stellen Sie sich vor, Sie haben eine sehr fähige Assistentin. Sie kann vieles – aber nur, wenn man ihr Zugang zu den nötigen Informationen gibt. Bisher mussten Sie ihr alle Informationen mündlich mitteilen. Mit MCP ist es so, als hätte sie jetzt Schlüssel: zum Aktenschrank, zur Datenbank, zum Terminkalender.
+Stell Dir vor, Du hast eine sehr fähige Assistentin. Sie kann vieles – aber nur, wenn ihr Zugang zu den nötigen Informationen gegeben wird. Bisher musstest Du ihr alle Informationen mündlich mitteilen. Mit MCP ist es so, als hätte sie jetzt Schlüssel: zum Aktenschrank, zur Datenbank, zum Terminkalender.
 
-Sie entscheidet immer noch, was sie damit macht. Aber sie muss nicht mehr fragen: „Können Sie mir die Datei zeigen?" – sie kann sie selbst öffnen.
+Sie entscheidet immer noch, was sie damit macht. Aber sie muss nicht mehr fragen: „Kannst Du mir die Datei zeigen?" – sie kann sie selbst öffnen.
 
 ---
 

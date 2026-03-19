@@ -124,8 +124,8 @@ Ein Team, das seit drei Jahren ein Tool nutzt, erkennt aufgesetzte Begeisterung 
 
 ## Übung
 
-Denk an etwas, das du regelmäßig erklären musst – einem Kollegen, einem Kunden, einer Führungskraft. Etwas, bei dem die Erklärungen oft nicht ankommen oder länger dauern als nötig.
+Denk an etwas, das Du regelmäßig erklären musst – einem Kollegen, einem Kunden, einer Führungskraft. Etwas, bei dem die Erklärungen oft nicht ankommen oder länger dauern als nötig.
 
-Beschreibe KI: Wer ist die Person? Was weiß sie schon? Was soll sie am Ende verstehen oder entscheiden können? Wie viel Zeit oder Raum hast du?
+Beschreibe KI: Wer ist die Person? Was weiß sie schon? Was soll sie am Ende verstehen oder entscheiden können? Wie viel Zeit oder Raum hast Du?
 
 Lies das Ergebnis kritisch: Würde diese Person das wirklich verstehen – oder klingt es gut, ohne zu landen?

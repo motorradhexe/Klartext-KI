@@ -9,7 +9,7 @@ nav_order: 1
 
 # Methode: Erklärungen, die bei der Zielgruppe ankommen
 
-Eine gute Erklärung ist nicht für jeden. Sie ist für eine bestimmte Person, in einer bestimmten Situation, mit einem bestimmten Ziel. KI kann genau das liefern – aber nur, wenn man diese drei Punkte mitgibt.
+Eine gute Erklärung ist nicht für jeden. Sie ist für eine bestimmte Person, in einer bestimmten Situation, mit einem bestimmten Ziel. KI kann genau das liefern – aber nur, wenn Du diese drei Punkte mitgibst.
 
 ---
 
@@ -28,12 +28,12 @@ Eine Erklärung ist kein Selbstzweck. Soll die Person eine Entscheidung treffen 
 
 ## Analogien gezielt einsetzen
 
-Analogien machen abstrakte Konzepte greifbar. KI kann sie auf Anfrage liefern – und man kann sie gezielt anfordern.
+Analogien machen abstrakte Konzepte greifbar. KI kann sie auf Anfrage liefern – und Du kannst sie gezielt anfordern.
 
 Praktische Wege:
 
 **Explizit anfragen:**
-„Benutze eine Analogie aus dem Alltag" liefert fast immer etwas Verwendbares. Dann prüft man: Passt die Analogie zur Zielgruppe? Ist sie treffend genug, ohne zu vereinfachen?
+„Benutze eine Analogie aus dem Alltag" liefert fast immer etwas Verwendbares. Dann prüfst Du: Passt die Analogie zur Zielgruppe? Ist sie treffend genug, ohne zu vereinfachen?
 
 **Den Bereich vorgeben:**
 „Erkläre das mit einer Analogie aus dem Gesundheitswesen" oder „...aus dem Bauwesen" oder „...aus dem Schulalltag" – je nach Hintergrund der Zielgruppe liefert eine bereichsspezifische Analogie mehr als eine beliebige.
@@ -45,7 +45,7 @@ Das Modell liefert selten eine perfekte Analogie beim ersten Versuch. Folgepromp
 
 ## Schritt für Schritt erklären lassen, nicht alles auf einmal
 
-Eine Erklärung, die zu viele Aspekte abdeckt, erklärt am Ende keinen davon richtig. Wenn man mehrere Punkte erklären muss, ist es besser, das Modell einen nach dem anderen ausarbeiten zu lassen.
+Eine Erklärung, die zu viele Aspekte abdeckt, erklärt am Ende keinen davon richtig. Wenn Du mehrere Punkte erklären musst, ist es besser, das Modell einen nach dem anderen ausarbeiten zu lassen.
 
 Praktisch:
 1. Erstes Konzept erklären lassen
@@ -61,7 +61,7 @@ Dieser Ablauf ist langsamer als alles auf einmal – aber das Ergebnis ist erheb
 
 KI kann nicht nur Texte, sondern auch Präsentationsstrukturen entwerfen. Nützliche Angaben:
 
-- Wie viel Zeit hat man?
+- Wie viel Zeit hast Du?
 - Was soll am Ende mit den Zuhörenden passieren? (Entscheidung, Zustimmung, Wissen)
 - Was wissen die Zuhörenden schon, was nicht?
 - Was sind mögliche Einwände oder Fragen?
@@ -73,7 +73,7 @@ Aus diesen Angaben kann das Modell eine Struktur vorschlagen, die auf das Ziel d
 ## Typische Fehler – und warum sie passieren
 
 **Die Zielgruppe nicht beschrieben.**
-KI schreibt für ein mittleres Bildungsniveau und mittleres Vorwissen, wenn man nichts anderes sagt. Das passt selten genau. Für jemanden ohne Fachkenntnisse ist es zu voraussetzungsreich, für Fachleute zu oberflächlich.
+KI schreibt für ein mittleres Bildungsniveau und mittleres Vorwissen, wenn Du nichts anderes sagst. Das passt selten genau. Für jemanden ohne Fachkenntnisse ist es zu voraussetzungsreich, für Fachleute zu oberflächlich.
 
 **Den eigenen [Kontext](../../glossar#kontext) nicht mitgegeben.**
 „Erkläre mir, was eine Übergabe enthält" liefert eine allgemeine Antwort. „Ich übergebe eine laufende Kundenbeziehung an eine Kollegin, die die Branche kennt, aber den Kunden nicht – was gehört in das Übergabedokument?" liefert etwas Konkretes.
@@ -95,4 +95,4 @@ Besonderes: [Fachjargon vermeiden / bestimmten Begriff einmal erklären / max. X
 Aufgabe: Formuliere eine Erklärung auf Basis dieser Angaben.
 ```
 
-Beispiele, die diese Vorlage in verschiedenen Situationen anwenden, findest du auf der Seite [Beispiele](beispiele).
+Beispiele, die diese Vorlage in verschiedenen Situationen anwenden, findest Du auf der Seite [Beispiele](beispiele).

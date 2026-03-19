@@ -9,7 +9,7 @@ nav_order: 3
 
 # MCP heute
 
-## Was man dabei beachten muss
+## Was Du dabei beachten musst
 
 MCP erweitert, was KI-Modelle tun können. Damit wächst auch, was schiefgehen kann.
 
@@ -17,9 +17,9 @@ MCP erweitert, was KI-Modelle tun können. Damit wächst auch, was schiefgehen k
 
 Das Prinzip: So wenig Berechtigung wie nötig – so viel, wie für die Aufgabe sinnvoll.
 
-**Vertrauliche Daten können das System verlassen.** Wenn ein MCP-Server Dateien oder Datenbankeinträge liest und deren Inhalt in den [Kontext](../../glossar#kontext) des Modells übergibt, verlassen diese Daten das lokale System und gehen an den KI-Anbieter. Das ist derselbe Mechanismus wie beim manuellen Einkopieren von Text – nur dass er jetzt automatisch passiert, ohne dass man jeden Transfer bewusst wahrnimmt.
+**Vertrauliche Daten können das System verlassen.** Wenn ein MCP-Server Dateien oder Datenbankeinträge liest und deren Inhalt in den [Kontext](../../glossar#kontext) des Modells übergibt, verlassen diese Daten das lokale System und gehen an den KI-Anbieter. Das ist derselbe Mechanismus wie beim manuellen Einkopieren von Text – nur dass er jetzt automatisch passiert, ohne dass Du jeden Transfer bewusst wahrnimmst.
 
-**Aktionen lassen sich nicht immer rückgängig machen.** Eine gelöschte Datei, eine gesendete E-Mail, ein überschriebenes Dokument – das sind Konsequenzen, die MCP-Server auslösen können, wenn das Modell einen Fehler macht. Vor allem bei Schreibzugriffen sollte man sich fragen: Was ist der schlimmste Fall, wenn hier etwas schiefgeht?
+**Aktionen lassen sich nicht immer rückgängig machen.** Eine gelöschte Datei, eine gesendete E-Mail, ein überschriebenes Dokument – das sind Konsequenzen, die MCP-Server auslösen können, wenn das Modell einen Fehler macht. Vor allem bei Schreibzugriffen solltest Du Dir fragen: Was ist der schlimmste Fall, wenn hier etwas schiefgeht?
 
 ---
 
@@ -29,6 +29,6 @@ MCP ist in seiner aktuellen Form vor allem für Entwicklerinnen und Entwickler i
 
 Für Endanwender wird es zunehmend relevant, wenn Anwendungen MCP-Integrationen direkt als Einstellung anbieten – ohne Konfigurationsaufwand. Mehrere Anbieter arbeiten daran.
 
-Die Frage, welche Daten man einem KI-System zugänglich macht und welche nicht, ist keine technische, sondern eine inhaltliche Entscheidung. MCP macht es leichter, diese Entscheidung umzusetzen. Sie abnehmen kann es nicht.
+Die Frage, welche Daten Du einem KI-System zugänglich machst und welche nicht, ist keine technische, sondern eine inhaltliche Entscheidung. MCP macht es leichter, diese Entscheidung umzusetzen. Sie abnehmen kann es nicht.
 
 Mehr dazu, wie Agents diese Werkzeuge eigenständig einsetzen: [KI-Agents](../agents). Wie KI auf große eigene Wissensbestände zugreift: [RAG](../rag).

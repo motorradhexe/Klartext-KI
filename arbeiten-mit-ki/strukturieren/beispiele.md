@@ -124,8 +124,8 @@ Das Modell sortiert die Punkte nicht nur – es ordnet sie so, dass sie die Logi
 
 ## Übung
 
-Nimm ein Thema, das dich gerade beschäftigt und das du noch nicht vollständig durchdacht hast. Schreib fünf bis zehn Stichpunkte dazu auf – in beliebiger Reihenfolge, ohne zu sortieren.
+Nimm ein Thema, das Dich gerade beschäftigt und das Du noch nicht vollständig durchdacht hast. Schreib fünf bis zehn Stichpunkte dazu auf – in beliebiger Reihenfolge, ohne zu sortieren.
 
-Gib diese Stichpunkte in KI ein und schreib dazu: Wofür brauchst du die Struktur? Wer arbeitet damit? Was ist das Ziel?
+Gib diese Stichpunkte in KI ein und schreib dazu: Wofür brauchst Du die Struktur? Wer arbeitet damit? Was ist das Ziel?
 
-Dann: Was stimmt an der vorgeschlagenen Struktur? Was fehlt? Was ist falsch geordnet? Diese Fragen zu beantworten ist viel einfacher, wenn man eine Struktur vor sich hat.
+Dann: Was stimmt an der vorgeschlagenen Struktur? Was fehlt? Was ist falsch geordnet? Diese Fragen zu beantworten ist viel einfacher, wenn Du eine Struktur vor Dir hast.

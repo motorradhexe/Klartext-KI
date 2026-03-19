@@ -55,7 +55,7 @@ Ich arbeite in Python 3.11. Schreib eine Funktion `sortiere_personen`, die eine 
 Was macht dieser Code? [Code eingefügt]
 ```
 
-Das Modell gibt eine Zusammenfassung – aber oft ohne die Tiefe, die man braucht, um den Code wirklich zu verstehen oder sicher zu verändern.
+Das Modell gibt eine Zusammenfassung – aber oft ohne die Tiefe, die Du brauchst, um den Code wirklich zu verstehen oder sicher zu verändern.
 
 ---
 
@@ -125,10 +125,10 @@ Das Modell kann jetzt gezielt analysieren, ob das Problem im Datenmodell, in der
 
 ## Übung
 
-Nimm einen Code-Ausschnitt aus deiner Arbeit oder aus einem Projekt, das du verstehen willst. Gib ihn in KI ein und schreib dazu:
+Nimm einen Code-Ausschnitt aus Deiner Arbeit oder aus einem Projekt, das Du verstehen willst. Gib ihn in KI ein und schreib dazu:
 
-- Welche Sprache und Version du verwendest
-- Was der Code tun soll (soweit du das weißt)
-- Was du nicht verstehst oder was unklar ist
+- Welche Sprache und Version Du verwendest
+- Was der Code tun soll (soweit Du das weißt)
+- Was Du nicht verstehst oder was unklar ist
 
 Dann lies die Erklärung – und frag nach dem, was noch unklar ist. KI als Lernpartner beim Entwickeln funktioniert nur als Dialog.

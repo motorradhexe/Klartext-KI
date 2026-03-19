@@ -21,10 +21,10 @@ KI-Modelle wissen viel – aber nicht alles. Sie kennen nicht das, was nach ihre
 
 **[Einsatz & Grenzen](rag/einsatz)** – Wo RAG seinen Nutzen entfaltet, wo es an Grenzen stößt und welche Fehler typisch sind.
 
-**[RAG heute](rag/heute)** – Wann RAG die richtige Wahl ist, wann nicht – und wie man heute ohne großen Aufwand einsteigt.
+**[RAG heute](rag/heute)** – Wann RAG die richtige Wahl ist, wann nicht – und wie Du heute ohne großen Aufwand einsteigst.
 
 ---
 
 ## Zum Einstieg
 
-Wenn du ein Dokument hast, das du häufig fragst – ein Handbuch, eine Richtlinie, ein langer Vertrag –, teste, wie gut ein KI-Modell damit arbeitet, wenn du den vollständigen Text einfach in den Kontext kopierst. Das gibt dir ein Gefühl dafür, was RAG besser macht – und warum es nötig wird, sobald ein Dokument nicht mehr ins Textfeld passt.
+Wenn Du ein Dokument hast, das Du häufig fragst – ein Handbuch, eine Richtlinie, ein langer Vertrag –, teste, wie gut ein KI-Modell damit arbeitet, wenn Du den vollständigen Text einfach in den Kontext kopierst. Das gibt Dir ein Gefühl dafür, was RAG besser macht – und warum es nötig wird, sobald ein Dokument nicht mehr ins Textfeld passt.

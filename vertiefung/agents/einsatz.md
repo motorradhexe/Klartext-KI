@@ -31,7 +31,7 @@ Das größte Risiko bei Agents ist nicht, dass sie zu wenig tun – sondern dass
 
 **Der Agent arbeitet in die falsche Richtung.** Das Ziel war zu vage formuliert, und das Modell hat eine Interpretation gewählt, die plausibel klingt, aber nicht gemeint war. Konkrete Ziele, klare Abbruchkriterien und ein Beispiel des gewünschten Ergebnisses helfen.
 
-**Fehler pflanzen sich fort.** Ein Agent, der in Schritt 2 eine falsche Annahme macht, baut in Schritt 3, 4 und 5 darauf auf. Am Ende ist das Ergebnis komplett falsch – und ohne die Zwischenschritte zu lesen, sieht man das nicht. Wer Agents einsetzt, sollte die Zwischenschritte überprüfen, nicht nur das Endergebnis.
+**Fehler pflanzen sich fort.** Ein Agent, der in Schritt 2 eine falsche Annahme macht, baut in Schritt 3, 4 und 5 darauf auf. Am Ende ist das Ergebnis komplett falsch – und ohne die Zwischenschritte zu lesen, fällt das nicht auf. Wer Agents einsetzt, sollte die Zwischenschritte überprüfen, nicht nur das Endergebnis.
 
 **Der Agent dreht im Kreis.** Manche Implementierungen haben kein robustes Abbruchkriterium. Der Agent startet immer neue Suchen oder Versuche, kommt aber nie zu einem Abschluss. Gute Agent-Systeme haben ein explizites Schritt-Limit – und halten es ein.
 

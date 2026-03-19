@@ -17,17 +17,17 @@ Eine Erklärung ist erst gut, wenn die andere Person sie versteht – nicht wenn
 
 ## Übung 1: Dieselbe Erklärung für zwei verschiedene Zielgruppen
 
-**Aufgabe:** Wähle ein Konzept, das du regelmäßig erklären musst. Lass KI es einmal für eine technisch versierte Person und einmal für eine Person ohne Fachkenntnisse erklären.
+**Aufgabe:** Wähle ein Konzept, das Du regelmäßig erklären musst. Lass KI es einmal für eine technisch versierte Person und einmal für eine Person ohne Fachkenntnisse erklären.
 
 **Ablauf:**
 1. Formuliere Prompt A: Fachperson, kurze Erklärung, kein Jargon vermeiden.
 2. Formuliere Prompt B: Kein Fachkenntnisse, Alltagsanalogie, max. drei Absätze.
 3. Lies beide Erklärungen. Was ist anders – Sprache, Struktur, Tiefe, Beispiele?
-4. Frage dich: Welche Version passt tatsächlich zu der Person, der ich das nächste Mal erklären muss?
+4. Frage Dich: Welche Version passt tatsächlich zu der Person, der ich das nächste Mal erklären muss?
 
 **Reflexionsfragen:**
 - Was hat die Angabe der Zielgruppe konkret verändert?
-- Welche Erklärung würdest du ohne diese Übung verschickt haben?
+- Welche Erklärung würdest Du ohne diese Übung verschickt haben?
 
 </div>
 
@@ -35,15 +35,15 @@ Eine Erklärung ist erst gut, wenn die andere Person sie versteht – nicht wenn
 
 ## Übung 2: Eine Übergabe vorbereiten
 
-**Aufgabe:** Denke an eine Aufgabe oder ein Thema, das du demnächst an jemanden übergeben oder delegieren wirst.
+**Aufgabe:** Denke an eine Aufgabe oder ein Thema, das Du demnächst an jemanden übergeben oder delegieren wirst.
 
 **Ablauf:**
 1. Schreibe auf: Wer übernimmt? Was weiß diese Person schon? Was muss sie können oder wissen, um selbstständig weiterzuarbeiten?
 2. Formuliere einen Prompt mit diesen Angaben und bitte um ein Übergabedokument.
-3. Lies das Ergebnis. Was fehlt, was du selbst weißt, aber nicht in den Prompt gegeben hast?
+3. Lies das Ergebnis. Was fehlt, was Du selbst weißt, aber nicht in den Prompt gegeben hast?
 4. Ergänze diese Informationen durch einen Folgeprompt oder direkt im Dokument.
 
-**Wichtig:** Das Modell kennt keine situationsspezifischen Details, die man nicht mitgibt. Was du über das Projekt, den Empfänger oder den Hintergrund weißt, aber nicht eingetippt hast, fehlt im Dokument. Das ist keine Schwäche des Modells – es ist eine Erinnerung daran, was in einer Übergabe explizit werden muss.
+**Wichtig:** Das Modell kennt keine situationsspezifischen Details, die Du nicht mitgibst. Was Du über das Projekt, den Empfänger oder den Hintergrund weißt, aber nicht eingetippt hast, fehlt im Dokument. Das ist keine Schwäche des Modells – es ist eine Erinnerung daran, was in einer Übergabe explizit werden muss.
 
 </div>
 
@@ -65,7 +65,7 @@ Eine Erklärung ist erst gut, wenn die andere Person sie versteht – nicht wenn
 
 ---
 
-## Checkliste: Bevor du eine KI-Erklärung einsetzt
+## Checkliste: Bevor Du eine KI-Erklärung einsetzt
 
 - [ ] Habe ich die Zielgruppe beschrieben (Vorwissen, Berufshintergrund)?
 - [ ] Habe ich das Ziel der Erklärung angegeben (Entscheidung, Verständnis, Anwendung)?

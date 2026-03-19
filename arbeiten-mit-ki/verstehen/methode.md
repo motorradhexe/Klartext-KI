@@ -15,14 +15,14 @@ KI zum Verstehen funktioniert am besten als Gespräch, nicht als Nachschlagetool
 
 ## Das eigene Vorwissen benennen
 
-Die wichtigste einzelne Angabe ist: Was weiß man schon, was nicht? „Erkläre mir X" liefert eine Antwort auf mittlerem Niveau – das oft weder zum eigenen Vorwissen noch zum eigenen Bedarf passt.
+Die wichtigste einzelne Angabe ist: Was weißt Du schon, was nicht? „Erkläre mir X" liefert eine Antwort auf mittlerem Niveau – das oft weder zum eigenen Vorwissen noch zum eigenen Bedarf passt.
 
 Besser:
 - „Ich habe Grundkenntnisse in Buchhaltung, aber keine Erfahrung mit Steuerrecht. Erkläre mir..."
 - „Ich bin Ärztin ohne IT-Kenntnisse. Erkläre mir, was ein API-Endpunkt ist."
 - „Ich kenne das Konzept grob, verstehe aber nicht, wie es in der Praxis funktioniert."
 
-Das Modell passt seine Erklärung an das beschriebene Niveau an – und lässt Dinge weg, die man schon kennt, ohne Begriffe vorauszusetzen, die man noch nicht kennt.
+Das Modell passt seine Erklärung an das beschriebene Niveau an – und lässt Dinge weg, die Du schon kennst, ohne Begriffe vorauszusetzen, die Du noch nicht kennst.
 
 ---
 
@@ -44,13 +44,13 @@ Das Modell passt seine Erklärung an das beschriebene Niveau an – und lässt D
 - „Ich glaube, ich habe es so verstanden: [eigene Zusammenfassung]. Stimmt das – und was fehlt?"
 - „Was würde ich falsch machen, wenn ich das so interpretiere?"
 
-Diese letzte Art von Frage ist besonders wertvoll: Das Modell antwortet mit Korrekturen und Ergänzungen – und man merkt schnell, was man noch nicht wirklich verstanden hat.
+Diese letzte Art von Frage ist besonders wertvoll: Das Modell antwortet mit Korrekturen und Ergänzungen – und Du merkst schnell, was Du noch nicht wirklich verstanden hast.
 
 ---
 
 ## Erklärungen in den eigenen Kontext übersetzen
 
-Abstrakte Erklärungen sind schwerer zu behalten als konkrete. Das Modell kann Erklärungen auf die eigene Situation anpassen – aber nur, wenn man diese Situation beschreibt.
+Abstrakte Erklärungen sind schwerer zu behalten als konkrete. Das Modell kann Erklärungen auf die eigene Situation anpassen – aber nur, wenn Du diese Situation beschreibst.
 
 Statt: „Erkläre mir, wie Verschlüsselung funktioniert."
 
@@ -69,7 +69,7 @@ KI klingt überzeugend. Auch wenn sie falsch liegt. Besonders bei Zahlen, rechtl
 KI nennt manchmal Bücher, Studien oder Artikel, die so nicht existieren. Wer eine Quelle für eine weiterführende Lektüre braucht, sollte sie selbst suchen – nicht der Quellenangabe des Modells vertrauen.
 
 **Zu früh aufgehört.**
-Das erste Verständnis ist selten vollständig. Wenn die Antwort klar klingt, heißt das nicht, dass man das Thema wirklich durchdrungen hat. Erst wenn man es mit eigenen Worten erklären und auf eigene Situationen anwenden kann, hat man es wirklich verstanden.
+Das erste Verständnis ist selten vollständig. Wenn die Antwort klar klingt, heißt das nicht, dass Du das Thema wirklich durchdrungen hast. Erst wenn Du es mit eigenen Worten erklären und auf eigene Situationen anwenden kannst, hast Du es wirklich verstanden.
 
 ---
 

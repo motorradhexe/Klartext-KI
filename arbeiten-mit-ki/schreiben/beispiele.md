@@ -111,6 +111,6 @@ Ein ADR ist ein Dokument, das erklärt, warum eine technische Entscheidung so ge
 
 ## Übung
 
-Nimm einen Text, den du in letzter Zeit geschrieben hast – eine E-Mail, einen Bericht, eine kurze Zusammenfassung. Formuliere einen Prompt, der alle wesentlichen Kontextinformationen enthält, und lass KI einen Entwurf schreiben.
+Nimm einen Text, den Du in letzter Zeit geschrieben hast – eine E-Mail, einen Bericht, eine kurze Zusammenfassung. Formuliere einen Prompt, der alle wesentlichen Kontextinformationen enthält, und lass KI einen Entwurf schreiben.
 
-Vergleiche das Ergebnis mit deinem eigenen Text. Dann überarbeite: entweder den Prompt, wenn das Ergebnis noch nicht passt – oder das KI-Ergebnis per Folgeprompt, bis es wirklich deinem Standard entspricht.
+Vergleiche das Ergebnis mit Deinem eigenen Text. Dann überarbeite: entweder den Prompt, wenn das Ergebnis noch nicht passt – oder das KI-Ergebnis per Folgeprompt, bis es wirklich Deinem Standard entspricht.

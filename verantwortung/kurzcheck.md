@@ -8,17 +8,17 @@ nav_order: 4
 
 # Kurzcheck vor dem KI-Einsatz
 
-Wer KI in einem neuen Kontext einsetzt – neues Projekt, neues Team, neues Thema – sollte sich einmal fünf Fragen stellen. Keine davon ist kompliziert. Zusammen bilden sie einen Rahmen, der die meisten vermeidbaren Probleme ausschließt.
+Wenn Du KI in einem neuen Kontext einsetzt – neues Projekt, neues Team, neues Thema – solltest Du Dir einmal fünf Fragen stellen. Keine davon ist kompliziert. Zusammen bilden sie einen Rahmen, der die meisten vermeidbaren Probleme ausschließt.
 
 ---
 
 ## Frage 1: Was gebe ich ein – und verlässt das meinen Rechner?
 
-Ja. Was immer man in einen KI-Dienst tippt, verlässt den eigenen Rechner und wird auf externen Servern verarbeitet. Das ist kein Vorwurf an die Anbieter, sondern eine technische Realität, die man im Kopf behalten sollte.
+Ja. Was immer Du in einen KI-Dienst tippst, verlässt Deinen Rechner und wird auf externen Servern verarbeitet. Das ist kein Vorwurf an die Anbieter, sondern eine technische Realität, die Du im Kopf behalten solltest.
 
-Die Frage, die man sich stellen sollte: Wäre ich damit einverstanden, dass dieser Text auf einem externen Server liegt – auch wenn er sicher ist?
+Die Frage, die Du Dir stellen solltest: Wäre ich damit einverstanden, dass dieser Text auf einem externen Server liegt – auch wenn er sicher ist?
 
-Wenn die Antwort nein ist – weil der Text Kundendaten enthält, Passwörter, interne Strategiepapiere oder Patientendaten –, dann gehört er nicht in den Prompt. Nicht weil der Anbieter böswillig ist, sondern weil man die Kontrolle über diese Daten in dem Moment abgibt, in dem man sie eingibt.
+Wenn die Antwort nein ist – weil der Text Kundendaten enthält, Passwörter, interne Strategiepapiere oder Patientendaten –, dann gehört er nicht in den Prompt. Nicht weil der Anbieter böswillig ist, sondern weil Du die Kontrolle über diese Daten in dem Moment abgibst, in dem Du sie eingibst.
 
 → Mehr dazu: [Datenschutz beim KI-Einsatz](datenschutz)
 
@@ -28,7 +28,7 @@ Wenn die Antwort nein ist – weil der Text Kundendaten enthält, Passwörter, i
 
 Viele Organisationen haben Richtlinien zum Einsatz von KI-Tools – und viele Mitarbeitende kennen sie nicht. Das ist keine Entschuldigung.
 
-Wenn man nicht weiß, ob der Einsatz von KI-Diensten mit internen Inhalten erlaubt ist: Nachfragen, bevor man loslegtigt. Wenn keine Richtlinie existiert: Das ist der Zeitpunkt, die Frage zu stellen, nicht der Zeitpunkt, von einer Erlaubnis auszugehen.
+Wenn Du nicht weißt, ob der Einsatz von KI-Diensten mit internen Inhalten erlaubt ist: Nachfragen, bevor Du loslegst. Wenn keine Richtlinie existiert: Das ist der Zeitpunkt, die Frage zu stellen, nicht der Zeitpunkt, von einer Erlaubnis auszugehen.
 
 Besonders relevant: Kundendaten, proprietärer Code, Verhandlungs- oder Strategieinhalte, und alles, was unter eine Geheimhaltungsvereinbarung fällt.
 
@@ -38,9 +38,9 @@ Besonders relevant: Kundendaten, proprietärer Code, Verhandlungs- oder Strategi
 
 ## Frage 3: Wie verlässlich muss das Ergebnis sein – und prüfe ich es entsprechend?
 
-KI-Ausgaben können falsch sein. Nicht gelegentlich, sondern regelmäßig – und das, ohne es anzukündigen. Die Frage ist nicht, ob man KI-Ausgaben vertraut, sondern wie man sie prüft.
+KI-Ausgaben können falsch sein. Nicht gelegentlich, sondern regelmäßig – und das, ohne es anzukündigen. Die Frage ist nicht, ob Du KI-Ausgaben vertraust, sondern wie Du sie prüfst.
 
-Die Faustformel: Je folgenreicher die Nutzung, desto gründlicher die Prüfung. Ein interner Notiz-Entwurf kann man lesen und korrigieren. Ein rechtlicher Hinweis in einem Kundendokument muss von jemandem geprüft werden, der ihn fachlich beurteilen kann.
+Die Faustformel: Je folgenreicher die Nutzung, desto gründlicher die Prüfung. Einen internen Notiz-Entwurf kannst Du lesen und korrigieren. Ein rechtlicher Hinweis in einem Kundendokument muss von jemandem geprüft werden, der ihn fachlich beurteilen kann.
 
 Konkrete Fakten – Zahlen, Namen, Daten, Gesetze, Quellenangaben – nie aus einer KI-Ausgabe übernehmen, ohne sie unabhängig geprüft zu haben.
 
@@ -64,7 +64,7 @@ Die praktische Frage: Würde die Person, die diesen Text liest, es als relevant 
 
 KI ist nützlich als Werkzeug für Entwürfe, Strukturierungen und erste Formulierungen. Sie ist kein Ersatz für fachliche Kompetenz und kein Endpunkt für Entscheidungen.
 
-Die langfristige Frage ist, ob man die Fähigkeit behält, KI-Ausgaben zu beurteilen. Wer nie mehr selbst prüft, verliert die Fähigkeit zu prüfen. Wer nie mehr selbst schreibt, verliert das Gefühl dafür, wann ein Text gut ist. Das ist kein Aufruf zum Verzicht, sondern eine Erinnerung daran, was KI nicht ersetzen kann: das eigene Urteil über das, was man verantwortet.
+Die langfristige Frage ist, ob Du die Fähigkeit behältst, KI-Ausgaben zu beurteilen. Wer nie mehr selbst prüft, verliert die Fähigkeit zu prüfen. Wer nie mehr selbst schreibt, verliert das Gefühl dafür, wann ein Text gut ist. Das ist kein Aufruf zum Verzicht, sondern eine Erinnerung daran, was KI nicht ersetzen kann: das eigene Urteil über das, was Du verantwortest.
 
 ---
 

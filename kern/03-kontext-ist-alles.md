@@ -18,7 +18,7 @@ Nicht vom Modell. Nicht vom Glück. Von der Eingabe.
 
 [Kontext](../glossar#kontext) ist alles, was das Modell beim Erstellen einer Antwort sehen kann: die aktuelle Frage, der bisherige Gesprächsverlauf, mitgelieferte Texte, Anweisungen zu Ton oder Format. Das Modell arbeitet ausschließlich damit.
 
-Es gibt kein implizites Wissen. Wenn man nicht schreibt, für wen der Text gedacht ist, weiß das Modell es nicht. Wenn man nicht angibt, in welchem Ton geschrieben werden soll, wählt das Modell irgendeinen. Wenn man einen Text überarbeiten möchte und ihn nicht miteingegeben hat, kann das Modell ihn nicht überarbeiten.
+Es gibt kein implizites Wissen. Wenn Du nicht schreibst, für wen der Text gedacht ist, weiß das Modell es nicht. Wenn Du nicht angibst, in welchem Ton geschrieben werden soll, wählt das Modell irgendeinen. Wenn Du einen Text überarbeiten möchtest und ihn nicht miteingegeben hast, kann das Modell ihn nicht überarbeiten.
 
 Das klingt offensichtlich – aber in der Praxis vergessen die meisten Menschen genau das. Sie formulieren, was sie wollen, aber nicht, was das Modell wissen muss, um es zu liefern.
 
@@ -42,7 +42,7 @@ Dieselbe KI, dasselbe Modell. Der Unterschied liegt ausschließlich im Kontext.
 
 ---
 
-## Wie man Kontext bewusst gestaltet
+## Wie Du Kontext bewusst gestaltest
 
 Es gibt vier Fragen, die fast jede Eingabe verbessern:
 
@@ -58,7 +58,7 @@ Es gibt vier Fragen, die fast jede Eingabe verbessern:
 **In welchem Format?**
 „Als Aufzählung mit maximal fünf Punkten" oder „Als Fließtext, drei Absätze, sachlicher Ton" – Formatangaben sind keine Kleinigkeit. Sie steuern direkt, wie die Ausgabe strukturiert ist.
 
-Man muss nicht immer alle vier Fragen beantworten. Aber die bewusste Entscheidung, welche davon relevant sind, verbessert jede Eingabe.
+Du musst nicht immer alle vier Fragen beantworten. Aber die bewusste Entscheidung, welche davon relevant sind, verbessert jede Eingabe.
 
 ---
 
@@ -76,4 +76,4 @@ KI funktioniert als Dialog besser als als Einmaleingabe. Wer nach dem ersten Erg
 
 Die Kernmodule haben erklärt, warum KI enttäuscht, wie sie funktioniert und was gute Eingaben ausmacht. Das ist die Grundlage.
 
-Die Lernpfade bauen darauf auf – für konkrete Bereiche: Schreiben, Verstehen, Strukturieren, Entwickeln, Erklären. Jeder Pfad zeigt, wie man die Grundsätze dieses Moduls auf eine spezifische Aufgabe anwendet.
+Die Lernpfade bauen darauf auf – für konkrete Bereiche: Schreiben, Verstehen, Strukturieren, Entwickeln, Erklären. Jeder Pfad zeigt, wie Du die Grundsätze dieses Moduls auf eine spezifische Aufgabe anwendest.

@@ -116,13 +116,13 @@ Format: Tabelle. Wenn ein Punkt in einem der Angebote nicht erwähnt wird, trage
 - Format: Tabelle
 - Behandlung fehlender Infos: „nicht angegeben" statt erfinden
 
-Die Tabelle zeigt auf einen Blick, wo die Angebote verglichen werden können – und wo Informationen fehlen, die man beim Anbieter nachfragen muss.
+Die Tabelle zeigt auf einen Blick, wo die Angebote verglichen werden können – und wo Informationen fehlen, die Du beim Anbieter nachfragen musst.
 
 ---
 
 ## Übung
 
-Nimm ein Dokument aus deiner Arbeit, das du zuletzt gelesen hast – einen langen E-Mail-Thread, ein Meeting-Protokoll, einen Bericht.
+Nimm ein Dokument aus Deiner Arbeit, das Du zuletzt gelesen hast – einen langen E-Mail-Thread, ein Meeting-Protokoll, einen Bericht.
 
 Formuliere einen Prompt mit: Für wen ist die Zusammenfassung? Was soll die Person danach wissen? Welches Format und welcher Umfang sind sinnvoll?
 
