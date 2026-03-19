@@ -243,6 +243,31 @@
   line-height: 1.5;
 }
 
+// Copy-Button für Prompt-Code-Blöcke
+pre.has-copy-btn {
+  position: relative;
+}
+
+.copy-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  padding: 0.2rem 0.65rem;
+  font-size: 0.75rem;
+  font-family: inherit;
+  border: 1px solid $border-color;
+  border-radius: 4px;
+  background: $sidebar-color;
+  color: $nav-child-link-color;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+
+  &:hover {
+    background: $border-color;
+    color: $body-heading-color;
+  }
+}
+
 // Glossar-Einträge
 .glossar-eintrag {
   padding-bottom: 1.5rem;

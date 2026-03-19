@@ -17,7 +17,9 @@ Drei häufige Situationen, in denen KI beim Zusammenfassen hilft – mit je eine
 
 **Schwacher Prompt:**
 
-> „Fasse diesen Artikel zusammen." [Artikel eingefügt]
+```
+Fasse diesen Artikel zusammen. [Artikel eingefügt]
+```
 
 Das Modell liefert eine Zusammenfassung in mittlerer Länge, die ungefähr die Struktur des Artikels widerspiegelt. Für jemanden, der den Artikel verstehen will, ist das nützlich. Für jemanden, der eine konkrete Entscheidungsgrundlage braucht, meistens nicht.
 
@@ -25,11 +27,13 @@ Das Modell liefert eine Zusammenfassung in mittlerer Länge, die ungefähr die S
 
 **Starker Prompt:**
 
-> „Ich bin Personalverantwortliche in einem mittelständischen Unternehmen. Ich habe diesen Artikel über hybrides Arbeiten gelesen und muss entscheiden, ob ich unserer Geschäftsführung eine Anpassung unserer Homeoffice-Richtlinie vorschlagen soll.
->
-> [Artikel eingefügt]
->
-> Fasse den Artikel so zusammen: (1) Was sind die wichtigsten Erkenntnisse für Unternehmen wie meines? (2) Welche Empfehlungen enthält der Artikel konkret? (3) Welche Einschränkungen oder Gegenargumente nennt der Artikel? Maximale Länge: eine halbe Seite."
+```
+Ich bin Personalverantwortliche in einem mittelständischen Unternehmen. Ich habe diesen Artikel über hybrides Arbeiten gelesen und muss entscheiden, ob ich unserer Geschäftsführung eine Anpassung unserer Homeoffice-Richtlinie vorschlagen soll.
+
+[Artikel eingefügt]
+
+Fasse den Artikel so zusammen: (1) Was sind die wichtigsten Erkenntnisse für Unternehmen wie meines? (2) Welche Empfehlungen enthält der Artikel konkret? (3) Welche Einschränkungen oder Gegenargumente nennt der Artikel? Maximale Länge: eine halbe Seite.
+```
 
 **Was diese Eingabe besser macht:**
 - Rolle: Personalverantwortliche, keine Forscherin
@@ -45,7 +49,9 @@ Die Zusammenfassung hat jetzt eine Funktion – und das Modell weißt, welche.
 
 **Schwacher Prompt:**
 
-> „Fasse dieses Meeting zusammen." [Notizen eingefügt]
+```
+Fasse dieses Meeting zusammen. [Notizen eingefügt]
+```
 
 Das Modell liefert eine Zusammenfassung der Diskussion – aber das ist oft nicht das, was nach einem Meeting gebraucht wird. Was fehlt: Wer macht was? Was wurde entschieden? Was bleibt offen?
 
@@ -53,16 +59,18 @@ Das Modell liefert eine Zusammenfassung der Diskussion – aber das ist oft nich
 
 **Starker Prompt:**
 
-> „Hier sind meine Notizen von einem Projektmeeting (45 Minuten, 6 Teilnehmende).
->
-> [Notizen eingefügt]
->
-> Erstelle daraus ein strukturiertes Protokoll mit diesen Abschnitten:
-> 1. Entscheidungen: Was wurde beschlossen? (max. 5 Punkte)
-> 2. Handlungspunkte: Wer macht was bis wann? (als Tabelle: Aufgabe | Person | Datum)
-> 3. Offene Punkte: Was wurde nicht entschieden, was muss beim nächsten Meeting geklärt werden?
->
-> Wenn in meinen Notizen kein Datum oder keine Person für einen Handlungspunkt steht, markiere das mit [offen]."
+```
+Hier sind meine Notizen von einem Projektmeeting (45 Minuten, 6 Teilnehmende).
+
+[Notizen eingefügt]
+
+Erstelle daraus ein strukturiertes Protokoll mit diesen Abschnitten:
+1. Entscheidungen: Was wurde beschlossen? (max. 5 Punkte)
+2. Handlungspunkte: Wer macht was bis wann? (als Tabelle: Aufgabe | Person | Datum)
+3. Offene Punkte: Was wurde nicht entschieden, was muss beim nächsten Meeting geklärt werden?
+
+Wenn in meinen Notizen kein Datum oder keine Person für einen Handlungspunkt steht, markiere das mit [offen].
+```
 
 **Was diese Eingabe besser macht:**
 - Klare Struktur mit drei Abschnitten
@@ -77,7 +85,9 @@ Das letzte Punkt ist wichtig: Wenn das Modell fehlende Informationen nicht marki
 
 **Schwacher Prompt:**
 
-> „Vergleiche diese zwei Angebote." [Zwei Dokumente eingefügt]
+```
+Vergleiche diese zwei Angebote. [Zwei Dokumente eingefügt]
+```
 
 Das Modell listet Unterschiede auf – aber oft nicht nach den Kriterien, die für die eigene Entscheidung relevant sind.
 
@@ -85,18 +95,20 @@ Das Modell listet Unterschiede auf – aber oft nicht nach den Kriterien, die f�
 
 **Starker Prompt:**
 
-> „Ich vergleiche zwei Angebote für eine neue CRM-Software für unser 12-köpfiges Vertriebsteam. Angebot A kommt von Anbieter X, Angebot B von Anbieter Y.
->
-> [Beide Dokumente eingefügt]
->
-> Vergleiche die Angebote nach diesen Kriterien, die für uns wichtig sind:
-> - Preis (monatlich und einmalig)
-> - Anzahl der enthaltenen Nutzer und Kosten für zusätzliche
-> - Enthaltener Support (Reaktionszeit, Sprache, Kanal)
-> - Vertragslaufzeit und Kündigungsfristen
-> - Was explizit nicht im Angebot enthalten ist (Einrichtung, Schulung, Migration)
->
-> Format: Tabelle. Wenn ein Punkt in einem der Angebote nicht erwähnt wird, trage 'nicht angegeben' ein."
+```
+Ich vergleiche zwei Angebote für eine neue CRM-Software für unser 12-köpfiges Vertriebsteam. Angebot A kommt von Anbieter X, Angebot B von Anbieter Y.
+
+[Beide Dokumente eingefügt]
+
+Vergleiche die Angebote nach diesen Kriterien, die für uns wichtig sind:
+- Preis (monatlich und einmalig)
+- Anzahl der enthaltenen Nutzer und Kosten für zusätzliche
+- Enthaltener Support (Reaktionszeit, Sprache, Kanal)
+- Vertragslaufzeit und Kündigungsfristen
+- Was explizit nicht im Angebot enthalten ist (Einrichtung, Schulung, Migration)
+
+Format: Tabelle. Wenn ein Punkt in einem der Angebote nicht erwähnt wird, trage 'nicht angegeben' ein.
+```
 
 **Was diese Eingabe besser macht:**
 - Kontext: 12-köpfiges Vertriebsteam, konkreter Kaufentscheid

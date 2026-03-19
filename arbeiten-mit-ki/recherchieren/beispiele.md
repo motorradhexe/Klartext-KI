@@ -17,7 +17,9 @@ Drei häufige Situationen, in denen KI bei der Recherche helfen kann – und wie
 
 **Schwacher Prompt:**
 
-> „Was ist DSGVO?"
+```
+Was ist DSGVO?
+```
 
 Das Modell liefert eine korrekte, aber generische Zusammenfassung. Für jemanden, der den Begriff schon kennt, ist das nichts Neues. Für jemanden, der ihn nicht kennt, fehlt der Bezug zur eigenen Situation.
 
@@ -25,7 +27,9 @@ Das Modell liefert eine korrekte, aber generische Zusammenfassung. Für jemanden
 
 **Starker Prompt:**
 
-> „Ich bin selbstständige Grafikdesignerin und habe gehört, dass ich als Unternehmerin DSGVO-Pflichten habe. Ich habe keine rechtliche Vorbildung. Erkläre mir, welche Bereiche meiner Arbeit von der DSGVO betroffen sind, und welche Pflichten für eine Einzelperson in meiner Situation besonders relevant sind. Ich suche keinen Rechtsbeistand, sondern einen Überblick, um die richtigen Fragen stellen zu können."
+```
+Ich bin selbstständige Grafikdesignerin und habe gehört, dass ich als Unternehmerin DSGVO-Pflichten habe. Ich habe keine rechtliche Vorbildung. Erkläre mir, welche Bereiche meiner Arbeit von der DSGVO betroffen sind, und welche Pflichten für eine Einzelperson in meiner Situation besonders relevant sind. Ich suche keinen Rechtsbeistand, sondern einen Überblick, um die richtigen Fragen stellen zu können.
+```
 
 **Was diese Eingabe besser macht:**
 - Kontext: selbstständig, keine rechtliche Vorbildung
@@ -44,7 +48,9 @@ Das Modell liefert eine korrekte, aber generische Zusammenfassung. Für jemanden
 
 **Schwacher Prompt:**
 
-> „Was steckt hinter dem Begriff Carbon Capture?"
+```
+Was steckt hinter dem Begriff Carbon Capture?
+```
 
 Das Modell erklärt Carbon Capture – technisch korrekt auf mittlerem Niveau. Für jemanden, der in eine Debatte vorbereiten muss oder einen Artikel verstehen will, fehlt der Bezug.
 
@@ -52,9 +58,11 @@ Das Modell erklärt Carbon Capture – technisch korrekt auf mittlerem Niveau. F
 
 **Starker Prompt:**
 
-> „Ich lese gerade einen Artikel über EU-Klimapolitik, in dem Carbon Capture mehrfach erwähnt wird. Ich habe naturwissenschaftliche Grundkenntnisse aus der Schule, aber bin nicht im Energiebereich tätig.
->
-> Erkläre mir: Was ist Carbon Capture, welche verschiedenen Ansätze gibt es, und warum ist das Thema in der Klimapolitik umstritten? Ich möchte den Artikel verstehen und mitreden können – kein vollständiges Wissenschaftsreferat."
+```
+Ich lese gerade einen Artikel über EU-Klimapolitik, in dem Carbon Capture mehrfach erwähnt wird. Ich habe naturwissenschaftliche Grundkenntnisse aus der Schule, aber bin nicht im Energiebereich tätig.
+
+Erkläre mir: Was ist Carbon Capture, welche verschiedenen Ansätze gibt es, und warum ist das Thema in der Klimapolitik umstritten? Ich möchte den Artikel verstehen und mitreden können – kein vollständiges Wissenschaftsreferat.
+```
 
 **Was diese Eingabe besser macht:**
 - Ausgangssituation: einen Artikel lesen, mitreden können
@@ -73,7 +81,9 @@ Das Modell erklärt Carbon Capture – technisch korrekt auf mittlerem Niveau. F
 
 **Schwacher Prompt:**
 
-> „Stimmt es, dass [spezifische Behauptung]?"
+```
+Stimmt es, dass [spezifische Behauptung]?
+```
 
 Das Modell gibt meistens eine Antwort – aber oft ohne Einschränkungen, ohne Quellenbelege, und mit falscher Selbstsicherheit. Das ist die gefährlichste Art, KI für Recherche einzusetzen.
 
@@ -81,9 +91,11 @@ Das Modell gibt meistens eine Antwort – aber oft ohne Einschränkungen, ohne Q
 
 **Starker Prompt:**
 
-> „Ich habe in einem Artikel gelesen, dass [konkrete Behauptung]. Ich bin mir nicht sicher, ob das stimmt.
->
-> Kannst du mir sagen: Entspricht das dem, was du weißt? Wenn ja – welche Faktoren oder Einschränkungen sollte ich dabei beachten? Und: Gibt es Gründe, diese Aussage besonders kritisch zu prüfen – z. B. weil sie umstritten ist, veraltet sein könnte oder von einem bestimmten Kontext abhängt? Ich möchte einschätzen, wie viel Aufwand ich in die Verifikation stecken sollte."
+```
+Ich habe in einem Artikel gelesen, dass [konkrete Behauptung]. Ich bin mir nicht sicher, ob das stimmt.
+
+Kannst du mir sagen: Entspricht das dem, was du weißt? Wenn ja – welche Faktoren oder Einschränkungen sollte ich dabei beachten? Und: Gibt es Gründe, diese Aussage besonders kritisch zu prüfen – z. B. weil sie umstritten ist, veraltet sein könnte oder von einem bestimmten Kontext abhängt? Ich möchte einschätzen, wie viel Aufwand ich in die Verifikation stecken sollte.
+```
 
 **Was diese Eingabe besser macht:**
 - Klare Anfrage: Einschätzung, nicht blindes Ja/Nein

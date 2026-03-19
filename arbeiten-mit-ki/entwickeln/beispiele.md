@@ -17,7 +17,9 @@ Drei häufige Situationen beim Entwickeln mit KI – mit je einem schwachen und 
 
 **Schwacher Prompt:**
 
-> „Schreib mir eine Funktion in Python."
+```
+Schreib mir eine Funktion in Python.
+```
 
 Das Modell fragt entweder zurück oder schreibt ein generisches Beispiel – eine Funktion, die zwei Zahlen addiert oder einen Namen ausgibt. Nicht falsch, aber für niemanden nützlich.
 
@@ -25,9 +27,11 @@ Das Modell fragt entweder zurück oder schreibt ein generisches Beispiel – ein
 
 **Starker Prompt:**
 
-> „Ich arbeite in Python 3.11. Schreib eine Funktion `sortiere_personen`, die eine Liste von Dictionaries entgegennimmt. Jedes Dictionary hat die Schlüssel `name` (String) und `alter` (Integer). Die Funktion gibt die Liste sortiert nach `alter` zurück, aufsteigend. Wenn zwei Personen dasselbe Alter haben, wird nach `name` alphabetisch sortiert. Füge einen [Docstring](../../glossar#docstring) hinzu, der Eingabe, Ausgabe und das Verhalten bei gleichen Altersangaben beschreibt."
+```
+Ich arbeite in Python 3.11. Schreib eine Funktion `sortiere_personen`, die eine Liste von Dictionaries entgegennimmt. Jedes Dictionary hat die Schlüssel `name` (String) und `alter` (Integer). Die Funktion gibt die Liste sortiert nach `alter` zurück, aufsteigend. Wenn zwei Personen dasselbe Alter haben, wird nach `name` alphabetisch sortiert. Füge einen Docstring hinzu, der Eingabe, Ausgabe und das Verhalten bei gleichen Altersangaben beschreibt.
+```
 
-*Erklärung: Ein Dictionary ist eine strukturierte Datensammlung in Python – zum Beispiel `{"name": "Max", "alter": 30}`. String bedeutet Text, Integer bedeutet ganze Zahl. Ein Docstring ist ein eingebetteter Kommentar direkt in der Funktion.*
+*Erklärung: Ein Dictionary ist eine strukturierte Datensammlung in Python – zum Beispiel `{"name": "Max", "alter": 30}`. String bedeutet Text, Integer bedeutet ganze Zahl. Ein [Docstring](../../glossar#docstring) ist ein eingebetteter Kommentar direkt in der Funktion.*
 
 **Was diese Eingabe besser macht:**
 - Sprache und Version: Python 3.11
@@ -47,19 +51,23 @@ Das Modell fragt entweder zurück oder schreibt ein generisches Beispiel – ein
 
 **Schwacher Prompt:**
 
-> „Was macht dieser Code?" [Code eingefügt]
+```
+Was macht dieser Code? [Code eingefügt]
+```
 
-Das Modell gibt eine Zusammenfassung – aber often ohne die Tiefe, die man braucht, um den Code wirklich zu verstehen oder sicher zu verändern.
+Das Modell gibt eine Zusammenfassung – aber oft ohne die Tiefe, die man braucht, um den Code wirklich zu verstehen oder sicher zu verändern.
 
 ---
 
 **Starker Prompt:**
 
-> „Ich habe diesen Python-Code aus einem Projekt geerbt und muss ihn jetzt warten und erweitern. Ich verstehe Python-Grundlagen, aber bin kein erfahrener Entwickler.
->
-> [Code eingefügt]
->
-> Erkläre mir, was dieser Code tut – Abschnitt für Abschnitt. Geh davon aus, dass ich nicht weiss, warum bestimmte Entscheidungen getroffen wurden. Wenn es Teile gibt, die ungewöhnlich oder potenziell problematisch sind, weise mich darauf hin. Erkläre auch, was passiert, wenn ich Eingabe X übergebe."
+```
+Ich habe diesen Python-Code aus einem Projekt geerbt und muss ihn jetzt warten und erweitern. Ich verstehe Python-Grundlagen, aber bin kein erfahrener Entwickler.
+
+[Code eingefügt]
+
+Erkläre mir, was dieser Code tut – Abschnitt für Abschnitt. Geh davon aus, dass ich nicht weiß, warum bestimmte Entscheidungen getroffen wurden. Wenn es Teile gibt, die ungewöhnlich oder potenziell problematisch sind, weise mich darauf hin. Erkläre auch, was passiert, wenn ich Eingabe X übergebe.
+```
 
 **Was diese Eingabe besser macht:**
 - Kontext: geerbter Code, Wartungsaufgabe
@@ -78,7 +86,9 @@ Das Modell gibt eine Zusammenfassung – aber often ohne die Tiefe, die man brau
 
 **Schwacher Prompt:**
 
-> „Mein Code funktioniert nicht. Was ist falsch?"
+```
+Mein Code funktioniert nicht. Was ist falsch?
+```
 
 Ohne den Code und die Fehlermeldung kann das Modell nichts analysieren. Es fragt zurück oder gibt generische Hinweise, die nicht weiterhelfen.
 
@@ -86,15 +96,17 @@ Ohne den Code und die Fehlermeldung kann das Modell nichts analysieren. Es fragt
 
 **Starker Prompt:**
 
-> „Ich benutze Python 3.10 und das Framework FastAPI. Hier ist meine Route:
->
-> [Code der Route eingefügt]
->
-> Wenn ich die Route mit dieser Anfrage aufrufe: `POST /users` mit dem Body `{"name": "Anna", "email": "anna@example.com"}`, bekomme ich diese Fehlermeldung:
->
-> `422 Unprocessable Entity: value is not a valid email address`
->
-> Das E-Mail-Format stimmt aber. Was ist das Problem, und wie wird es behoben?"
+```
+Ich benutze Python 3.10 und das Framework FastAPI. Hier ist meine Route:
+
+[Code der Route eingefügt]
+
+Wenn ich die Route mit dieser Anfrage aufrufe: POST /users mit dem Body {"name": "Anna", "email": "anna@example.com"}, bekomme ich diese Fehlermeldung:
+
+422 Unprocessable Entity: value is not a valid email address
+
+Das E-Mail-Format stimmt aber. Was ist das Problem, und wie wird es behoben?
+```
 
 **Was diese Eingabe besser macht:**
 - Umgebung: Python 3.10, FastAPI

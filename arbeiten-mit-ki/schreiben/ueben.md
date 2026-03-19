@@ -17,7 +17,9 @@ Lesen und Verstehen ist der erste Schritt. Dieser hier ist der zweite: selbst fo
 
 **Aufgabe:** Hier ist ein schlechter Prompt. Formuliere ihn so um, dass er ein brauchbares Ergebnis liefert.
 
-> „Schreib mir einen Text über unser neues Produkt."
+```
+Schreib mir einen Text über unser neues Produkt.
+```
 
 **Was du weißt (fiktives Szenario):**
 - Das Produkt ist eine neue Projektmanagement-Software für kleine Teams
@@ -58,7 +60,9 @@ Vergleiche das KI-Ergebnis mit deinem eigenen ersten Entwurf (falls du schon ein
 
 **Aufgabe:** Gib bewusst einen zu vagen Prompt ein:
 
-> „Schreib eine E-Mail an einen Kunden, dem wir uns verspätet haben."
+```
+Schreib eine E-Mail an einen Kunden, dem wir uns verspätet haben.
+```
 
 Lies die Ausgabe. Dann arbeite sie in mindestens drei Iterationsschritten zur passenden E-Mail für eine konkrete Situation aus, die du dir selbst ausgedacht hast.
 
