@@ -2,7 +2,7 @@
 title: Wie KI eigentlich funktioniert
 description: Das Minimum, das man verstehen muss, um KI produktiv einzusetzen.
 layout: default
-parent: Kernmodule
+parent: Grundlagen
 nav_order: 2
 ---
 

@@ -57,6 +57,16 @@
   margin: 1.25rem 0 2rem;
 }
 
+a.lernweg-schritt {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    border-color: $link-color;
+    text-decoration: none;
+  }
+}
+
 .lernweg-schritt {
   display: flex;
   gap: 1rem;

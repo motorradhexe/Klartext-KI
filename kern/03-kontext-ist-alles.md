@@ -2,7 +2,7 @@
 title: Kontext ist alles
 description: Warum die Eingabe entscheidender ist als das Modell – und wie man Kontext bewusst gestaltet.
 layout: default
-parent: Kernmodule
+parent: Grundlagen
 nav_order: 3
 ---
 

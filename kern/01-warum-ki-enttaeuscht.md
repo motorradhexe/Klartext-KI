@@ -2,7 +2,7 @@
 title: Warum KI oft enttäuscht
 description: Die häufigsten Gründe, warum KI-Ergebnisse enttäuschen – und was dahintersteckt.
 layout: default
-parent: Kernmodule
+parent: Grundlagen
 nav_order: 1
 ---
 
