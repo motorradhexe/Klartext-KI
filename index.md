@@ -20,34 +20,34 @@ nav_order: 0
 ## So ist dieses Projekt aufgebaut
 
 <div class="lernweg">
-  <div class="lernweg-schritt">
+  <a href="kern/" class="lernweg-schritt">
     <span class="lernweg-nr">1</span>
     <div>
       <strong>Grundlagen</strong>
       <p>Drei kurze Module, die erklären, wie KI funktioniert – und warum Deine bisherigen Erfahrungen so waren, wie sie waren. Lies sie zuerst, in dieser Reihenfolge.</p>
     </div>
-  </div>
-  <div class="lernweg-schritt">
+  </a>
+  <a href="arbeiten-mit-ki/" class="lernweg-schritt">
     <span class="lernweg-nr">2</span>
     <div>
       <strong>Mit KI arbeiten</strong>
       <p>Sieben Lernpfade zu konkreten Anwendungsbereichen – unabhängig voneinander. Jeder Pfad erklärt die Methode, zeigt Beispiele und gibt eine Übung mit. Fang mit dem an, das für Dich gerade relevant ist.</p>
     </div>
-  </div>
-  <div class="lernweg-schritt">
+  </a>
+  <a href="vertiefung/" class="lernweg-schritt">
     <span class="lernweg-nr">3</span>
     <div>
       <strong>Vertiefung</strong>
       <p>Für alle, die mehr verstehen wollen: wie KI-Systeme mit eigenen Daten, externen Werkzeugen und automatisierten Abläufen arbeiten. Kein Pflichtprogramm – aber hilfreich, wenn Du den größeren Rahmen verstehen willst.</p>
     </div>
-  </div>
-  <div class="lernweg-schritt">
+  </a>
+  <a href="verantwortung/" class="lernweg-schritt">
     <span class="lernweg-nr">!</span>
     <div>
       <strong>Verantwortung</strong>
       <p>Was Du wissen solltest, bevor Du KI im Arbeitsalltag einsetzt: Datenschutz, Haftung, Fehlerrisiken und wann die Verantwortung bei Dir liegt – nicht beim Modell.</p>
     </div>
-  </div>
+  </a>
 </div>
 
 ---

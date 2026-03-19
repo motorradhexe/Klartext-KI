@@ -1,12 +1,12 @@
 ---
-title: Kernmodule
+title: Grundlagen
 description: Die drei Grundlagen – für alle, die verstehen wollen, warum KI oft enttäuscht und wie man es besser macht.
 layout: default
 nav_order: 1
 has_children: true
 ---
 
-# Kernmodule
+# Grundlagen
 
 Drei Module, die aufeinander aufbauen. Am besten der Reihe nach.
 
