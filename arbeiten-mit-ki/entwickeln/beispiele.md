@@ -31,7 +31,7 @@ Das Modell fragt entweder zurück oder schreibt ein generisches Beispiel – ein
 Ich arbeite in Python 3.11. Schreib eine Funktion `sortiere_personen`, die eine Liste von Dictionaries entgegennimmt. Jedes Dictionary hat die Schlüssel `name` (String) und `alter` (Integer). Die Funktion gibt die Liste sortiert nach `alter` zurück, aufsteigend. Wenn zwei Personen dasselbe Alter haben, wird nach `name` alphabetisch sortiert. Füge einen Docstring hinzu, der Eingabe, Ausgabe und das Verhalten bei gleichen Altersangaben beschreibt.
 ```
 
-*Erklärung: Ein Dictionary ist eine strukturierte Datensammlung in Python – zum Beispiel `{"name": "Max", "alter": 30}`. String bedeutet Text, Integer bedeutet ganze Zahl. Ein Docstring ist ein eingebetteter Kommentar direkt in der Funktion.*
+*Erklärung: Ein Dictionary ist eine strukturierte Datensammlung in Python – zum Beispiel `{"name": "Max", "alter": 30}`. String bedeutet Text, Integer bedeutet ganze Zahl. Ein [Docstring](../../glossar#docstring) ist ein eingebetteter Kommentar direkt in der Funktion.*
 
 **Was diese Eingabe besser macht:**
 - Sprache und Version: Python 3.11
@@ -55,7 +55,7 @@ Ich arbeite in Python 3.11. Schreib eine Funktion `sortiere_personen`, die eine 
 Was macht dieser Code? [Code eingefügt]
 ```
 
-Das Modell gibt eine Zusammenfassung – aber often ohne die Tiefe, die man braucht, um den Code wirklich zu verstehen oder sicher zu verändern.
+Das Modell gibt eine Zusammenfassung – aber oft ohne die Tiefe, die man braucht, um den Code wirklich zu verstehen oder sicher zu verändern.
 
 ---
 
@@ -66,7 +66,7 @@ Ich habe diesen Python-Code aus einem Projekt geerbt und muss ihn jetzt warten u
 
 [Code eingefügt]
 
-Erkläre mir, was dieser Code tut – Abschnitt für Abschnitt. Geh davon aus, dass ich nicht weiss, warum bestimmte Entscheidungen getroffen wurden. Wenn es Teile gibt, die ungewöhnlich oder potenziell problematisch sind, weise mich darauf hin. Erkläre auch, was passiert, wenn ich Eingabe X übergebe.
+Erkläre mir, was dieser Code tut – Abschnitt für Abschnitt. Geh davon aus, dass ich nicht weiß, warum bestimmte Entscheidungen getroffen wurden. Wenn es Teile gibt, die ungewöhnlich oder potenziell problematisch sind, weise mich darauf hin. Erkläre auch, was passiert, wenn ich Eingabe X übergebe.
 ```
 
 **Was diese Eingabe besser macht:**
