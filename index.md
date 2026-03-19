@@ -134,8 +134,10 @@ Wer die Grundlagen kennt und verstehen will, wie KI-Systeme komplexer werden:
 Was passiert mit Daten, die man in KI eingibt? Wann ist KI im Arbeitskontext erlaubt? Wer haftet, wenn eine KI-Ausgabe falsch ist? Diese Seiten behandeln keine abstrakten Szenarien, sondern konkrete Fragen aus dem Alltag.
 
 <div class="vertiefung-links">
-  <a href="verantwortung/risiken" class="vertiefung-link">Risiken im Überblick – Fehler, Haftung, Fehleinschätzungen</a>
-  <a href="verantwortung" class="vertiefung-link">Übersicht: Verantwortung beim KI-Einsatz</a>
+  <a href="verantwortung/datenschutz" class="vertiefung-link">Datenschutz – Was mit Eingaben passiert</a>
+  <a href="verantwortung/verlaesslichkeit" class="vertiefung-link">Verlässlichkeit – Wer haftet, wenn KI falsch liegt</a>
+  <a href="verantwortung/grenzen-und-regeln" class="vertiefung-link">Grenzen und Regeln – Was erlaubt ist</a>
+  <a href="verantwortung/kurzcheck" class="vertiefung-link">Kurzcheck – Fünf Fragen vor dem Einsatz</a>
 </div>
 
 <div class="meta-links">
