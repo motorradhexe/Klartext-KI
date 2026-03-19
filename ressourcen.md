@@ -7,7 +7,7 @@ nav_order: 5
 
 # Kostenfreie Kurse
 
-Wer nach den Kernmodulen und Lernpfaden tiefer einsteigen will, findet bei den KI-Anbietern selbst kostenfreie Kurse. Diese Seite listet, was existiert, was es kostet (nichts) und wie man damit umgeht, wenn man kein Englisch lesen will.
+Wer nach den Kernmodulen und Lernpfaden tiefer einsteigen will, findet bei den KI-Anbietern selbst kostenfreie Kurse. Diese Seite listet, was existiert, was es kostet (nichts) und wie Du damit umgehst, wenn Du kein Englisch lesen willst.
 
 ---
 
@@ -30,7 +30,7 @@ Wer verstehen will, wie Prompts wirklich funktionieren und warum bestimmte Formu
 Empfehlenswerte Einstiegspunkte:
 
 - **Prompt Engineering Interactive Tutorial** – der direkte Einstieg in strukturiertes Prompting, Schritt für Schritt
-- **Real World Prompting** – wie man Prompting-Techniken auf echte, komplexere Aufgaben überträgt
+- **Real World Prompting** – wie Du Prompting-Techniken auf echte, komplexere Aufgaben überträgst
 - **Anthropic API Fundamentals** – für alle, die verstehen wollen, wie Claude technisch angesprochen wird
 
 Spracheinstellung: Im Skilljar-Profil lässt sich die Sprache umstellen. Alternativ: Browser-Übersetzung aktivieren.
@@ -43,7 +43,7 @@ Spracheinstellung: Im Skilljar-Profil lässt sich die Sprache umstellen. Alterna
 
 Google bietet einen einsteigerfreundlichen Kurs, der keine technischen Vorkenntnisse voraussetzt. Fünf Module, unter fünf Stunden, mit Zertifikat am Ende.
 
-Der Kurs erklärt KI-Grundlagen und zeigt, wie man generative KI-Tools konkret im Arbeitsalltag einsetzt – mit Fokus auf Prompting und verantwortungsvoller Nutzung. Der Ansatz ist praktischer als theoretischer.
+Der Kurs erklärt KI-Grundlagen und zeigt, wie Du generative KI-Tools konkret im Arbeitsalltag einsetzt – mit Fokus auf Prompting und verantwortungsvoller Nutzung. Der Ansatz ist praktischer als theoretischer.
 
 Auch auf Coursera verfügbar: [coursera.org – Google AI Essentials](https://www.coursera.org/specializations/ai-essentials-google)
 
@@ -81,6 +81,6 @@ Die Plattform ist kostenlos und ohne Anmeldung teilweise zugänglich.
 
 ## Was diese Kurse leisten – und was nicht
 
-Diese Kurse erklären gut, *wie* man mit den jeweiligen Werkzeugen umgeht. Sie kommen aus den Häusern der Anbieter – entsprechend optimistisch ist der Ton manchmal.
+Diese Kurse erklären gut, *wie* Du mit den jeweiligen Werkzeugen umgehst. Sie kommen aus den Häusern der Anbieter – entsprechend optimistisch ist der Ton manchmal.
 
 Was hier im Projekt Klartext KI behandelt wird – warum KI enttäuscht, wie Kontext wirklich funktioniert, welche Grenzen grundsätzlicher Natur sind – das ergänzt diese Kurse. Beides zusammen gibt ein vollständigeres Bild.
