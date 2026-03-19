@@ -9,9 +9,9 @@ nav_order: 0
 
 <p class="hero-kontext">Für alle, die KI schon ausprobiert haben – und enttäuscht waren.</p>
 
-<p class="hero-diese">Das Problem lag fast nie an der KI.</p>
+<p class="hero-these">Das Problem lag fast nie an der KI.</p>
 
-<p class="hero-erklaerung">Die meisten schlechten KI-Erfahrungen entstehen auf dieselbe Weise: vage Eingabe, generische Ausgabe. Oder: zu viel erwartet, zu wenig mitgegeben. Dieses Projekt erklärt, warum das passiert – und zeigt, wie man es anders macht. Kein Hype, keine Versprechen. Nur das, was tatsächlich hilft.</p>
+<p class="hero-erklaerung">Die meisten schlechten KI-Erfahrungen entstehen auf dieselbe Weise: vage Eingabe, generische Ausgabe. Oder: zu viel erwartet, zu wenig mitgegeben. Dieses Projekt erklärt, warum das passiert – und zeigt, wie Du es anders machst. Kein Hype, keine Versprechen. Nur das, was tatsächlich hilft.</p>
 
 <a href="kern/01-warum-ki-enttaeuscht" class="hero-cta">Jetzt starten →</a>
 
@@ -24,28 +24,28 @@ nav_order: 0
     <span class="lernweg-nr">1</span>
     <div>
       <strong>Grundlagen</strong>
-      <p>Drei kurze Module, die erklären, wie KI funktioniert – und warum deine bisherigen Erfahrungen so waren, wie sie waren. Lies sie zuerst, in dieser Reihenfolge.</p>
+      <p>Drei kurze Module, die erklären, wie KI funktioniert – und warum Deine bisherigen Erfahrungen so waren, wie sie waren. Lies sie zuerst, in dieser Reihenfolge.</p>
     </div>
   </div>
   <div class="lernweg-schritt">
     <span class="lernweg-nr">2</span>
     <div>
       <strong>Mit KI arbeiten</strong>
-      <p>Fünf Lernpfade zu konkreten Anwendungsbereichen – unabhängig voneinander. Jeder Pfad erklärt die Methode, zeigt Beispiele und gibt eine Übung mit. Fang mit dem an, das für dich gerade relevant ist.</p>
+      <p>Sieben Lernpfade zu konkreten Anwendungsbereichen – unabhängig voneinander. Jeder Pfad erklärt die Methode, zeigt Beispiele und gibt eine Übung mit. Fang mit dem an, das für Dich gerade relevant ist.</p>
     </div>
   </div>
   <div class="lernweg-schritt">
     <span class="lernweg-nr">3</span>
     <div>
       <strong>Vertiefung</strong>
-      <p>Für alle, die mehr verstehen wollen: wie KI-Systeme mit eigenen Daten, externen Werkzeugen und automatisierten Abläufen arbeiten. Kein Pflichtprogramm – aber hilfreich, wenn man den größeren Rahmen verstehen will.</p>
+      <p>Für alle, die mehr verstehen wollen: wie KI-Systeme mit eigenen Daten, externen Werkzeugen und automatisierten Abläufen arbeiten. Kein Pflichtprogramm – aber hilfreich, wenn Du den größeren Rahmen verstehen willst.</p>
     </div>
   </div>
   <div class="lernweg-schritt">
     <span class="lernweg-nr">!</span>
     <div>
       <strong>Verantwortung</strong>
-      <p>Was man wissen sollte, bevor man KI im Arbeitsalltag einsetzt: Datenschutz, Haftung, Fehlerrisiken und wann die Verantwortung beim Menschen liegt – nicht beim Modell.</p>
+      <p>Was Du wissen solltest, bevor Du KI im Arbeitsalltag einsetzt: Datenschutz, Haftung, Fehlerrisiken und wann die Verantwortung bei Dir liegt – nicht beim Modell.</p>
     </div>
   </div>
 </div>
@@ -57,7 +57,7 @@ nav_order: 0
 <div class="pfade-uebersicht">
   <a href="kern/01-warum-ki-enttaeuscht" class="pfad-link">
     <span class="pfad-link-titel">Warum KI oft enttäuscht</span>
-    <span class="pfad-link-beschreibung">Die häufigsten Muster, warum KI-Ergebnisse enttäuschen – und was dahintersteckt. Das Problem liegt fast immer woanders, als man denkt.</span>
+    <span class="pfad-link-beschreibung">Die häufigsten Muster, warum KI-Ergebnisse enttäuschen – und was dahintersteckt. Das Problem liegt fast immer woanders, als Du denkst.</span>
   </a>
   <a href="kern/02-wie-ki-funktioniert" class="pfad-link">
     <span class="pfad-link-titel">Wie KI eigentlich funktioniert</span>
@@ -65,7 +65,7 @@ nav_order: 0
   </a>
   <a href="kern/03-kontext-ist-alles" class="pfad-link">
     <span class="pfad-link-titel">Kontext ist alles</span>
-    <span class="pfad-link-beschreibung">Warum die Eingabe entscheidender ist als das Modell – und wie man sie gezielt besser formuliert. Mit Vorher/Nachher-Beispiel.</span>
+    <span class="pfad-link-beschreibung">Warum die Eingabe entscheidender ist als das Modell – und wie Du sie gezielt besser formulierst. Mit Vorher/Nachher-Beispiel.</span>
   </a>
 </div>
 
@@ -73,7 +73,7 @@ nav_order: 0
 
 ## Mit KI arbeiten
 
-Fünf Lernpfade, unabhängig voneinander. Jeder erklärt, wie man in einem bestimmten Bereich mit KI produktiv arbeitet – mit konkreter Methode, mehreren Beispielen und einer Übung.
+Sieben Lernpfade, unabhängig voneinander. Jeder erklärt, wie Du in einem bestimmten Bereich mit KI produktiv arbeitest – mit konkreter Methode, mehreren Beispielen und einer Übung.
 
 <div class="pfade-uebersicht">
   <a href="arbeiten-mit-ki/schreiben" class="pfad-link">
@@ -90,7 +90,7 @@ Fünf Lernpfade, unabhängig voneinander. Jeder erklärt, wie man in einem besti
   </a>
   <a href="arbeiten-mit-ki/entwickeln" class="pfad-link">
     <span class="pfad-link-titel">Entwickeln</span>
-    <span class="pfad-link-beschreibung">Code verstehen, schreiben und überprüfen – auch ohne tiefes Programmierwissen. Mit dem Wissen, wann man aufpassen muss.</span>
+    <span class="pfad-link-beschreibung">Code verstehen, schreiben und überprüfen – auch ohne tiefes Programmierwissen. Mit dem Wissen, wann Du aufpassen musst.</span>
   </a>
   <a href="arbeiten-mit-ki/erklaeren" class="pfad-link">
     <span class="pfad-link-titel">Erklären</span>
@@ -110,7 +110,7 @@ Fünf Lernpfade, unabhängig voneinander. Jeder erklärt, wie man in einem besti
 
 ## Vertiefung
 
-Wer die Grundlagen kennt und verstehen will, wie KI-Systeme komplexer werden:
+Wenn Du die Grundlagen kennst und verstehen willst, wie KI-Systeme komplexer werden:
 
 <div class="pfade-uebersicht">
   <a href="vertiefung/agents" class="pfad-link">
@@ -131,7 +131,7 @@ Wer die Grundlagen kennt und verstehen will, wie KI-Systeme komplexer werden:
 
 ## Verantwortung
 
-Bevor du KI im Arbeitsalltag einsetzt, lohnt es sich, ein paar Fragen einmal durchgedacht zu haben: Was passiert mit Eingaben? Was ist in deinem Kontext erlaubt? Wer trägt die Verantwortung, wenn eine KI-Ausgabe falsch ist?
+Bevor Du KI im Arbeitsalltag einsetzt, lohnt es sich, ein paar Fragen einmal durchgedacht zu haben: Was passiert mit Eingaben? Was ist in Deinem Kontext erlaubt? Wer trägt die Verantwortung, wenn eine KI-Ausgabe falsch ist?
 
 [Zu Datenschutz, Haftung, Regeln und Kurzcheck →](verantwortung/)
 
