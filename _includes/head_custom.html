@@ -16,31 +16,3 @@
     });
   })();
 </script>
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('pre > code').forEach(function (codeEl) {
-      var pre = codeEl.parentElement;
-      if (pre.querySelector('.copy-btn')) return;
-      pre.classList.add('has-copy-btn');
-      var btn = document.createElement('button');
-      btn.type = 'button';
-      btn.className = 'copy-btn';
-      btn.textContent = 'Kopieren';
-      btn.addEventListener('click', function () {
-        if (!navigator.clipboard) {
-          btn.textContent = 'Nicht verfügbar';
-          setTimeout(function () { btn.textContent = 'Kopieren'; }, 2000);
-          return;
-        }
-        navigator.clipboard.writeText(codeEl.textContent).then(function () {
-          btn.textContent = 'Kopiert ✓';
-          setTimeout(function () { btn.textContent = 'Kopieren'; }, 2000);
-        }).catch(function () {
-          btn.textContent = 'Fehler';
-          setTimeout(function () { btn.textContent = 'Kopieren'; }, 2000);
-        });
-      });
-      pre.appendChild(btn);
-    });
-  });
-</script>
