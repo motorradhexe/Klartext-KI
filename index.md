@@ -138,4 +138,5 @@ Bevor Du KI im Arbeitsalltag einsetzt, lohnt es sich, ein paar Fragen einmal dur
 <div class="meta-links">
   <a href="glossar">Glossar</a>
   <a href="ressourcen">Kostenfreie Kurse</a>
+  <a href="transparenz">Transparenz</a>
 </div>
