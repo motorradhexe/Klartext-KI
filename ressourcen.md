@@ -37,6 +37,18 @@ Spracheinstellung: Im Skilljar-Profil lässt sich die Sprache umstellen. Alterna
 
 ---
 
+## Anthropic – Use Cases Galerie
+
+**Plattform:** [claude.com/resources/use-cases](https://claude.com/resources/use-cases)
+
+Eine Sammlung konkreter Anwendungsbeispiele für Claude – keine Kurse, sondern fertige Prompts und Workflows, die direkt im Browser ausprobiert werden können. Die Beispiele sind nach Bereichen gefiltert: Bildung, Marketing, Recht, Finanzen, Nonprofit, Personal und andere.
+
+Wer wissen will, was mit KI im eigenen Berufsfeld konkret möglich ist, findet hier einen guten Ausgangspunkt. Die Beispiele zeigen, wie ein Prompt aufgebaut ist und was er bewirkt – ohne Erklärungstext, direkt anhand des Ergebnisses.
+
+Kein Konto nötig, kein Download, kein Kurs. Einfach ansehen und nachmachen.
+
+---
+
 ## Google – AI Essentials
 
 **Plattform:** [grow.google/ai-essentials](https://grow.google/ai-essentials/)
